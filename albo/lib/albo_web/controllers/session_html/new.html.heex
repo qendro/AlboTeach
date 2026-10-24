@@ -1,0 +1,61 @@
+<div class="login-page">
+  <section class="login-story">
+    <a href="/login" class="brand"><span class="brand-mark"><.icon name="hero-sparkles" /></span><span>Albo<span class="brand-light">Teach</span></span></a>
+    <div class="login-story-inner">
+      <span class="eyebrow light">KOSOVO ALBANIAN · EVERYDAY CONNECTIONS</span><h1>
+        Little words.<br />Big connections.
+      </h1><p>A few words at a time.<br />A little closer to the people you love.</p>
+      <div class="login-cards" aria-hidden="true">
+        <div class="mini-card card-house">
+          <img src="/images/cards/house.svg" alt="" /><span>At home</span>
+        </div><div class="mini-card card-apple">
+          <img src="/images/cards/apple.svg" alt="" /><span>Around the table</span>
+        </div><span class="floating-star">✦</span>
+      </div>
+    </div>
+    <p class="login-foot">Your pace. Your family. Your Albanian.</p>
+  </section>
+  <main class="login-form-side" id="main-content">
+    <div class="login-form-wrap">
+      <span class="eyebrow">YOUR FAMILY’S LEARNING SPACE</span><h2>
+        {if @role == "parent", do: "Welcome, grown-ups.", else: "Ready for a little learning?"}
+      </h2><p>
+        {if @role == "parent",
+          do: "Create, import, and edit cards together. Both spaces have the same tools.",
+          else: "Every little word is a step closer. Let’s get started."}
+      </p>
+      <div class="login-tabs">
+        <.link href="/login" class={@role == "learner" && "selected"}>I’m learning</.link><.link
+          href="/login?role=parent"
+          class={@role == "parent" && "selected"}
+        >I’m a parent</.link>
+      </div>
+      <.form for={@form} action="/login" id="login-form">
+        <.input field={@form[:role]} type="hidden" />
+        <.input
+          :if={@password_required}
+          name="login[password]"
+          id="login-password"
+          type="password"
+          label={if @role == "parent", do: "Parent passphrase", else: "Learning passphrase"}
+          placeholder="Your family’s secret words"
+          autocomplete="current-password"
+          required
+          maxlength="200"
+        />
+        <p :if={!@password_required} class="passwordless-note">
+          No password needed. Choose your space and jump in.
+        </p>
+        <button type="submit" class="button primary full">{if @role == "parent",
+          do: "Open card studio",
+          else: "Let’s learn"}<.icon name="hero-arrow-right" /></button>
+      </.form>
+      <div :if={Phoenix.Flash.get(@flash, :error)} class="inline-error" role="alert">
+        {Phoenix.Flash.get(@flash, :error)}
+      </div>
+      <p class="privacy-line">
+        <.icon name="hero-lock-closed" /> Private by design. No emails. No ads. Just learning.
+      </p>
+    </div>
+  </main>
+</div>

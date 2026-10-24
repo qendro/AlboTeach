@@ -1,0 +1,50 @@
+name: alboteach
+services:
+  app:
+    image: alboteach:local
+    build:
+      context: ./albo
+    env_file: ./albo/.env
+    environment:
+      PHX_HOST: localhost
+      LOCAL_PORT: "4010"
+    ports:
+      - "127.0.0.1:4010:4000"
+    volumes:
+      - learning_data:/data
+    restart: unless-stopped
+    init: true
+    mem_limit: 512m
+    cpus: 2
+    pids_limit: 128
+    read_only: true
+    tmpfs:
+      - /tmp:size=64m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "3"
+  tools:
+    profiles: [tools]
+    image: alboteach-toolchain:local
+    build:
+      context: .
+      dockerfile: docker/toolchain.Dockerfile
+    working_dir: /workspace
+    environment:
+      MIX_ENV: test
+    volumes:
+      - ./albo:/workspace
+      - build:/workspace/_build
+      - deps:/workspace/deps
+volumes:
+  learning_data:
+  build:
+    name: alboteach-build
+  deps:
+    name: alboteach-deps

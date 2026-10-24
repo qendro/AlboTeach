@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kosovo-cards"
+version = "0.1.0"
+description = "Local, review-first Kosovo Albanian flashcards for Codex"
+requires-python = ">=3.10"
+dependencies = ["reportlab>=4.2,<5", "Pillow>=10,<13"]
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+test = ["pypdf>=6,<7"]
+
+[project.scripts]
+kcards = "kosovo_cards.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kosovo_cards*"]
+
+[tool.setuptools.package-data]
+kosovo_cards = ["assets/fonts/*", "assets/images/*", "assets/*.json", "vendor/LICENSE*"]

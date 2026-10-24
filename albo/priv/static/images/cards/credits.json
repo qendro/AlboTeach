@@ -1,0 +1,194 @@
+[
+  {
+    "key": "apple",
+    "file": "apple.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f34e.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "banana",
+    "file": "banana.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f34c.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "bread",
+    "file": "bread.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f35e.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "egg",
+    "file": "egg.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f95a.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "milk",
+    "file": "milk.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f95b.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "water",
+    "file": "water.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f4a7.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "house",
+    "file": "house.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f3e0.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "door",
+    "file": "door.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f6aa.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "chair",
+    "file": "chair.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1fa91.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "bed",
+    "file": "bed.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f6cf.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "book",
+    "file": "book.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f4d6.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "ball",
+    "file": "ball.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/26bd.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "car",
+    "file": "car.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f697.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "cat",
+    "file": "cat.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f408.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "dog",
+    "file": "dog.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f415.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "sun",
+    "file": "sun.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/2600.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "hand",
+    "file": "hand.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/270b.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "fish",
+    "file": "fish.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f41f.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "rice",
+    "file": "rice.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f35a.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "cheese",
+    "file": "cheese.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f9c0.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "spoon",
+    "file": "spoon.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f944.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "fork-knife",
+    "file": "fork-knife.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f374.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "cup",
+    "file": "cup.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f964.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "tree",
+    "file": "tree.png",
+    "credit": "Twemoji by Twitter, Inc. and contributors",
+    "license": "CC BY 4.0",
+    "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f333.svg",
+    "changes": "SVG converted to 512px PNG; artwork unchanged"
+  }
+]

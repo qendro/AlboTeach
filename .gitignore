@@ -1,0 +1,11 @@
+.DS_Store
+backups/
+output/
+.env*
+albo/.env*
+!albo/.env.example
+tmp/
+*.sqlite*
+*.db
+*.db-*
+__pycache__/

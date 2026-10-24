@@ -1,0 +1,14 @@
+.git
+.env
+.env.*
+!.env.example
+deps
+_build
+node_modules
+*.db*
+*.sqlite*
+backups
+output
+test-results
+playwright-report
+__pycache__

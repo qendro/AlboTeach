@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {"concept":"food.apple","albanian":"mollë","english":"apple","category":"food","part_of_speech":"noun","image":"apple","source":"AI proposal","notes":"Draft indefinite singular; confirm family wording and spelling."},
+    {"concept":"food.banana","albanian":"banane","english":"banana","category":"food","part_of_speech":"noun","image":"banana","source":"AI proposal","notes":"Draft; parent/tutor review required."},
+    {"concept":"food.bread","albanian":"bukë","english":"bread","category":"food","part_of_speech":"noun","image":"bread","source":"AI proposal","notes":"Draft; parent/tutor review required."},
+    {"concept":"food.egg","albanian":"vezë","english":"egg","category":"food","part_of_speech":"noun","image":"egg","source":"AI proposal","notes":"Draft indefinite singular; parent/tutor review required."},
+    {"concept":"drink.milk","albanian":"qumësht","english":"milk","category":"food","part_of_speech":"noun","image":"milk","source":"AI proposal","notes":"Draft; ask family whether they prefer this spelling or a local spoken form."},
+    {"concept":"drink.water","albanian":"ujë","english":"water","category":"food","part_of_speech":"noun","image":"water","source":"AI proposal","notes":"Draft; illustration is a water droplet, not a drinking glass."},
+    {"concept":"home.house","albanian":"shtëpi","english":"house","category":"household","part_of_speech":"noun","image":"house","source":"AI proposal","notes":"Draft; family may prefer shpi in casual Kosovo speech. Confirm desired teaching spelling."},
+    {"concept":"home.door","albanian":"derë","english":"door","category":"household","part_of_speech":"noun","image":"door","source":"AI proposal","notes":"Draft indefinite singular; parent/tutor review required."},
+    {"concept":"home.chair","albanian":"karrige","english":"chair","category":"household","part_of_speech":"noun","image":"chair","source":"AI proposal","notes":"Draft; parent/tutor review required."},
+    {"concept":"home.bed","albanian":"shtrat","english":"bed","category":"household","part_of_speech":"noun","image":"bed","source":"AI proposal","notes":"Draft; ask family which everyday word they use."},
+    {"concept":"question.where","albanian":"Ku?","english":"Where?","category":"conversation","part_of_speech":"question word","source":"AI proposal","notes":"Draft; no illustration because a single object would misrepresent the meaning."},
+    {"concept":"phrase.how_are_you","albanian":"Qysh je?","english":"How are you?","category":"conversation","part_of_speech":"phrase","source":"AI proposal","notes":"Kosovo conversational candidate, singular addressee. Confirm with family; not verified."}
+  ]
+}
