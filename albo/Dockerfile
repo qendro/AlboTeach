@@ -24,7 +24,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends libstdc++6 open
 WORKDIR /app
 COPY --from=build --chown=app:app /app/_build/prod/rel/albo ./
 COPY --chown=app:app docker/entrypoint.sh ./entrypoint.sh
-USER app
+USER 10001:10001
 ENV PHX_SERVER=true PORT=4000 DATABASE_PATH=/data/albo.sqlite ERL_FLAGS="+S 2:2" LANG=C.UTF-8 LC_ALL=C.UTF-8
 EXPOSE 4000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 CMD curl -fsS http://127.0.0.1:4000/health || exit 1

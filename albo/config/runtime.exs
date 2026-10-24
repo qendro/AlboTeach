@@ -23,6 +23,11 @@ if config_env() == :prod do
   origins =
     if host in ["localhost", "127.0.0.1"], do: ["//localhost", "//127.0.0.1"], else: ["//#{host}"]
 
+  extra_origins =
+    System.get_env("PHX_EXTRA_ORIGINS", "")
+    |> String.split(",", trim: true)
+    |> Enum.map(&String.trim/1)
+
   config :albo, Albo.Repo,
     database: System.fetch_env!("DATABASE_PATH"),
     pool_size: 1,
@@ -39,7 +44,7 @@ if config_env() == :prod do
         ),
       scheme: scheme
     ],
-    check_origin: origins,
+    check_origin: origins ++ extra_origins,
     http: [ip: {0, 0, 0, 0}],
     secret_key_base: System.fetch_env!("SECRET_KEY_BASE")
 end
