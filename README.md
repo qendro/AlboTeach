@@ -1,5 +1,7 @@
 # AlboTeach
 
+Production runs at [habbits.xyz](https://habbits.xyz) in the dedicated Northflank **AlboTeach** project. See [production deployment and data](docs/production.md) for automatic GitHub deployments, persistent storage, and backups.
+
 A local Kosovo Albanian learning app for one family learner. Phoenix LiveView, SQLite, and a standalone Docker release. Docker Desktop is the only prerequisite; no language runtime or database installation is needed on your PC.
 
 ## Start
@@ -97,4 +99,4 @@ docker compose run --rm tools mix precommit
 
 `precommit` compiles with warnings as errors, formats, and tests in a separate test database. Rebuild the app image after edits. [Browser QA](qa/README.md) also runs in Docker using a disposable database, not your collection.
 
-No child names, email accounts, analytics, external AI calls, audio, quizzes, cloud hosting, or automatic remote backups are included. The original `kosovo-flashcards/` project is unchanged and can still handle printing independently. Webapp print dependencies and font credits are documented in [printing notes](albo/priv/printing/README.md). Artwork: [Twemoji credits](albo/priv/static/images/cards/credits.json) and [CC BY 4.0 license](albo/priv/static/images/cards/LICENSE-Twemoji.txt).
+No child names, email accounts, analytics, external AI calls, audio, quizzes, or automatic remote backups are included. The original `kosovo-flashcards/` project is unchanged and can still handle printing independently. Webapp print dependencies and font credits are documented in [printing notes](albo/priv/printing/README.md). Artwork: [Twemoji credits](albo/priv/static/images/cards/credits.json) and [CC BY 4.0 license](albo/priv/static/images/cards/LICENSE-Twemoji.txt).
