@@ -1,0 +1,1765 @@
+{
+  "method": "512px transparent PNG alpha coverage, saturated-color area, and max(1-R,1-G,1-B) weighted by alpha. Card coverage uses actual renderer image sizes. White areas count toward occupied coverage, making it conservative. These are image area proxies, not measured printer ink consumption.",
+  "images": [
+    {
+      "key": "color-alarm-clock",
+      "occupied_image_fraction": 0.3253,
+      "color_image_fraction": 0.1701,
+      "max_cmy_weighted_image_fraction": 0.1502,
+      "occupied_card_fraction": {
+        "8": 0.0328,
+        "10": 0.0264,
+        "21": 0.0138
+      }
+    },
+    {
+      "key": "color-apple",
+      "occupied_image_fraction": 0.3867,
+      "color_image_fraction": 0.3867,
+      "max_cmy_weighted_image_fraction": 0.3211,
+      "occupied_card_fraction": {
+        "8": 0.039,
+        "10": 0.0314,
+        "21": 0.0164
+      }
+    },
+    {
+      "key": "color-baby",
+      "occupied_image_fraction": 0.3268,
+      "color_image_fraction": 0.3114,
+      "max_cmy_weighted_image_fraction": 0.117,
+      "occupied_card_fraction": {
+        "8": 0.0329,
+        "10": 0.0265,
+        "21": 0.0138
+      }
+    },
+    {
+      "key": "color-backpack",
+      "occupied_image_fraction": 0.323,
+      "color_image_fraction": 0.323,
+      "max_cmy_weighted_image_fraction": 0.2644,
+      "occupied_card_fraction": {
+        "8": 0.0326,
+        "10": 0.0262,
+        "21": 0.0137
+      }
+    },
+    {
+      "key": "color-banana",
+      "occupied_image_fraction": 0.253,
+      "color_image_fraction": 0.253,
+      "max_cmy_weighted_image_fraction": 0.1463,
+      "occupied_card_fraction": {
+        "8": 0.0255,
+        "10": 0.0205,
+        "21": 0.0107
+      }
+    },
+    {
+      "key": "color-bath",
+      "occupied_image_fraction": 0.241,
+      "color_image_fraction": 0.0656,
+      "max_cmy_weighted_image_fraction": 0.0956,
+      "occupied_card_fraction": {
+        "8": 0.0243,
+        "10": 0.0196,
+        "21": 0.0102
+      }
+    },
+    {
+      "key": "color-bed",
+      "occupied_image_fraction": 0.2343,
+      "color_image_fraction": 0.2134,
+      "max_cmy_weighted_image_fraction": 0.1673,
+      "occupied_card_fraction": {
+        "8": 0.0236,
+        "10": 0.019,
+        "21": 0.0099
+      }
+    },
+    {
+      "key": "color-beef",
+      "occupied_image_fraction": 0.3556,
+      "color_image_fraction": 0.2554,
+      "max_cmy_weighted_image_fraction": 0.1707,
+      "occupied_card_fraction": {
+        "8": 0.0359,
+        "10": 0.0288,
+        "21": 0.0151
+      }
+    },
+    {
+      "key": "color-belt",
+      "occupied_image_fraction": 0.1094,
+      "color_image_fraction": 0.1094,
+      "max_cmy_weighted_image_fraction": 0.0777,
+      "occupied_card_fraction": {
+        "8": 0.011,
+        "10": 0.0089,
+        "21": 0.0046
+      }
+    },
+    {
+      "key": "color-bike",
+      "occupied_image_fraction": 0.1212,
+      "color_image_fraction": 0.0842,
+      "max_cmy_weighted_image_fraction": 0.0729,
+      "occupied_card_fraction": {
+        "8": 0.0122,
+        "10": 0.0098,
+        "21": 0.0051
+      }
+    },
+    {
+      "key": "color-bird",
+      "occupied_image_fraction": 0.2781,
+      "color_image_fraction": 0.2763,
+      "max_cmy_weighted_image_fraction": 0.2616,
+      "occupied_card_fraction": {
+        "8": 0.028,
+        "10": 0.0226,
+        "21": 0.0118
+      }
+    },
+    {
+      "key": "color-book-open",
+      "occupied_image_fraction": 0.4012,
+      "color_image_fraction": 0.0774,
+      "max_cmy_weighted_image_fraction": 0.1194,
+      "occupied_card_fraction": {
+        "8": 0.0404,
+        "10": 0.0325,
+        "21": 0.017
+      }
+    },
+    {
+      "key": "color-boot",
+      "occupied_image_fraction": 0.2863,
+      "color_image_fraction": 0.2863,
+      "max_cmy_weighted_image_fraction": 0.2328,
+      "occupied_card_fraction": {
+        "8": 0.0289,
+        "10": 0.0232,
+        "21": 0.0121
+      }
+    },
+    {
+      "key": "color-bread",
+      "occupied_image_fraction": 0.3757,
+      "color_image_fraction": 0.3757,
+      "max_cmy_weighted_image_fraction": 0.202,
+      "occupied_card_fraction": {
+        "8": 0.0379,
+        "10": 0.0305,
+        "21": 0.0159
+      }
+    },
+    {
+      "key": "color-bridge",
+      "occupied_image_fraction": 0.1745,
+      "color_image_fraction": 0.1745,
+      "max_cmy_weighted_image_fraction": 0.0992,
+      "occupied_card_fraction": {
+        "8": 0.0176,
+        "10": 0.0142,
+        "21": 0.0074
+      }
+    },
+    {
+      "key": "color-building-complex",
+      "occupied_image_fraction": 0.4695,
+      "color_image_fraction": 0.084,
+      "max_cmy_weighted_image_fraction": 0.1406,
+      "occupied_card_fraction": {
+        "8": 0.0473,
+        "10": 0.0381,
+        "21": 0.0199
+      }
+    },
+    {
+      "key": "color-bus",
+      "occupied_image_fraction": 0.3559,
+      "color_image_fraction": 0.2147,
+      "max_cmy_weighted_image_fraction": 0.2289,
+      "occupied_card_fraction": {
+        "8": 0.0359,
+        "10": 0.0289,
+        "21": 0.0151
+      }
+    },
+    {
+      "key": "color-butterfly",
+      "occupied_image_fraction": 0.4012,
+      "color_image_fraction": 0.394,
+      "max_cmy_weighted_image_fraction": 0.3309,
+      "occupied_card_fraction": {
+        "8": 0.0404,
+        "10": 0.0325,
+        "21": 0.017
+      }
+    },
+    {
+      "key": "color-car",
+      "occupied_image_fraction": 0.2501,
+      "color_image_fraction": 0.2204,
+      "max_cmy_weighted_image_fraction": 0.1929,
+      "occupied_card_fraction": {
+        "8": 0.0252,
+        "10": 0.0203,
+        "21": 0.0106
+      }
+    },
+    {
+      "key": "color-carrot",
+      "occupied_image_fraction": 0.285,
+      "color_image_fraction": 0.285,
+      "max_cmy_weighted_image_fraction": 0.249,
+      "occupied_card_fraction": {
+        "8": 0.0287,
+        "10": 0.0231,
+        "21": 0.0121
+      }
+    },
+    {
+      "key": "color-cat",
+      "occupied_image_fraction": 0.2616,
+      "color_image_fraction": 0.2593,
+      "max_cmy_weighted_image_fraction": 0.163,
+      "occupied_card_fraction": {
+        "8": 0.0264,
+        "10": 0.0212,
+        "21": 0.0111
+      }
+    },
+    {
+      "key": "color-chair",
+      "occupied_image_fraction": 0.1703,
+      "color_image_fraction": 0.1702,
+      "max_cmy_weighted_image_fraction": 0.1214,
+      "occupied_card_fraction": {
+        "8": 0.0172,
+        "10": 0.0138,
+        "21": 0.0072
+      }
+    },
+    {
+      "key": "color-cheese",
+      "occupied_image_fraction": 0.3325,
+      "color_image_fraction": 0.3325,
+      "max_cmy_weighted_image_fraction": 0.2568,
+      "occupied_card_fraction": {
+        "8": 0.0335,
+        "10": 0.027,
+        "21": 0.0141
+      }
+    },
+    {
+      "key": "color-circle",
+      "occupied_image_fraction": 0.2033,
+      "color_image_fraction": 0.2033,
+      "max_cmy_weighted_image_fraction": 0.1301,
+      "occupied_card_fraction": {
+        "8": 0.0205,
+        "10": 0.0165,
+        "21": 0.0086
+      }
+    },
+    {
+      "key": "color-citrus",
+      "occupied_image_fraction": 0.29,
+      "color_image_fraction": 0.29,
+      "max_cmy_weighted_image_fraction": 0.2434,
+      "occupied_card_fraction": {
+        "8": 0.0292,
+        "10": 0.0235,
+        "21": 0.0123
+      }
+    },
+    {
+      "key": "color-cloud-rain",
+      "occupied_image_fraction": 0.3448,
+      "color_image_fraction": 0.0478,
+      "max_cmy_weighted_image_fraction": 0.0675,
+      "occupied_card_fraction": {
+        "8": 0.0348,
+        "10": 0.028,
+        "21": 0.0146
+      }
+    },
+    {
+      "key": "color-coffee",
+      "occupied_image_fraction": 0.3204,
+      "color_image_fraction": 0.1167,
+      "max_cmy_weighted_image_fraction": 0.1215,
+      "occupied_card_fraction": {
+        "8": 0.0323,
+        "10": 0.026,
+        "21": 0.0136
+      }
+    },
+    {
+      "key": "color-cooking-pot",
+      "occupied_image_fraction": 0.2706,
+      "color_image_fraction": 0.1316,
+      "max_cmy_weighted_image_fraction": 0.143,
+      "occupied_card_fraction": {
+        "8": 0.0273,
+        "10": 0.0219,
+        "21": 0.0115
+      }
+    },
+    {
+      "key": "color-cup-soda",
+      "occupied_image_fraction": 0.3059,
+      "color_image_fraction": 0.0603,
+      "max_cmy_weighted_image_fraction": 0.1274,
+      "occupied_card_fraction": {
+        "8": 0.0308,
+        "10": 0.0248,
+        "21": 0.013
+      }
+    },
+    {
+      "key": "color-disc",
+      "occupied_image_fraction": 0.2385,
+      "color_image_fraction": 0.0501,
+      "max_cmy_weighted_image_fraction": 0.0238,
+      "occupied_card_fraction": {
+        "8": 0.024,
+        "10": 0.0193,
+        "21": 0.0101
+      }
+    },
+    {
+      "key": "color-dog",
+      "occupied_image_fraction": 0.2467,
+      "color_image_fraction": 0.2445,
+      "max_cmy_weighted_image_fraction": 0.1562,
+      "occupied_card_fraction": {
+        "8": 0.0249,
+        "10": 0.02,
+        "21": 0.0104
+      }
+    },
+    {
+      "key": "color-door-closed",
+      "occupied_image_fraction": 0.2891,
+      "color_image_fraction": 0.2891,
+      "max_cmy_weighted_image_fraction": 0.1877,
+      "occupied_card_fraction": {
+        "8": 0.0291,
+        "10": 0.0234,
+        "21": 0.0122
+      }
+    },
+    {
+      "key": "color-door-open",
+      "occupied_image_fraction": 0.3079,
+      "color_image_fraction": 0.239,
+      "max_cmy_weighted_image_fraction": 0.1638,
+      "occupied_card_fraction": {
+        "8": 0.031,
+        "10": 0.025,
+        "21": 0.013
+      }
+    },
+    {
+      "key": "color-dress",
+      "occupied_image_fraction": 0.2476,
+      "color_image_fraction": 0.2476,
+      "max_cmy_weighted_image_fraction": 0.1796,
+      "occupied_card_fraction": {
+        "8": 0.025,
+        "10": 0.0201,
+        "21": 0.0105
+      }
+    },
+    {
+      "key": "color-droplet",
+      "occupied_image_fraction": 0.2434,
+      "color_image_fraction": 0.2434,
+      "max_cmy_weighted_image_fraction": 0.2071,
+      "occupied_card_fraction": {
+        "8": 0.0245,
+        "10": 0.0197,
+        "21": 0.0103
+      }
+    },
+    {
+      "key": "color-ear",
+      "occupied_image_fraction": 0.2572,
+      "color_image_fraction": 0.2572,
+      "max_cmy_weighted_image_fraction": 0.0925,
+      "occupied_card_fraction": {
+        "8": 0.0259,
+        "10": 0.0209,
+        "21": 0.0109
+      }
+    },
+    {
+      "key": "color-egg",
+      "occupied_image_fraction": 0.2911,
+      "color_image_fraction": 0.2911,
+      "max_cmy_weighted_image_fraction": 0.1803,
+      "occupied_card_fraction": {
+        "8": 0.0293,
+        "10": 0.0236,
+        "21": 0.0123
+      }
+    },
+    {
+      "key": "color-eye",
+      "occupied_image_fraction": 0.4582,
+      "color_image_fraction": 0.1096,
+      "max_cmy_weighted_image_fraction": 0.1494,
+      "occupied_card_fraction": {
+        "8": 0.0462,
+        "10": 0.0372,
+        "21": 0.0194
+      }
+    },
+    {
+      "key": "color-face-slightly-frowning",
+      "occupied_image_fraction": 0.4033,
+      "color_image_fraction": 0.3571,
+      "max_cmy_weighted_image_fraction": 0.2933,
+      "occupied_card_fraction": {
+        "8": 0.0407,
+        "10": 0.0327,
+        "21": 0.0171
+      }
+    },
+    {
+      "key": "color-face-slightly-smiling",
+      "occupied_image_fraction": 0.4033,
+      "color_image_fraction": 0.4025,
+      "max_cmy_weighted_image_fraction": 0.3321,
+      "occupied_card_fraction": {
+        "8": 0.0407,
+        "10": 0.0327,
+        "21": 0.0171
+      }
+    },
+    {
+      "key": "color-file",
+      "occupied_image_fraction": 0.3742,
+      "color_image_fraction": 0.0295,
+      "max_cmy_weighted_image_fraction": 0.0537,
+      "occupied_card_fraction": {
+        "8": 0.0377,
+        "10": 0.0304,
+        "21": 0.0158
+      }
+    },
+    {
+      "key": "color-finger",
+      "occupied_image_fraction": 0.2428,
+      "color_image_fraction": 0.2428,
+      "max_cmy_weighted_image_fraction": 0.0859,
+      "occupied_card_fraction": {
+        "8": 0.0245,
+        "10": 0.0197,
+        "21": 0.0103
+      }
+    },
+    {
+      "key": "color-fish",
+      "occupied_image_fraction": 0.278,
+      "color_image_fraction": 0.2773,
+      "max_cmy_weighted_image_fraction": 0.2779,
+      "occupied_card_fraction": {
+        "8": 0.028,
+        "10": 0.0225,
+        "21": 0.0118
+      }
+    },
+    {
+      "key": "color-flower-2",
+      "occupied_image_fraction": 0.2461,
+      "color_image_fraction": 0.075,
+      "max_cmy_weighted_image_fraction": 0.0904,
+      "occupied_card_fraction": {
+        "8": 0.0248,
+        "10": 0.02,
+        "21": 0.0104
+      }
+    },
+    {
+      "key": "color-footprints",
+      "occupied_image_fraction": 0.1132,
+      "color_image_fraction": 0.1132,
+      "max_cmy_weighted_image_fraction": 0.0635,
+      "occupied_card_fraction": {
+        "8": 0.0114,
+        "10": 0.0092,
+        "21": 0.0048
+      }
+    },
+    {
+      "key": "color-fork",
+      "occupied_image_fraction": 0.0877,
+      "color_image_fraction": 0.0802,
+      "max_cmy_weighted_image_fraction": 0.0311,
+      "occupied_card_fraction": {
+        "8": 0.0088,
+        "10": 0.0071,
+        "21": 0.0037
+      }
+    },
+    {
+      "key": "color-glass-water",
+      "occupied_image_fraction": 0.2492,
+      "color_image_fraction": 0.2238,
+      "max_cmy_weighted_image_fraction": 0.081,
+      "occupied_card_fraction": {
+        "8": 0.0251,
+        "10": 0.0202,
+        "21": 0.0106
+      }
+    },
+    {
+      "key": "color-glove",
+      "occupied_image_fraction": 0.2673,
+      "color_image_fraction": 0.2673,
+      "max_cmy_weighted_image_fraction": 0.1798,
+      "occupied_card_fraction": {
+        "8": 0.0269,
+        "10": 0.0217,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-grape",
+      "occupied_image_fraction": 0.2154,
+      "color_image_fraction": 0.2154,
+      "max_cmy_weighted_image_fraction": 0.1673,
+      "occupied_card_fraction": {
+        "8": 0.0217,
+        "10": 0.0175,
+        "21": 0.0091
+      }
+    },
+    {
+      "key": "color-hand",
+      "occupied_image_fraction": 0.2799,
+      "color_image_fraction": 0.2799,
+      "max_cmy_weighted_image_fraction": 0.0972,
+      "occupied_card_fraction": {
+        "8": 0.0282,
+        "10": 0.0227,
+        "21": 0.0119
+      }
+    },
+    {
+      "key": "color-hat",
+      "occupied_image_fraction": 0.2568,
+      "color_image_fraction": 0.2568,
+      "max_cmy_weighted_image_fraction": 0.1756,
+      "occupied_card_fraction": {
+        "8": 0.0259,
+        "10": 0.0208,
+        "21": 0.0109
+      }
+    },
+    {
+      "key": "color-head",
+      "occupied_image_fraction": 0.2283,
+      "color_image_fraction": 0.2283,
+      "max_cmy_weighted_image_fraction": 0.1127,
+      "occupied_card_fraction": {
+        "8": 0.023,
+        "10": 0.0185,
+        "21": 0.0097
+      }
+    },
+    {
+      "key": "color-hospital",
+      "occupied_image_fraction": 0.3575,
+      "color_image_fraction": 0.2929,
+      "max_cmy_weighted_image_fraction": 0.1266,
+      "occupied_card_fraction": {
+        "8": 0.036,
+        "10": 0.029,
+        "21": 0.0151
+      }
+    },
+    {
+      "key": "color-house",
+      "occupied_image_fraction": 0.3416,
+      "color_image_fraction": 0.336,
+      "max_cmy_weighted_image_fraction": 0.2198,
+      "occupied_card_fraction": {
+        "8": 0.0344,
+        "10": 0.0277,
+        "21": 0.0145
+      }
+    },
+    {
+      "key": "color-key-round",
+      "occupied_image_fraction": 0.1907,
+      "color_image_fraction": 0.1907,
+      "max_cmy_weighted_image_fraction": 0.1459,
+      "occupied_card_fraction": {
+        "8": 0.0192,
+        "10": 0.0155,
+        "21": 0.0081
+      }
+    },
+    {
+      "key": "color-knife",
+      "occupied_image_fraction": 0.1623,
+      "color_image_fraction": 0.0455,
+      "max_cmy_weighted_image_fraction": 0.0588,
+      "occupied_card_fraction": {
+        "8": 0.0164,
+        "10": 0.0132,
+        "21": 0.0069
+      }
+    },
+    {
+      "key": "color-library-big",
+      "occupied_image_fraction": 0.3324,
+      "color_image_fraction": 0.3323,
+      "max_cmy_weighted_image_fraction": 0.1266,
+      "occupied_card_fraction": {
+        "8": 0.0335,
+        "10": 0.027,
+        "21": 0.0141
+      }
+    },
+    {
+      "key": "color-milk",
+      "occupied_image_fraction": 0.3594,
+      "color_image_fraction": 0.1563,
+      "max_cmy_weighted_image_fraction": 0.0608,
+      "occupied_card_fraction": {
+        "8": 0.0362,
+        "10": 0.0292,
+        "21": 0.0152
+      }
+    },
+    {
+      "key": "color-moon",
+      "occupied_image_fraction": 0.1611,
+      "color_image_fraction": 0.1611,
+      "max_cmy_weighted_image_fraction": 0.1217,
+      "occupied_card_fraction": {
+        "8": 0.0162,
+        "10": 0.0131,
+        "21": 0.0068
+      }
+    },
+    {
+      "key": "color-mouth",
+      "occupied_image_fraction": 0.2585,
+      "color_image_fraction": 0.2441,
+      "max_cmy_weighted_image_fraction": 0.1986,
+      "occupied_card_fraction": {
+        "8": 0.0261,
+        "10": 0.021,
+        "21": 0.0109
+      }
+    },
+    {
+      "key": "color-music",
+      "occupied_image_fraction": 0.2035,
+      "color_image_fraction": 0.203,
+      "max_cmy_weighted_image_fraction": 0.17,
+      "occupied_card_fraction": {
+        "8": 0.0205,
+        "10": 0.0165,
+        "21": 0.0086
+      }
+    },
+    {
+      "key": "color-nose",
+      "occupied_image_fraction": 0.1623,
+      "color_image_fraction": 0.1623,
+      "max_cmy_weighted_image_fraction": 0.0562,
+      "occupied_card_fraction": {
+        "8": 0.0164,
+        "10": 0.0132,
+        "21": 0.0069
+      }
+    },
+    {
+      "key": "color-notebook",
+      "occupied_image_fraction": 0.389,
+      "color_image_fraction": 0.3477,
+      "max_cmy_weighted_image_fraction": 0.2813,
+      "occupied_card_fraction": {
+        "8": 0.0392,
+        "10": 0.0316,
+        "21": 0.0165
+      }
+    },
+    {
+      "key": "color-number-1",
+      "occupied_image_fraction": 0.0394,
+      "color_image_fraction": 0.0394,
+      "max_cmy_weighted_image_fraction": 0.026,
+      "occupied_card_fraction": {
+        "8": 0.004,
+        "10": 0.0032,
+        "21": 0.0017
+      }
+    },
+    {
+      "key": "color-number-10",
+      "occupied_image_fraction": 0.1107,
+      "color_image_fraction": 0.1107,
+      "max_cmy_weighted_image_fraction": 0.0729,
+      "occupied_card_fraction": {
+        "8": 0.0112,
+        "10": 0.009,
+        "21": 0.0047
+      }
+    },
+    {
+      "key": "color-number-2",
+      "occupied_image_fraction": 0.0654,
+      "color_image_fraction": 0.0654,
+      "max_cmy_weighted_image_fraction": 0.0431,
+      "occupied_card_fraction": {
+        "8": 0.0066,
+        "10": 0.0053,
+        "21": 0.0028
+      }
+    },
+    {
+      "key": "color-number-3",
+      "occupied_image_fraction": 0.0639,
+      "color_image_fraction": 0.0639,
+      "max_cmy_weighted_image_fraction": 0.0421,
+      "occupied_card_fraction": {
+        "8": 0.0064,
+        "10": 0.0052,
+        "21": 0.0027
+      }
+    },
+    {
+      "key": "color-number-4",
+      "occupied_image_fraction": 0.059,
+      "color_image_fraction": 0.059,
+      "max_cmy_weighted_image_fraction": 0.0389,
+      "occupied_card_fraction": {
+        "8": 0.0059,
+        "10": 0.0048,
+        "21": 0.0025
+      }
+    },
+    {
+      "key": "color-number-5",
+      "occupied_image_fraction": 0.0663,
+      "color_image_fraction": 0.0663,
+      "max_cmy_weighted_image_fraction": 0.0437,
+      "occupied_card_fraction": {
+        "8": 0.0067,
+        "10": 0.0054,
+        "21": 0.0028
+      }
+    },
+    {
+      "key": "color-number-6",
+      "occupied_image_fraction": 0.0726,
+      "color_image_fraction": 0.0726,
+      "max_cmy_weighted_image_fraction": 0.0478,
+      "occupied_card_fraction": {
+        "8": 0.0073,
+        "10": 0.0059,
+        "21": 0.0031
+      }
+    },
+    {
+      "key": "color-number-7",
+      "occupied_image_fraction": 0.048,
+      "color_image_fraction": 0.048,
+      "max_cmy_weighted_image_fraction": 0.0316,
+      "occupied_card_fraction": {
+        "8": 0.0048,
+        "10": 0.0039,
+        "21": 0.002
+      }
+    },
+    {
+      "key": "color-number-8",
+      "occupied_image_fraction": 0.076,
+      "color_image_fraction": 0.076,
+      "max_cmy_weighted_image_fraction": 0.0501,
+      "occupied_card_fraction": {
+        "8": 0.0077,
+        "10": 0.0062,
+        "21": 0.0032
+      }
+    },
+    {
+      "key": "color-number-9",
+      "occupied_image_fraction": 0.0734,
+      "color_image_fraction": 0.0734,
+      "max_cmy_weighted_image_fraction": 0.0483,
+      "occupied_card_fraction": {
+        "8": 0.0074,
+        "10": 0.006,
+        "21": 0.0031
+      }
+    },
+    {
+      "key": "color-pen",
+      "occupied_image_fraction": 0.1606,
+      "color_image_fraction": 0.1606,
+      "max_cmy_weighted_image_fraction": 0.1525,
+      "occupied_card_fraction": {
+        "8": 0.0162,
+        "10": 0.013,
+        "21": 0.0068
+      }
+    },
+    {
+      "key": "color-pencil",
+      "occupied_image_fraction": 0.2124,
+      "color_image_fraction": 0.1939,
+      "max_cmy_weighted_image_fraction": 0.156,
+      "occupied_card_fraction": {
+        "8": 0.0214,
+        "10": 0.0172,
+        "21": 0.009
+      }
+    },
+    {
+      "key": "color-plane",
+      "occupied_image_fraction": 0.2446,
+      "color_image_fraction": 0.0905,
+      "max_cmy_weighted_image_fraction": 0.1258,
+      "occupied_card_fraction": {
+        "8": 0.0247,
+        "10": 0.0198,
+        "21": 0.0104
+      }
+    },
+    {
+      "key": "color-plane-takeoff",
+      "occupied_image_fraction": 0.2666,
+      "color_image_fraction": 0.0655,
+      "max_cmy_weighted_image_fraction": 0.1495,
+      "occupied_card_fraction": {
+        "8": 0.0269,
+        "10": 0.0216,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-rabbit",
+      "occupied_image_fraction": 0.3753,
+      "color_image_fraction": 0.015,
+      "max_cmy_weighted_image_fraction": 0.0426,
+      "occupied_card_fraction": {
+        "8": 0.0378,
+        "10": 0.0304,
+        "21": 0.0159
+      }
+    },
+    {
+      "key": "color-route",
+      "occupied_image_fraction": 0.1657,
+      "color_image_fraction": 0.1636,
+      "max_cmy_weighted_image_fraction": 0.0551,
+      "occupied_card_fraction": {
+        "8": 0.0167,
+        "10": 0.0134,
+        "21": 0.007
+      }
+    },
+    {
+      "key": "color-ruler",
+      "occupied_image_fraction": 0.2087,
+      "color_image_fraction": 0.016,
+      "max_cmy_weighted_image_fraction": 0.0585,
+      "occupied_card_fraction": {
+        "8": 0.021,
+        "10": 0.0169,
+        "21": 0.0088
+      }
+    },
+    {
+      "key": "color-scarf",
+      "occupied_image_fraction": 0.2937,
+      "color_image_fraction": 0.2937,
+      "max_cmy_weighted_image_fraction": 0.2568,
+      "occupied_card_fraction": {
+        "8": 0.0296,
+        "10": 0.0238,
+        "21": 0.0124
+      }
+    },
+    {
+      "key": "color-school",
+      "occupied_image_fraction": 0.3298,
+      "color_image_fraction": 0.3142,
+      "max_cmy_weighted_image_fraction": 0.1739,
+      "occupied_card_fraction": {
+        "8": 0.0333,
+        "10": 0.0268,
+        "21": 0.014
+      }
+    },
+    {
+      "key": "color-scissors",
+      "occupied_image_fraction": 0.2274,
+      "color_image_fraction": 0.1442,
+      "max_cmy_weighted_image_fraction": 0.1402,
+      "occupied_card_fraction": {
+        "8": 0.0229,
+        "10": 0.0184,
+        "21": 0.0096
+      }
+    },
+    {
+      "key": "color-shirt",
+      "occupied_image_fraction": 0.2072,
+      "color_image_fraction": 0.2055,
+      "max_cmy_weighted_image_fraction": 0.0897,
+      "occupied_card_fraction": {
+        "8": 0.0209,
+        "10": 0.0168,
+        "21": 0.0088
+      }
+    },
+    {
+      "key": "color-shoe",
+      "occupied_image_fraction": 0.2285,
+      "color_image_fraction": 0.0305,
+      "max_cmy_weighted_image_fraction": 0.0823,
+      "occupied_card_fraction": {
+        "8": 0.023,
+        "10": 0.0185,
+        "21": 0.0097
+      }
+    },
+    {
+      "key": "color-skirt",
+      "occupied_image_fraction": 0.257,
+      "color_image_fraction": 0.257,
+      "max_cmy_weighted_image_fraction": 0.1037,
+      "occupied_card_fraction": {
+        "8": 0.0259,
+        "10": 0.0208,
+        "21": 0.0109
+      }
+    },
+    {
+      "key": "color-snowflake",
+      "occupied_image_fraction": 0.1796,
+      "color_image_fraction": 0.1796,
+      "max_cmy_weighted_image_fraction": 0.1796,
+      "occupied_card_fraction": {
+        "8": 0.0181,
+        "10": 0.0146,
+        "21": 0.0076
+      }
+    },
+    {
+      "key": "color-soap",
+      "occupied_image_fraction": 0.3626,
+      "color_image_fraction": 0.282,
+      "max_cmy_weighted_image_fraction": 0.1616,
+      "occupied_card_fraction": {
+        "8": 0.0366,
+        "10": 0.0294,
+        "21": 0.0154
+      }
+    },
+    {
+      "key": "color-sock",
+      "occupied_image_fraction": 0.2598,
+      "color_image_fraction": 0.2594,
+      "max_cmy_weighted_image_fraction": 0.1937,
+      "occupied_card_fraction": {
+        "8": 0.0262,
+        "10": 0.0211,
+        "21": 0.011
+      }
+    },
+    {
+      "key": "color-soup",
+      "occupied_image_fraction": 0.2404,
+      "color_image_fraction": 0.2302,
+      "max_cmy_weighted_image_fraction": 0.1431,
+      "occupied_card_fraction": {
+        "8": 0.0242,
+        "10": 0.0195,
+        "21": 0.0102
+      }
+    },
+    {
+      "key": "color-spoon",
+      "occupied_image_fraction": 0.1366,
+      "color_image_fraction": 0,
+      "max_cmy_weighted_image_fraction": 0.0643,
+      "occupied_card_fraction": {
+        "8": 0.0138,
+        "10": 0.0111,
+        "21": 0.0058
+      }
+    },
+    {
+      "key": "color-square",
+      "occupied_image_fraction": 0.2413,
+      "color_image_fraction": 0.2413,
+      "max_cmy_weighted_image_fraction": 0.1263,
+      "occupied_card_fraction": {
+        "8": 0.0243,
+        "10": 0.0196,
+        "21": 0.0102
+      }
+    },
+    {
+      "key": "color-store",
+      "occupied_image_fraction": 0.2792,
+      "color_image_fraction": 0.2784,
+      "max_cmy_weighted_image_fraction": 0.0943,
+      "occupied_card_fraction": {
+        "8": 0.0282,
+        "10": 0.0227,
+        "21": 0.0118
+      }
+    },
+    {
+      "key": "color-sun",
+      "occupied_image_fraction": 0.3488,
+      "color_image_fraction": 0.3488,
+      "max_cmy_weighted_image_fraction": 0.2718,
+      "occupied_card_fraction": {
+        "8": 0.0352,
+        "10": 0.0283,
+        "21": 0.0148
+      }
+    },
+    {
+      "key": "color-table",
+      "occupied_image_fraction": 0.1764,
+      "color_image_fraction": 0.1764,
+      "max_cmy_weighted_image_fraction": 0.1102,
+      "occupied_card_fraction": {
+        "8": 0.0178,
+        "10": 0.0143,
+        "21": 0.0075
+      }
+    },
+    {
+      "key": "color-thermometer-sun",
+      "occupied_image_fraction": 0.2021,
+      "color_image_fraction": 0.098,
+      "max_cmy_weighted_image_fraction": 0.0936,
+      "occupied_card_fraction": {
+        "8": 0.0204,
+        "10": 0.0164,
+        "21": 0.0086
+      }
+    },
+    {
+      "key": "color-tooth",
+      "occupied_image_fraction": 0.3695,
+      "color_image_fraction": 0,
+      "max_cmy_weighted_image_fraction": 0.0292,
+      "occupied_card_fraction": {
+        "8": 0.0373,
+        "10": 0.03,
+        "21": 0.0156
+      }
+    },
+    {
+      "key": "color-toy-brick",
+      "occupied_image_fraction": 0.2919,
+      "color_image_fraction": 0.2919,
+      "max_cmy_weighted_image_fraction": 0.1568,
+      "occupied_card_fraction": {
+        "8": 0.0294,
+        "10": 0.0237,
+        "21": 0.0124
+      }
+    },
+    {
+      "key": "color-train-front",
+      "occupied_image_fraction": 0.2809,
+      "color_image_fraction": 0.1249,
+      "max_cmy_weighted_image_fraction": 0.184,
+      "occupied_card_fraction": {
+        "8": 0.0283,
+        "10": 0.0228,
+        "21": 0.0119
+      }
+    },
+    {
+      "key": "color-tree-deciduous",
+      "occupied_image_fraction": 0.2586,
+      "color_image_fraction": 0.2586,
+      "max_cmy_weighted_image_fraction": 0.2299,
+      "occupied_card_fraction": {
+        "8": 0.0261,
+        "10": 0.021,
+        "21": 0.011
+      }
+    },
+    {
+      "key": "color-trees",
+      "occupied_image_fraction": 0.2908,
+      "color_image_fraction": 0.2908,
+      "max_cmy_weighted_image_fraction": 0.1556,
+      "occupied_card_fraction": {
+        "8": 0.0293,
+        "10": 0.0236,
+        "21": 0.0123
+      }
+    },
+    {
+      "key": "color-triangle",
+      "occupied_image_fraction": 0.1625,
+      "color_image_fraction": 0.1625,
+      "max_cmy_weighted_image_fraction": 0.0928,
+      "occupied_card_fraction": {
+        "8": 0.0164,
+        "10": 0.0132,
+        "21": 0.0069
+      }
+    },
+    {
+      "key": "color-trousers",
+      "occupied_image_fraction": 0.2355,
+      "color_image_fraction": 0.2355,
+      "max_cmy_weighted_image_fraction": 0.2355,
+      "occupied_card_fraction": {
+        "8": 0.0237,
+        "10": 0.0191,
+        "21": 0.01
+      }
+    },
+    {
+      "key": "color-users",
+      "occupied_image_fraction": 0.394,
+      "color_image_fraction": 0.3939,
+      "max_cmy_weighted_image_fraction": 0.2172,
+      "occupied_card_fraction": {
+        "8": 0.0397,
+        "10": 0.032,
+        "21": 0.0167
+      }
+    },
+    {
+      "key": "color-utensils",
+      "occupied_image_fraction": 0.1451,
+      "color_image_fraction": 0,
+      "max_cmy_weighted_image_fraction": 0.0568,
+      "occupied_card_fraction": {
+        "8": 0.0146,
+        "10": 0.0118,
+        "21": 0.0061
+      }
+    },
+    {
+      "key": "color-volleyball",
+      "occupied_image_fraction": 0.4488,
+      "color_image_fraction": 0,
+      "max_cmy_weighted_image_fraction": 0.0669,
+      "occupied_card_fraction": {
+        "8": 0.0453,
+        "10": 0.0364,
+        "21": 0.019
+      }
+    },
+    {
+      "key": "color-window",
+      "occupied_image_fraction": 0.4893,
+      "color_image_fraction": 0.2561,
+      "max_cmy_weighted_image_fraction": 0.2283,
+      "occupied_card_fraction": {
+        "8": 0.0493,
+        "10": 0.0397,
+        "21": 0.0207
+      }
+    },
+    {
+      "key": "color-arm",
+      "occupied_image_fraction": 0.2992,
+      "color_image_fraction": 0.2992,
+      "max_cmy_weighted_image_fraction": 0.102,
+      "occupied_card_fraction": {
+        "8": 0.0302,
+        "10": 0.0243,
+        "21": 0.0127
+      }
+    },
+    {
+      "key": "color-back",
+      "occupied_image_fraction": 0.2763,
+      "color_image_fraction": 0.2763,
+      "max_cmy_weighted_image_fraction": 0.1205,
+      "occupied_card_fraction": {
+        "8": 0.0279,
+        "10": 0.0224,
+        "21": 0.0117
+      }
+    },
+    {
+      "key": "color-belly",
+      "occupied_image_fraction": 0.3062,
+      "color_image_fraction": 0.3057,
+      "max_cmy_weighted_image_fraction": 0.1457,
+      "occupied_card_fraction": {
+        "8": 0.0309,
+        "10": 0.0248,
+        "21": 0.013
+      }
+    },
+    {
+      "key": "color-big",
+      "occupied_image_fraction": 0.2346,
+      "color_image_fraction": 0.1999,
+      "max_cmy_weighted_image_fraction": 0.1058,
+      "occupied_card_fraction": {
+        "8": 0.0237,
+        "10": 0.019,
+        "21": 0.0099
+      }
+    },
+    {
+      "key": "color-blanket",
+      "occupied_image_fraction": 0.3074,
+      "color_image_fraction": 0.3074,
+      "max_cmy_weighted_image_fraction": 0.0941,
+      "occupied_card_fraction": {
+        "8": 0.031,
+        "10": 0.0249,
+        "21": 0.013
+      }
+    },
+    {
+      "key": "color-boy",
+      "occupied_image_fraction": 0.3461,
+      "color_image_fraction": 0.334,
+      "max_cmy_weighted_image_fraction": 0.1168,
+      "occupied_card_fraction": {
+        "8": 0.0349,
+        "10": 0.0281,
+        "21": 0.0147
+      }
+    },
+    {
+      "key": "color-cap",
+      "occupied_image_fraction": 0.2101,
+      "color_image_fraction": 0.2101,
+      "max_cmy_weighted_image_fraction": 0.1182,
+      "occupied_card_fraction": {
+        "8": 0.0212,
+        "10": 0.017,
+        "21": 0.0089
+      }
+    },
+    {
+      "key": "color-child",
+      "occupied_image_fraction": 0.3841,
+      "color_image_fraction": 0.372,
+      "max_cmy_weighted_image_fraction": 0.1267,
+      "occupied_card_fraction": {
+        "8": 0.0387,
+        "10": 0.0312,
+        "21": 0.0163
+      }
+    },
+    {
+      "key": "color-coat",
+      "occupied_image_fraction": 0.2941,
+      "color_image_fraction": 0.2941,
+      "max_cmy_weighted_image_fraction": 0.1244,
+      "occupied_card_fraction": {
+        "8": 0.0296,
+        "10": 0.0239,
+        "21": 0.0125
+      }
+    },
+    {
+      "key": "color-cow",
+      "occupied_image_fraction": 0.2707,
+      "color_image_fraction": 0.0155,
+      "max_cmy_weighted_image_fraction": 0.1001,
+      "occupied_card_fraction": {
+        "8": 0.0273,
+        "10": 0.022,
+        "21": 0.0115
+      }
+    },
+    {
+      "key": "color-crayon",
+      "occupied_image_fraction": 0.1811,
+      "color_image_fraction": 0.1803,
+      "max_cmy_weighted_image_fraction": 0.1536,
+      "occupied_card_fraction": {
+        "8": 0.0183,
+        "10": 0.0147,
+        "21": 0.0077
+      }
+    },
+    {
+      "key": "color-cucumber",
+      "occupied_image_fraction": 0.2596,
+      "color_image_fraction": 0.2596,
+      "max_cmy_weighted_image_fraction": 0.2315,
+      "occupied_card_fraction": {
+        "8": 0.0262,
+        "10": 0.0211,
+        "21": 0.011
+      }
+    },
+    {
+      "key": "color-doll",
+      "occupied_image_fraction": 0.2242,
+      "color_image_fraction": 0.2242,
+      "max_cmy_weighted_image_fraction": 0.1074,
+      "occupied_card_fraction": {
+        "8": 0.0226,
+        "10": 0.0182,
+        "21": 0.0095
+      }
+    },
+    {
+      "key": "color-female-teacher",
+      "occupied_image_fraction": 0.449,
+      "color_image_fraction": 0.4301,
+      "max_cmy_weighted_image_fraction": 0.2777,
+      "occupied_card_fraction": {
+        "8": 0.0453,
+        "10": 0.0364,
+        "21": 0.019
+      }
+    },
+    {
+      "key": "color-game",
+      "occupied_image_fraction": 0.3821,
+      "color_image_fraction": 0.0397,
+      "max_cmy_weighted_image_fraction": 0.0962,
+      "occupied_card_fraction": {
+        "8": 0.0385,
+        "10": 0.031,
+        "21": 0.0162
+      }
+    },
+    {
+      "key": "color-girl",
+      "occupied_image_fraction": 0.3849,
+      "color_image_fraction": 0.3728,
+      "max_cmy_weighted_image_fraction": 0.1269,
+      "occupied_card_fraction": {
+        "8": 0.0388,
+        "10": 0.0312,
+        "21": 0.0163
+      }
+    },
+    {
+      "key": "color-grandfather",
+      "occupied_image_fraction": 0.3016,
+      "color_image_fraction": 0.2564,
+      "max_cmy_weighted_image_fraction": 0.1111,
+      "occupied_card_fraction": {
+        "8": 0.0304,
+        "10": 0.0245,
+        "21": 0.0128
+      }
+    },
+    {
+      "key": "color-grandmother",
+      "occupied_image_fraction": 0.2846,
+      "color_image_fraction": 0.181,
+      "max_cmy_weighted_image_fraction": 0.112,
+      "occupied_card_fraction": {
+        "8": 0.0287,
+        "10": 0.0231,
+        "21": 0.0121
+      }
+    },
+    {
+      "key": "color-hair",
+      "occupied_image_fraction": 0.3231,
+      "color_image_fraction": 0.3231,
+      "max_cmy_weighted_image_fraction": 0.204,
+      "occupied_card_fraction": {
+        "8": 0.0326,
+        "10": 0.0262,
+        "21": 0.0137
+      }
+    },
+    {
+      "key": "color-horse",
+      "occupied_image_fraction": 0.2471,
+      "color_image_fraction": 0.2024,
+      "max_cmy_weighted_image_fraction": 0.1788,
+      "occupied_card_fraction": {
+        "8": 0.0249,
+        "10": 0.02,
+        "21": 0.0105
+      }
+    },
+    {
+      "key": "color-jacket",
+      "occupied_image_fraction": 0.2954,
+      "color_image_fraction": 0.2954,
+      "max_cmy_weighted_image_fraction": 0.1589,
+      "occupied_card_fraction": {
+        "8": 0.0298,
+        "10": 0.024,
+        "21": 0.0125
+      }
+    },
+    {
+      "key": "color-knee",
+      "occupied_image_fraction": 0.1981,
+      "color_image_fraction": 0.1979,
+      "max_cmy_weighted_image_fraction": 0.0893,
+      "occupied_card_fraction": {
+        "8": 0.02,
+        "10": 0.0161,
+        "21": 0.0084
+      }
+    },
+    {
+      "key": "color-leg",
+      "occupied_image_fraction": 0.1385,
+      "color_image_fraction": 0.1385,
+      "max_cmy_weighted_image_fraction": 0.0514,
+      "occupied_card_fraction": {
+        "8": 0.014,
+        "10": 0.0112,
+        "21": 0.0059
+      }
+    },
+    {
+      "key": "color-male-teacher",
+      "occupied_image_fraction": 0.4511,
+      "color_image_fraction": 0.4331,
+      "max_cmy_weighted_image_fraction": 0.2952,
+      "occupied_card_fraction": {
+        "8": 0.0455,
+        "10": 0.0366,
+        "21": 0.0191
+      }
+    },
+    {
+      "key": "color-man",
+      "occupied_image_fraction": 0.3396,
+      "color_image_fraction": 0.3312,
+      "max_cmy_weighted_image_fraction": 0.1187,
+      "occupied_card_fraction": {
+        "8": 0.0342,
+        "10": 0.0276,
+        "21": 0.0144
+      }
+    },
+    {
+      "key": "color-onion",
+      "occupied_image_fraction": 0.2772,
+      "color_image_fraction": 0.2772,
+      "max_cmy_weighted_image_fraction": 0.1774,
+      "occupied_card_fraction": {
+        "8": 0.028,
+        "10": 0.0225,
+        "21": 0.0117
+      }
+    },
+    {
+      "key": "color-pajamas",
+      "occupied_image_fraction": 0.2599,
+      "color_image_fraction": 0.2596,
+      "max_cmy_weighted_image_fraction": 0.0899,
+      "occupied_card_fraction": {
+        "8": 0.0262,
+        "10": 0.0211,
+        "21": 0.011
+      }
+    },
+    {
+      "key": "color-parents",
+      "occupied_image_fraction": 0.3033,
+      "color_image_fraction": 0.3033,
+      "max_cmy_weighted_image_fraction": 0.1603,
+      "occupied_card_fraction": {
+        "8": 0.0306,
+        "10": 0.0246,
+        "21": 0.0128
+      }
+    },
+    {
+      "key": "color-pear",
+      "occupied_image_fraction": 0.2511,
+      "color_image_fraction": 0.2511,
+      "max_cmy_weighted_image_fraction": 0.1965,
+      "occupied_card_fraction": {
+        "8": 0.0253,
+        "10": 0.0204,
+        "21": 0.0106
+      }
+    },
+    {
+      "key": "color-pepper",
+      "occupied_image_fraction": 0.3579,
+      "color_image_fraction": 0.3579,
+      "max_cmy_weighted_image_fraction": 0.3353,
+      "occupied_card_fraction": {
+        "8": 0.0361,
+        "10": 0.029,
+        "21": 0.0152
+      }
+    },
+    {
+      "key": "color-pillow",
+      "occupied_image_fraction": 0.1895,
+      "color_image_fraction": 0.1895,
+      "max_cmy_weighted_image_fraction": 0.0458,
+      "occupied_card_fraction": {
+        "8": 0.0191,
+        "10": 0.0154,
+        "21": 0.008
+      }
+    },
+    {
+      "key": "color-potato",
+      "occupied_image_fraction": 0.3216,
+      "color_image_fraction": 0.3216,
+      "max_cmy_weighted_image_fraction": 0.2022,
+      "occupied_card_fraction": {
+        "8": 0.0324,
+        "10": 0.0261,
+        "21": 0.0136
+      }
+    },
+    {
+      "key": "color-rice",
+      "occupied_image_fraction": 0.4246,
+      "color_image_fraction": 0.1922,
+      "max_cmy_weighted_image_fraction": 0.1844,
+      "occupied_card_fraction": {
+        "8": 0.0428,
+        "10": 0.0344,
+        "21": 0.018
+      }
+    },
+    {
+      "key": "color-room",
+      "occupied_image_fraction": 0.3718,
+      "color_image_fraction": 0.3602,
+      "max_cmy_weighted_image_fraction": 0.1227,
+      "occupied_card_fraction": {
+        "8": 0.0375,
+        "10": 0.0302,
+        "21": 0.0157
+      }
+    },
+    {
+      "key": "color-running",
+      "occupied_image_fraction": 0.1327,
+      "color_image_fraction": 0.1101,
+      "max_cmy_weighted_image_fraction": 0.068,
+      "occupied_card_fraction": {
+        "8": 0.0134,
+        "10": 0.0108,
+        "21": 0.0056
+      }
+    },
+    {
+      "key": "color-salt",
+      "occupied_image_fraction": 0.2353,
+      "color_image_fraction": 0.0999,
+      "max_cmy_weighted_image_fraction": 0.0532,
+      "occupied_card_fraction": {
+        "8": 0.0237,
+        "10": 0.0191,
+        "21": 0.01
+      }
+    },
+    {
+      "key": "color-sheep",
+      "occupied_image_fraction": 0.2757,
+      "color_image_fraction": 0.0527,
+      "max_cmy_weighted_image_fraction": 0.0872,
+      "occupied_card_fraction": {
+        "8": 0.0278,
+        "10": 0.0224,
+        "21": 0.0117
+      }
+    },
+    {
+      "key": "color-small",
+      "occupied_image_fraction": 0.2355,
+      "color_image_fraction": 0.046,
+      "max_cmy_weighted_image_fraction": 0.0515,
+      "occupied_card_fraction": {
+        "8": 0.0237,
+        "10": 0.0191,
+        "21": 0.01
+      }
+    },
+    {
+      "key": "color-strawberry",
+      "occupied_image_fraction": 0.2408,
+      "color_image_fraction": 0.2249,
+      "max_cmy_weighted_image_fraction": 0.2088,
+      "occupied_card_fraction": {
+        "8": 0.0243,
+        "10": 0.0195,
+        "21": 0.0102
+      }
+    },
+    {
+      "key": "color-sugar",
+      "occupied_image_fraction": 0.244,
+      "color_image_fraction": 0.0535,
+      "max_cmy_weighted_image_fraction": 0.0318,
+      "occupied_card_fraction": {
+        "8": 0.0246,
+        "10": 0.0198,
+        "21": 0.0103
+      }
+    },
+    {
+      "key": "color-swatch-black",
+      "occupied_image_fraction": 0.2658,
+      "color_image_fraction": 0,
+      "max_cmy_weighted_image_fraction": 0.2069,
+      "occupied_card_fraction": {
+        "8": 0.0268,
+        "10": 0.0216,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-swatch-blue",
+      "occupied_image_fraction": 0.2658,
+      "color_image_fraction": 0.2343,
+      "max_cmy_weighted_image_fraction": 0.1941,
+      "occupied_card_fraction": {
+        "8": 0.0268,
+        "10": 0.0216,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-swatch-brown",
+      "occupied_image_fraction": 0.2658,
+      "color_image_fraction": 0.2341,
+      "max_cmy_weighted_image_fraction": 0.1867,
+      "occupied_card_fraction": {
+        "8": 0.0268,
+        "10": 0.0216,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-swatch-green",
+      "occupied_image_fraction": 0.2658,
+      "color_image_fraction": 0.2342,
+      "max_cmy_weighted_image_fraction": 0.173,
+      "occupied_card_fraction": {
+        "8": 0.0268,
+        "10": 0.0216,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-swatch-red",
+      "occupied_image_fraction": 0.2658,
+      "color_image_fraction": 0.2342,
+      "max_cmy_weighted_image_fraction": 0.184,
+      "occupied_card_fraction": {
+        "8": 0.0268,
+        "10": 0.0216,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-swatch-white",
+      "occupied_image_fraction": 0.2658,
+      "color_image_fraction": 0,
+      "max_cmy_weighted_image_fraction": 0.0102,
+      "occupied_card_fraction": {
+        "8": 0.0268,
+        "10": 0.0216,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-swatch-yellow",
+      "occupied_image_fraction": 0.2658,
+      "color_image_fraction": 0.2342,
+      "max_cmy_weighted_image_fraction": 0.1922,
+      "occupied_card_fraction": {
+        "8": 0.0268,
+        "10": 0.0216,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-tomato",
+      "occupied_image_fraction": 0.3471,
+      "color_image_fraction": 0.3471,
+      "max_cmy_weighted_image_fraction": 0.3015,
+      "occupied_card_fraction": {
+        "8": 0.035,
+        "10": 0.0282,
+        "21": 0.0147
+      }
+    },
+    {
+      "key": "color-tongue",
+      "occupied_image_fraction": 0.2796,
+      "color_image_fraction": 0.2796,
+      "max_cmy_weighted_image_fraction": 0.2487,
+      "occupied_card_fraction": {
+        "8": 0.0282,
+        "10": 0.0227,
+        "21": 0.0118
+      }
+    },
+    {
+      "key": "color-towel",
+      "occupied_image_fraction": 0.2542,
+      "color_image_fraction": 0.2542,
+      "max_cmy_weighted_image_fraction": 0.1155,
+      "occupied_card_fraction": {
+        "8": 0.0256,
+        "10": 0.0206,
+        "21": 0.0108
+      }
+    },
+    {
+      "key": "color-walking",
+      "occupied_image_fraction": 0.1078,
+      "color_image_fraction": 0.0693,
+      "max_cmy_weighted_image_fraction": 0.0584,
+      "occupied_card_fraction": {
+        "8": 0.0109,
+        "10": 0.0087,
+        "21": 0.0046
+      }
+    },
+    {
+      "key": "color-woman",
+      "occupied_image_fraction": 0.4125,
+      "color_image_fraction": 0.4024,
+      "max_cmy_weighted_image_fraction": 0.1336,
+      "occupied_card_fraction": {
+        "8": 0.0416,
+        "10": 0.0335,
+        "21": 0.0175
+      }
+    },
+    {
+      "key": "color-yogurt",
+      "occupied_image_fraction": 0.2053,
+      "color_image_fraction": 0.1722,
+      "max_cmy_weighted_image_fraction": 0.0569,
+      "occupied_card_fraction": {
+        "8": 0.0207,
+        "10": 0.0167,
+        "21": 0.0087
+      }
+    }
+  ]
+}

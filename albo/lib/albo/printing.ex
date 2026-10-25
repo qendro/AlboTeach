@@ -42,6 +42,8 @@ defmodule Albo.Printing do
          flip when flip in ["long-edge", "short-edge"] <- Map.get(params, "flip", "long-edge"),
          image_side when image_side in ["albanian", "english"] <-
            Map.get(params, "image_side", "albanian"),
+         art_style when art_style in ["color", "outline", "original"] <-
+           Map.get(params, "art_style", "color"),
          {:ok, x} <- offset(Map.get(params, "back_x_mm", "0")),
          {:ok, y} <- offset(Map.get(params, "back_y_mm", "0")) do
       {:ok,
@@ -49,6 +51,7 @@ defmodule Albo.Printing do
          per_sheet: String.to_integer(per_sheet),
          flip: flip,
          image_side: image_side,
+         art_style: art_style,
          back_x_mm: x,
          back_y_mm: y
        }}

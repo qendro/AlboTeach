@@ -8,6 +8,30 @@ defmodule Albo.Learning do
   def get_card!(id), do: Repo.get!(Card, id)
   def change_card(card, attrs \\ %{}), do: Card.changeset(card, attrs)
 
+  def save_quality_check(id, attrs) do
+    Repo.transaction(fn ->
+      case get_card!(id) |> Card.quality_changeset(attrs) |> Repo.update() do
+        {:ok, saved} ->
+          audit(saved, "quality_check")
+          saved
+
+        {:error, changeset} ->
+          Repo.rollback(changeset)
+      end
+    end)
+  end
+
+  def save_quality_checks(drafts) do
+    Repo.transaction(fn ->
+      Enum.map(drafts, fn {id, attrs} ->
+        case save_quality_check(id, attrs) do
+          {:ok, card} -> card
+          {:error, changeset} -> Repo.rollback(changeset)
+        end
+      end)
+    end)
+  end
+
   def save_card(card, attrs, expected_revision) do
     Repo.transaction(fn ->
       current = if card.id, do: get_card!(card.id), else: card
@@ -98,7 +122,13 @@ defmodule Albo.Learning do
 
   def export_json do
     cards =
-      Enum.map(list_cards(), &Map.take(&1, Card.fields() ++ [:id, :revision, :status, :reviewer]))
+      Enum.map(
+        list_cards(),
+        &Map.take(
+          &1,
+          Card.fields() ++ Card.quality_fields() ++ [:id, :revision, :status, :reviewer]
+        )
+      )
 
     Jason.encode!(%{schema_version: 1, cards: cards}, pretty: true)
   end
@@ -305,7 +335,9 @@ defmodule Albo.Learning do
   end
 
   defp audit(card, action) do
-    snapshot = Map.take(card, Card.fields() ++ [:revision, :status, :reviewer]) |> Jason.encode!()
+    snapshot =
+      Map.take(card, Card.fields() ++ Card.quality_fields() ++ [:revision, :status, :reviewer])
+      |> Jason.encode!()
 
     Repo.insert_all(ContentEvent, [
       %{

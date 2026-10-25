@@ -190,5 +190,2408 @@
     "license": "CC BY 4.0",
     "source": "https://raw.githubusercontent.com/jdecked/twemoji/v15.1.0/assets/svg/1f333.svg",
     "changes": "SVG converted to 512px PNG; artwork unchanged"
+  },
+  {
+    "key": "line-alarm-clock",
+    "file": "line-alarm-clock.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/alarm-clock.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "60c874e72bfdb7ecff5eaeb21aa77041df6477d8b2c31b7c93a6a0dddb57a16a"
+  },
+  {
+    "key": "line-apple",
+    "file": "line-apple.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/apple.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "dd236ae97cfe33d4a3b581a324c83daafd97f12f60f8a19887761e65f8110ed8"
+  },
+  {
+    "key": "line-baby",
+    "file": "line-baby.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/baby.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "f3203cf22be75b42e8b93f941b490308d23d5fd20b904a35ad77d4b91ab646ed"
+  },
+  {
+    "key": "line-backpack",
+    "file": "line-backpack.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/backpack.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "65c34408ac761ce7b9c03e52902ac078b30abe771d681a60c8911ec54107bc6a"
+  },
+  {
+    "key": "line-banana",
+    "file": "line-banana.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/banana.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "f2ea1614cae3d5398c86954ad42b68bf61f0332662213e50ef084517678cbe24"
+  },
+  {
+    "key": "line-bath",
+    "file": "line-bath.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/bath.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "d65c1334f09be48a5c52d7767761179f907690f0bd746e5eb9347bb6365efde6"
+  },
+  {
+    "key": "line-bed",
+    "file": "line-bed.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/bed.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "2fa5f753029b658dc4b25dfadd2e2909bd8cf2c07129d9037dc0e9aa715ed1f9"
+  },
+  {
+    "key": "line-beef",
+    "file": "line-beef.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/beef.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "d70f4838eee5e7608b7dab1848a0c7ed530488cc5c43ff3f63aabf2b2ac9dcfb"
+  },
+  {
+    "key": "line-belt",
+    "file": "line-belt.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "da59a12d8be519cd57bab18cc8d245d73453327ca03d80f137334f59e8145198"
+  },
+  {
+    "key": "line-bike",
+    "file": "line-bike.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/bike.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "0edaa8fffc64f25085132cb55c598780ed21cc1ba053eeff30c63b1dd9c4fb58"
+  },
+  {
+    "key": "line-bird",
+    "file": "line-bird.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/bird.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "3156975062878ee2b5379dd65e4c50e021773c7e952e67ede77a231d2300d00b"
+  },
+  {
+    "key": "line-book-open",
+    "file": "line-book-open.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/book-open.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "332eda03a12b2e8e944895e1c8d0e28795574ec1ffc1b0ea1981098b405f0b6b"
+  },
+  {
+    "key": "line-boot",
+    "file": "line-boot.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "e1a3c31baafd09a3b61b01959c345967696f54f018643d482eb8ffc3fb85b3f6"
+  },
+  {
+    "key": "line-bread",
+    "file": "line-bread.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "8617cb5cc5e7f8812438e6a492a31361eede0d596df43e8fda241aad89eb58a8"
+  },
+  {
+    "key": "line-bridge",
+    "file": "line-bridge.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "029411fe3bf207755d1bdea8c00280cd57461a13ca079a5e18295e94215ea810"
+  },
+  {
+    "key": "line-building-complex",
+    "file": "line-building-complex.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/building-complex.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "e3988193da39f8ee4166f1f10f3d53fcfc683c9b9585244256bbe17a1668ff6e"
+  },
+  {
+    "key": "line-bus",
+    "file": "line-bus.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/bus.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "f6a67ac8b1f666b164dc839896dc8d364fd994f7034cb94d2f8dda6ca589df8a"
+  },
+  {
+    "key": "line-butterfly",
+    "file": "line-butterfly.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "254d6f84f273d7f4af2bb5b340f5b4a0dfe5bcf7a7d17ac476ed1a37ca504b34"
+  },
+  {
+    "key": "line-car",
+    "file": "line-car.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/car.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "006a0e1ae664fa677ba18545724702e19288e9ad7f3f1a5f06a242beab20c1ee"
+  },
+  {
+    "key": "line-carrot",
+    "file": "line-carrot.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/carrot.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "9623af0d81c661a481247b7d2775204c49671b02f3cdc349127af54378753312"
+  },
+  {
+    "key": "line-cat",
+    "file": "line-cat.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/cat.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "7819165f8c970b2c58194e988c96e2dbde7b7c8d9c043ea8085fe172450fb0b9"
+  },
+  {
+    "key": "line-chair",
+    "file": "line-chair.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "04e0f76eeffc003eaedb36c575c272809f64cef7cc0f5a8b98d86dea4cc3c126"
+  },
+  {
+    "key": "line-cheese",
+    "file": "line-cheese.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "d43f70ce5ff62dd458f023c10c89d63e4a21c437d98ce89aa5ade0de116e45a4"
+  },
+  {
+    "key": "line-circle",
+    "file": "line-circle.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/circle.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "4a559bb0b748d544a03ca0bebd3646f895f5bf46004dcd392ad62a0b9895cd6e"
+  },
+  {
+    "key": "line-citrus",
+    "file": "line-citrus.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/citrus.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "de5001957166abd5a67335062e03b3f0418ca0a93415e4f456b50c1d2e9b484b"
+  },
+  {
+    "key": "line-cloud-rain",
+    "file": "line-cloud-rain.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/cloud-rain.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "834d61d265eff8edb4af10bb370a487295cc4504bad93cbfab1da3d57281cda3"
+  },
+  {
+    "key": "line-coffee",
+    "file": "line-coffee.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/coffee.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "aa564f8bd0d899533574931afeed1deb370b08e0a78e276dabfbdf8ee46d71af"
+  },
+  {
+    "key": "line-cooking-pot",
+    "file": "line-cooking-pot.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/cooking-pot.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "3304c3e8814948f2bf7a0e1bb8f89d6476b543c31fbc7c3633231643f7a399c8"
+  },
+  {
+    "key": "line-cup-soda",
+    "file": "line-cup-soda.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/cup-soda.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "0902ddf3b67e8e4d925d50a0d16d77d1e7f09a414615be5d061f6c3d54508d0a"
+  },
+  {
+    "key": "line-disc",
+    "file": "line-disc.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/disc.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "ddd19b5b3e8965c12caaf0cecbd752967863d3fda81d5fc25d9a0aebeef2d9c8"
+  },
+  {
+    "key": "line-dog",
+    "file": "line-dog.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/dog.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "c42c15733784337b2507c01f104a05d9de12a0de2a7293160d9eedfd8055abb7"
+  },
+  {
+    "key": "line-door-closed",
+    "file": "line-door-closed.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/door-closed.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "4cab32c42e512f77e309e4771944ca7418c2ca718d1f557a07820adc94d8816c"
+  },
+  {
+    "key": "line-door-open",
+    "file": "line-door-open.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/door-open.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "d5c16e3fc2fe29bc7cda6c1f520590194ca295943214f6e6709e93c94922fbf4"
+  },
+  {
+    "key": "line-dress",
+    "file": "line-dress.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "d8e605b280b434f635785d760685949a9448cebfee43264f23855b0ac5a6a9f6"
+  },
+  {
+    "key": "line-droplet",
+    "file": "line-droplet.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/droplet.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "e5cc1b28a6e09271bc052d451414923dd52b402ec0ef000d4f150fb08b6f67d1"
+  },
+  {
+    "key": "line-ear",
+    "file": "line-ear.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/ear.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "b2aad408e97d15d32b683ec79916e25c9392989724dd34130aaa69055fe55681"
+  },
+  {
+    "key": "line-egg",
+    "file": "line-egg.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/egg.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "b0ab5039c622493d8f937608673f24093eee1816f7f701e88e868be8a52d00e4"
+  },
+  {
+    "key": "line-eye",
+    "file": "line-eye.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/eye.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "ba548729f99bd6dbdddc092442862e8d5ac0120e595e8d20ba7ccfc9c1a0728d"
+  },
+  {
+    "key": "line-face-slightly-frowning",
+    "file": "line-face-slightly-frowning.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/face-slightly-frowning.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "a27649e80c9fd415328c70531bdadc51c0437b3e54beedc3c4c753026eb44ba8"
+  },
+  {
+    "key": "line-face-slightly-smiling",
+    "file": "line-face-slightly-smiling.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/face-slightly-smiling.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "25333791a94f210a457016ed226076482168d04c067ed465174a5451df80dbcd"
+  },
+  {
+    "key": "line-file",
+    "file": "line-file.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/file.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "679c97e9e03791f71853712fe1f73d3764b2f7c09957d42ec17a6fd6ff4ca4eb"
+  },
+  {
+    "key": "line-finger",
+    "file": "line-finger.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "a09561a350a645fa4a19a6ccb161c6e7ec54e1c9a6c62e8e1ffd7da0fc1fde84"
+  },
+  {
+    "key": "line-fish",
+    "file": "line-fish.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/fish.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "304f972c9b1783a50457c65ef7867d67afc234305b0a27edc98639a69736ce82"
+  },
+  {
+    "key": "line-flower-2",
+    "file": "line-flower-2.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/flower-2.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "01d23eb9fcb105a2021baa69b4c6965e9f2ec153327d30fd69788742c120e7be"
+  },
+  {
+    "key": "line-footprints",
+    "file": "line-footprints.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/footprints.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "10162642f2e0ab624c01ba7e0457338d803818e6725bc9c94e8addfaaa325442"
+  },
+  {
+    "key": "line-fork",
+    "file": "line-fork.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "3e9846260f2d55f282b1689ce0358ba613fb49796458bbffddc0eaa13d6cf2f3"
+  },
+  {
+    "key": "line-glass-water",
+    "file": "line-glass-water.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/glass-water.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "7e4c23dc000bf5beeb0d80482f666417b4da4993f26ccf5319cffbac6438532d"
+  },
+  {
+    "key": "line-glove",
+    "file": "line-glove.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "916de2a8d3c1b7d76df9fe26d70f8c87f57702db3e7e67f01daef891a4145d9c"
+  },
+  {
+    "key": "line-grape",
+    "file": "line-grape.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/grape.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "78741ec60b378ea4b097d70bfd2e4e12b418b331cf58b0413117053c52386e8b"
+  },
+  {
+    "key": "line-hand",
+    "file": "line-hand.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/hand.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "8072eb0779e74c5bf93692612018226f14b4d294b2e10c5578869fd4d8a9eea5"
+  },
+  {
+    "key": "line-hat",
+    "file": "line-hat.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "51c78c31aa29f5d9deb8deadfa92f031af299264df9ab41f878f61b566801b07"
+  },
+  {
+    "key": "line-head",
+    "file": "line-head.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "bc3ffd8e28421b5cb47a0df07484ca72fc69bc2b9de573c116a840256d78bd0d"
+  },
+  {
+    "key": "line-hospital",
+    "file": "line-hospital.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/hospital.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "4d97e973b32742091dcb5b0843e96241d22d5221e612b03d96f187b8a22eb86f"
+  },
+  {
+    "key": "line-house",
+    "file": "line-house.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/house.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "59d76ed3ffea35a39ef08354763d81a6ce84b6cc603a102dfa1ae2e2bbfd7653"
+  },
+  {
+    "key": "line-key-round",
+    "file": "line-key-round.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/key-round.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "234879aefeb132d3e5fe3b1bd52e9ea7f345e46d5b83b53327d35be4787ed851"
+  },
+  {
+    "key": "line-knife",
+    "file": "line-knife.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "a9c398abbfa0c7932386b4f3fa706f950140d25bbb1897d46c0e571702f8c939"
+  },
+  {
+    "key": "line-library-big",
+    "file": "line-library-big.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/library-big.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "0cbd25906169e705101b9020d30a128b288008081ad5eb10239066dfa15532cb"
+  },
+  {
+    "key": "line-milk",
+    "file": "line-milk.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/milk.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "4a75d28cb57e336db8393956640a13499f95c320a0ec2805bcf43cb5ea90d453"
+  },
+  {
+    "key": "line-moon",
+    "file": "line-moon.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/moon.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "482c7921864d090f7918c328ec1cd6fa014227f7ee873fc1e41dfa91a685f513"
+  },
+  {
+    "key": "line-mouth",
+    "file": "line-mouth.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "cc4c8b964b4c877ba7c7c5dd23a10ae143ea52476d7e6ce6f2d208bf9a3e585a"
+  },
+  {
+    "key": "line-music",
+    "file": "line-music.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "fb8125f41c7ee643f3d32f17c05801d372dc4b41fc220a85e6d5762873dcd37c"
+  },
+  {
+    "key": "line-nose",
+    "file": "line-nose.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "12ee90c308c894b02323dc5dfa735b11b4848ae8af096f54e2575b89dfeaf3de"
+  },
+  {
+    "key": "line-notebook",
+    "file": "line-notebook.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/notebook.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "0de8d0af521076e44e3658ff48304cb4558eb9fbfc4f0eaf7d53d0da6e949eb6"
+  },
+  {
+    "key": "line-number-1",
+    "file": "line-number-1.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "f1ef52cd2419b5c7f0c8c812def1ecbdec25ceacbd2125e0a0690738fc5f3851"
+  },
+  {
+    "key": "line-number-10",
+    "file": "line-number-10.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "385307f590e7ec9f64340e769e0df4b9b7c49a370c8d208659f3aecea13e7481"
+  },
+  {
+    "key": "line-number-2",
+    "file": "line-number-2.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "f110035216cea2ef4ea682da18bd4aedb197bccd9b645f3942f7796c8dc727a8"
+  },
+  {
+    "key": "line-number-3",
+    "file": "line-number-3.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "23e2ecf6bc2c8fffaa9591d5838c51e21a9abd7dd90ff3f4314a0f9d48bbde4c"
+  },
+  {
+    "key": "line-number-4",
+    "file": "line-number-4.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "4816b7aa83b89c595861d79e3a8ab57594547cb2d53d8d41b3500f0c454eaf12"
+  },
+  {
+    "key": "line-number-5",
+    "file": "line-number-5.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "1678e595aff87b21bfbb9edbbd4d233c6c5983ed35868044918bb63073419d8f"
+  },
+  {
+    "key": "line-number-6",
+    "file": "line-number-6.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "2cb2bea0f88c26359929c252c33763a098c72e32c28bb77346c290b01d83fa50"
+  },
+  {
+    "key": "line-number-7",
+    "file": "line-number-7.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "ecd350639c148ea300415792ac1517d343f256378d8967463bebef2e622fff0d"
+  },
+  {
+    "key": "line-number-8",
+    "file": "line-number-8.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "535f887f6ed5b82d7472eb04fa968420f216e43c7920aa640707f4025f026c0c"
+  },
+  {
+    "key": "line-number-9",
+    "file": "line-number-9.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "a1a8596f6a49a392a089def00c1ff9cdb0bce1462565cdd8faefdd213d7f753d"
+  },
+  {
+    "key": "line-pen",
+    "file": "line-pen.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/pen.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "0cdafb3fb8a58be752dc514bc385383ed76d2ef9f1cef8b693bd0c6350a1cbbc"
+  },
+  {
+    "key": "line-pencil",
+    "file": "line-pencil.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/pencil.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "7cfd83041f75d35238495115b28f1df37e29e4219eff82ae6dfdf91d3e43a081"
+  },
+  {
+    "key": "line-plane",
+    "file": "line-plane.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/plane.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "3442b6f58645c5431dd4c538965e52e28a7e484a8db8e9584f2eee9fc0f762cd"
+  },
+  {
+    "key": "line-plane-takeoff",
+    "file": "line-plane-takeoff.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/plane-takeoff.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "90f600c3c7fe1eb6cf0ec67d9334a1c529f78fc48a237d9b18a52e1473fcd9d9"
+  },
+  {
+    "key": "line-rabbit",
+    "file": "line-rabbit.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/rabbit.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "d7a7cbf130d46fb15b183690247dfd02cc3c9985ccd286362fb4b12a3d7d265b"
+  },
+  {
+    "key": "line-route",
+    "file": "line-route.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/route.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "3e5d720c97685dac5d911f543244ab67c2fc11caa98faded62e2cd90b3052ed6"
+  },
+  {
+    "key": "line-ruler",
+    "file": "line-ruler.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/ruler.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "168075e7a8a86d97ded28d88cf4b801bbe922e22f6ec44e1be898760a9feab89"
+  },
+  {
+    "key": "line-scarf",
+    "file": "line-scarf.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "45a326e6f5848cfd1638fcae060c906dec69771174ebf8f22d1ed40d90ea7c9c"
+  },
+  {
+    "key": "line-school",
+    "file": "line-school.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/school.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "d7514c531a64562d805e07770d509f9eda987622602a7f59a3f0ae9937d6ae92"
+  },
+  {
+    "key": "line-scissors",
+    "file": "line-scissors.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/scissors.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "2d7cb22e4ea8881ef7dd78c66f521f921187273c8747c4b8998687973b70b2b3"
+  },
+  {
+    "key": "line-shirt",
+    "file": "line-shirt.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/shirt.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "9191978fffc4fc8dffe99650f41430f17675405f6d31fdb1c570b59578c44e48"
+  },
+  {
+    "key": "line-shoe",
+    "file": "line-shoe.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "4880344eb8913b7857e12755f5cbaefcbb26e82fe3aff18e49167b17f0d4d60f"
+  },
+  {
+    "key": "line-skirt",
+    "file": "line-skirt.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "30736b999cb279be28b9f77dff2a8086838fb371317f8b69502c389addae2213"
+  },
+  {
+    "key": "line-snowflake",
+    "file": "line-snowflake.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/snowflake.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "d26c5f1f572bd1961d455662db59d20809a97d9c05c87414a034a5d9b2db987e"
+  },
+  {
+    "key": "line-soap",
+    "file": "line-soap.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "98a1b0a00911543772d6f2a5e1bb6f69c6f8a3598ab696ef57ac228cf0dd8dd1"
+  },
+  {
+    "key": "line-sock",
+    "file": "line-sock.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "11979fc908e706f11423a61fdb706f19caa32aa373b867244e757221bb9a7e04"
+  },
+  {
+    "key": "line-soup",
+    "file": "line-soup.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/soup.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "ea989635c8bd678f7eaddb5c2f13bf6c536f380d762330ae843ba30b9930098b"
+  },
+  {
+    "key": "line-spoon",
+    "file": "line-spoon.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "a0594a07653750eb188dacb4e4170848ffca917e05a63019ba58a91fe801698b"
+  },
+  {
+    "key": "line-square",
+    "file": "line-square.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/square.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "5be4b5b93ab6b2dfecf178d7e4f8615908a19825b110916bfb24d41befb97505"
+  },
+  {
+    "key": "line-store",
+    "file": "line-store.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/store.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "eb3ef26868935567dbd02f0d98c50f42963ed65ed1116af8271d1659975733a6"
+  },
+  {
+    "key": "line-sun",
+    "file": "line-sun.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/sun.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "18164cfb879849ab757f59671fc0681827df6e450d61d5ab2cb4fa64df34b7b1"
+  },
+  {
+    "key": "line-table",
+    "file": "line-table.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "d9abf4a528c28fcb9d0392c7a31a2b02ca7a19f018b6b85708ad801c516840c6"
+  },
+  {
+    "key": "line-thermometer-sun",
+    "file": "line-thermometer-sun.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/thermometer-sun.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "dbf13cd2cc750ad6e0201dab2967b044c3aa118a9ec09c6d20e8e1e71cea2184"
+  },
+  {
+    "key": "line-tooth",
+    "file": "line-tooth.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "e996951762421938e0d1f714e3ddd6c0723f3ac78c29a812e017d95b1b440333"
+  },
+  {
+    "key": "line-toy-brick",
+    "file": "line-toy-brick.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/toy-brick.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "b73e7a107e4d41ff0a8a5691a4cc140223229935c7a530d04853aa97dec7913f"
+  },
+  {
+    "key": "line-train-front",
+    "file": "line-train-front.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/train-front.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "4507ee441fb97dd933961bf6c7ad685bf838b2c40290135f846aad5e41adf839"
+  },
+  {
+    "key": "line-tree-deciduous",
+    "file": "line-tree-deciduous.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/tree-deciduous.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "be0e56a3e76e400a79d42edccd9e86110c8f9afac7466c5a57bb3e2830f60e83"
+  },
+  {
+    "key": "line-trees",
+    "file": "line-trees.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/trees.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "697755c856b33fe78339e29abcd522aedc917cb66e8a457b3705c85a3cf1b5f6"
+  },
+  {
+    "key": "line-triangle",
+    "file": "line-triangle.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/triangle.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "c6818ca922bc665bcc6ced9c8d4d9a6786fb57e8cc332f5eb4f973b64fc08919"
+  },
+  {
+    "key": "line-trousers",
+    "file": "line-trousers.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "ab1037a5f08d614c736ec0c0691867d3101d014feb949a9c921c6ce3e52b2a18"
+  },
+  {
+    "key": "line-users",
+    "file": "line-users.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/users.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "bfd4cdc88c476b73b53a46106bc44bc313315bd88d594b289be8a176d68fba96"
+  },
+  {
+    "key": "line-utensils",
+    "file": "line-utensils.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/utensils.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "0cceb2e34f39cf5f63c4192bcfa5a35678a4a5e31db11f827d61ecc52338c908"
+  },
+  {
+    "key": "line-volleyball",
+    "file": "line-volleyball.png",
+    "credit": "Lucide contributors; includes Feather-derived artwork by Cole Bemis",
+    "license": "ISC / MIT (see LICENSE-Lucide.txt)",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/7faf87628a1ad6175975bc595344337ce14a7db4/icons/volleyball.svg",
+    "changes": "Black stroke, width 0.8; SVG converted to transparent 512px PNG",
+    "sha256_svg": "374b0ce7f46911dcf58e8bc8a53df92d4d492c93d781671d04f20ce3ddc6bf1f"
+  },
+  {
+    "key": "line-window",
+    "file": "line-window.png",
+    "credit": "Original AlboTeach outline drawing",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original SVG; 512px transparent PNG for printing",
+    "sha256_svg": "feeb34f64484cd0a7a66564bfd7fcc48a4a80c16db64e00814e1b4adf99eae7f"
+  },
+  {
+    "key": "color-alarm-clock",
+    "file": "color-alarm-clock.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Alarm%20clock/Flat/alarm_clock_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "3a0ed5b13e40f91c08bf1ef8e209f6cab1711f162bd369f7a3d2ea90caf82066"
+  },
+  {
+    "key": "color-apple",
+    "file": "color-apple.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Red%20apple/Flat/red_apple_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "fd4698d3205cc9fd93e4c984fa46c5aa504e127a95e20f5c45cad4974e6fc62d"
+  },
+  {
+    "key": "color-baby",
+    "file": "color-baby.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Baby/Medium-Light/Flat/baby_flat_medium-light.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "e213dcce1f63795f41b61dde49bc11466fd0842668267f0f78a6889c58ef3573"
+  },
+  {
+    "key": "color-backpack",
+    "file": "color-backpack.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Backpack/Flat/backpack_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "be924c4b1d5d658f611167fbf612a58ded45dc81bd0e66ce5b4cf2abbaf7ddc3"
+  },
+  {
+    "key": "color-banana",
+    "file": "color-banana.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Banana/Flat/banana_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "e3e5be0defd1cb4222e6416f01fb5d55960a93b31edd86d33a87499f4604948e"
+  },
+  {
+    "key": "color-bath",
+    "file": "color-bath.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bathtub/Flat/bathtub_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "e8435a96b7617c2096e6a405a805734116eba23fc917918ad3c383e2efd1250f"
+  },
+  {
+    "key": "color-bed",
+    "file": "color-bed.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bed/Flat/bed_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "b069b6e87e5008dc13dde744ea7cd1814d033886071adceb1ff4a8a22cd6ac69"
+  },
+  {
+    "key": "color-beef",
+    "file": "color-beef.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cut%20of%20meat/Flat/cut_of_meat_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "97747b5c73ad05a702f1212803ac7d2c9043bc7331381f4527c748da1c2bbb2f"
+  },
+  {
+    "key": "color-belt",
+    "file": "color-belt.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "cd1e5acc1969ad2596939bdec2d5de6881c54b676f3f719bc0ecf85a1c44d71f"
+  },
+  {
+    "key": "color-bike",
+    "file": "color-bike.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bicycle/Flat/bicycle_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "c99619aadc6335ef6549b6a2a66255b47ec7b1d51ea1c779e4b2401c961e28fd"
+  },
+  {
+    "key": "color-bird",
+    "file": "color-bird.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bird/Flat/bird_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "4637f075bf0c833243c3af0ac1590fb9e7a0ce4f5a09f9ccc03fa82520c78860"
+  },
+  {
+    "key": "color-book-open",
+    "file": "color-book-open.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Open%20book/Flat/open_book_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "9d9729b319ff96fc53ab016f5e1d7abac264dbd506b0c7580ce3aa4834856c83"
+  },
+  {
+    "key": "color-boot",
+    "file": "color-boot.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hiking%20boot/Flat/hiking_boot_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "ad22db46139c3b7ff6c8bf6a09944a2d2648106c8c1a26d28bbbb75ef0b45caf"
+  },
+  {
+    "key": "color-bread",
+    "file": "color-bread.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bread/Flat/bread_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "da958d4ddf04abf568f1d29379c9e6d63be353056c54b28077b4767b8e56a61f"
+  },
+  {
+    "key": "color-bridge",
+    "file": "color-bridge.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "53cee38089120de474f363d88b1536092abc998551ab0338e835369b9a2c431b"
+  },
+  {
+    "key": "color-building-complex",
+    "file": "color-building-complex.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Office%20building/Flat/office_building_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "529c1af3ceb92f676df6e1a8a7f6a172f6a91412010afde819c96e3bb7e34afb"
+  },
+  {
+    "key": "color-bus",
+    "file": "color-bus.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bus/Flat/bus_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "77d362d39f4d763da988b477ee5445a9c412566b3b0c49dc26cf938fe4e4c11b"
+  },
+  {
+    "key": "color-butterfly",
+    "file": "color-butterfly.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Butterfly/Flat/butterfly_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "5760a2ebc8344f5725809ceef5508ecaaeff10bac766b1b4d7ea22ee7343e0c1"
+  },
+  {
+    "key": "color-car",
+    "file": "color-car.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Automobile/Flat/automobile_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "e8d79a1eff2e7184f914f43fd7f3096053461c3d1b3d7629673ac26646cc4873"
+  },
+  {
+    "key": "color-carrot",
+    "file": "color-carrot.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Carrot/Flat/carrot_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "22cdc4c9bf47ed5415da5e024eba9d174810bc2faf8adaa2342f1065e3aa16a4"
+  },
+  {
+    "key": "color-cat",
+    "file": "color-cat.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cat/Flat/cat_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "fc2269a65dd6c8f06a9c1f6d00ca9415d58fd475d894373eb55826c2995257e4"
+  },
+  {
+    "key": "color-chair",
+    "file": "color-chair.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Chair/Flat/chair_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "b98f748fe970bcba23d4e07153ebae5b1e43d4dea29696e60e12ba7aacee19f3"
+  },
+  {
+    "key": "color-cheese",
+    "file": "color-cheese.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cheese%20wedge/Flat/cheese_wedge_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "1f1b4ed99aa091e1504242bccf3c8a2fa9fb2c235d728812a0b5bef978f2bcb7"
+  },
+  {
+    "key": "color-circle",
+    "file": "color-circle.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "f0a29212691740543dea5ec595903eb4f507f25ff7bf60e22ebfa88def2c5860"
+  },
+  {
+    "key": "color-citrus",
+    "file": "color-citrus.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Tangerine/Flat/tangerine_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "0d625d3d7d2cf25e21ff9e3d1a3a650d7c764a2f7dbcd250868c32114d2831ec"
+  },
+  {
+    "key": "color-cloud-rain",
+    "file": "color-cloud-rain.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cloud%20with%20rain/Flat/cloud_with_rain_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "68b9480dec9ff80880bff9bad63524dbc65aefdc244ae288031ff9e791c85e78"
+  },
+  {
+    "key": "color-coffee",
+    "file": "color-coffee.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hot%20beverage/Flat/hot_beverage_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "549adcbdf9db29659f21d4e8ea220acafb3a966281d4489527759d6c336f16ff"
+  },
+  {
+    "key": "color-cooking-pot",
+    "file": "color-cooking-pot.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pot%20of%20food/Flat/pot_of_food_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "cac1263f1103385fc35ae8182aea9076f4d59673c449701fd033cca8ae86c050"
+  },
+  {
+    "key": "color-cup-soda",
+    "file": "color-cup-soda.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Teacup%20without%20handle/Flat/teacup_without_handle_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "0e75c310684dbfc0f63de2d62db6aead320d19c37001634df954adcfc806ada0"
+  },
+  {
+    "key": "color-disc",
+    "file": "color-disc.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "55ca08fa121ef10ff1fe78f6d223b8773cf5e5b0ecfa28f65a57d05285634be9"
+  },
+  {
+    "key": "color-dog",
+    "file": "color-dog.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Dog/Flat/dog_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "24ed5f773e303b899a09e5f1b7ad38f7c5d6d8f37d8237546002c2cf13be90a3"
+  },
+  {
+    "key": "color-door-closed",
+    "file": "color-door-closed.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "85f626031915692d9ed772f9313ff3a9bd1d7b732e12070d53b9486e605f4940"
+  },
+  {
+    "key": "color-door-open",
+    "file": "color-door-open.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "8d7e8f14fc85a7815d011116b850867044cc1306d2031786ce7c404b3f2b057d"
+  },
+  {
+    "key": "color-dress",
+    "file": "color-dress.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Dress/Flat/dress_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "ae2bee0a59a675fb89a86f451ea2498e1e6e054ecf05e0801be62ad019c53b19"
+  },
+  {
+    "key": "color-droplet",
+    "file": "color-droplet.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Droplet/Flat/droplet_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "42814a7b9f8e786e08bf8b7643371eed66584225432b202a82aee59936ddc8c5"
+  },
+  {
+    "key": "color-ear",
+    "file": "color-ear.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Ear/Medium-Light/Flat/ear_flat_medium-light.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "2044baa12620126bb2a9757e7b6a4fe2513bd1b6e8715313be1a4373b72853be"
+  },
+  {
+    "key": "color-egg",
+    "file": "color-egg.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Egg/Flat/egg_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "90244b58c383bbf37b5a821fa9670929092522e080fe05a3a03f65d46ac8f981"
+  },
+  {
+    "key": "color-eye",
+    "file": "color-eye.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Eye/Flat/eye_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "d6520c4d950ea265ee460ee27353be7dc13d2b64cf34977a814d9ea59ae36b51"
+  },
+  {
+    "key": "color-face-slightly-frowning",
+    "file": "color-face-slightly-frowning.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Slightly%20frowning%20face/Flat/slightly_frowning_face_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "3f50b894dc226456a9460d3b5f1fc385b724eaa0c962185bd71d0494afb68d50"
+  },
+  {
+    "key": "color-face-slightly-smiling",
+    "file": "color-face-slightly-smiling.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Smiling%20face%20with%20smiling%20eyes/Flat/smiling_face_with_smiling_eyes_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "3efc3ecf5639f8631eca3504805d9772f246f97668dfcdd47dfdd53f9af8e696"
+  },
+  {
+    "key": "color-file",
+    "file": "color-file.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Page%20facing%20up/Flat/page_facing_up_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "badb7a4e7b6d0b98d9120af1fe70a67e17d94c66777d86444b7cc4159a81dfc4"
+  },
+  {
+    "key": "color-finger",
+    "file": "color-finger.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Index%20pointing%20up/Medium-Light/Flat/index_pointing_up_flat_medium-light.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "43bced83239ab47ac7cfd4f1e5528f3dbbfe4bd9bb87226353c342092096ee6f"
+  },
+  {
+    "key": "color-fish",
+    "file": "color-fish.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fish/Flat/fish_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "04adfcb9239a27e1ba72937463dae4d9d990928d7aa2eb19325d8611a98c4b40"
+  },
+  {
+    "key": "color-flower-2",
+    "file": "color-flower-2.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Blossom/Flat/blossom_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "d316c3b0ce1d1a2169905182ae6da68c0e19b9739950047b6d946b0b2c5fc8e5"
+  },
+  {
+    "key": "color-footprints",
+    "file": "color-footprints.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "ddd18be1b4428df646efade50ffa55a115cf1dd8452b4a508f484a7b7c794a60"
+  },
+  {
+    "key": "color-fork",
+    "file": "color-fork.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "9245b3abfb9483c24ee1bfb09069976b7352fd15f123c4338fea6f92d6de08c1"
+  },
+  {
+    "key": "color-glass-water",
+    "file": "color-glass-water.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "b063b070fc43c239a24413eb39912976d61685831dffcd679c7931f92d83580b"
+  },
+  {
+    "key": "color-glove",
+    "file": "color-glove.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Gloves/Flat/gloves_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "5e66088b5d79b37de194b1d169b7b7e66075dd0de4c8243cc4a41f89b4356f25"
+  },
+  {
+    "key": "color-grape",
+    "file": "color-grape.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Grapes/Flat/grapes_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "60eeb2a158b06b26286ac93bd30cba8d6ab3cbf75fe2410dfe128c26aa1700f5"
+  },
+  {
+    "key": "color-hand",
+    "file": "color-hand.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Raised%20hand/Medium-Light/Flat/raised_hand_flat_medium-light.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "5779fe5a51dc476342e93770b0ccd2233b255eac6d634c83a64d133c775e17d0"
+  },
+  {
+    "key": "color-hat",
+    "file": "color-hat.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Womans%20hat/Flat/womans_hat_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "5fa1f5ee0308d52a0d47b01ea3b2c9cd9789ee748390d014af370dba027e4e79"
+  },
+  {
+    "key": "color-head",
+    "file": "color-head.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "361a88708f348c30fbcf86ca6da1309daf634db5768ef6fcec22ba639fc3378c"
+  },
+  {
+    "key": "color-hospital",
+    "file": "color-hospital.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Hospital/Flat/hospital_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "dcbe724ca840217fe457ffa164416d0c6c00e6abcd7932ed441a1075c346d478"
+  },
+  {
+    "key": "color-house",
+    "file": "color-house.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/House/Flat/house_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "9991541d42827da109e4c73ffa5130683fcefdd0c6be31b35769cb4a6a86c244"
+  },
+  {
+    "key": "color-key-round",
+    "file": "color-key-round.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Key/Flat/key_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "b2ed24b8528ebc6f8e9d6a561f57fd721cc5d76f79447a00fc221c8e6f9719d0"
+  },
+  {
+    "key": "color-knife",
+    "file": "color-knife.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Kitchen%20knife/Flat/kitchen_knife_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "0614c7640faf73003543be434a6ef834924c49b78f40e7702cc37d2abfc6c634"
+  },
+  {
+    "key": "color-library-big",
+    "file": "color-library-big.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "328a7a101748558ae6debd5070069cc7f4329af264b07d4485cd378a99716ba6"
+  },
+  {
+    "key": "color-milk",
+    "file": "color-milk.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Glass%20of%20milk/Flat/glass_of_milk_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "656dbf1024bb650ba867767875a3f3129f53f5f1b07fc9dd7f44986284289c18"
+  },
+  {
+    "key": "color-moon",
+    "file": "color-moon.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Crescent%20moon/Flat/crescent_moon_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "6ca1853aff580adab796988436f7d45c57ef08e4561ffb0a80868c9714739669"
+  },
+  {
+    "key": "color-mouth",
+    "file": "color-mouth.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Mouth/Flat/mouth_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "1d54348e43c4fc8426b96d12fc2cd98150e47dffdaa25b86c3a971eef521d26f"
+  },
+  {
+    "key": "color-music",
+    "file": "color-music.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Musical%20notes/Flat/musical_notes_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "89413e159c6d6d175f328f72cdbe8326b04952ec28b0408939694c08681af98e"
+  },
+  {
+    "key": "color-nose",
+    "file": "color-nose.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Nose/Medium-Light/Flat/nose_flat_medium-light.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "b76ffa7e4f5190f033cd7f57a721afd937f7eaf2f9e512a4566020fb05ebba36"
+  },
+  {
+    "key": "color-notebook",
+    "file": "color-notebook.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Notebook/Flat/notebook_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "6f348f996f5f4a62e947979660bb00aa7611b78b959e42fd617a9dce727161aa"
+  },
+  {
+    "key": "color-number-1",
+    "file": "color-number-1.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "69a6709c718c129dfba19075ecbc7f28905ae0bfe6a5dbf6d5080f3cfd4b78f6"
+  },
+  {
+    "key": "color-number-10",
+    "file": "color-number-10.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "0a3e69e9e7862b372b1c2f5c3100eb9e6ddbb286f42bdcb43b0c95c9c9d96fca"
+  },
+  {
+    "key": "color-number-2",
+    "file": "color-number-2.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "50a63aed3c8d6b86898bf720edd5f37ae16305feae4457ed180214c61f32fb33"
+  },
+  {
+    "key": "color-number-3",
+    "file": "color-number-3.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "4af25539940dd917c24bd7f5f90748c3214d9ab42b57a6525f29ede47da3ba19"
+  },
+  {
+    "key": "color-number-4",
+    "file": "color-number-4.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "02848613bfd3aa6d4bf8612b29793d17ddf6890749d4876a3f244d5b8fe75331"
+  },
+  {
+    "key": "color-number-5",
+    "file": "color-number-5.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "beb853c7ce4f33bed74200be5ac5e0747955953d40f946a2533171a6e9fca553"
+  },
+  {
+    "key": "color-number-6",
+    "file": "color-number-6.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "fcbad01cea31bb35ac5c50bf5b1d03edafa816f16ea1defa5a4ff9febf78f095"
+  },
+  {
+    "key": "color-number-7",
+    "file": "color-number-7.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "09a004df188984ea610fc66bcbcadb0291fe1c63788cc9af4a07d7e8f8f16d0b"
+  },
+  {
+    "key": "color-number-8",
+    "file": "color-number-8.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "499cd791248e92f3629a127025e1420aa2ba73db3ac0eeece18d76684df6f4cb"
+  },
+  {
+    "key": "color-number-9",
+    "file": "color-number-9.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "85a26aabedf9b32752534f0c29392e12673e5e4cd46008429616f7c0cbed3b4a"
+  },
+  {
+    "key": "color-pen",
+    "file": "color-pen.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pen/Flat/pen_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "cf2134d1121a63138c81c831cf8af2df56a0e42e00f33e4e1185a4c88b5b5524"
+  },
+  {
+    "key": "color-pencil",
+    "file": "color-pencil.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pencil/Flat/pencil_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "6ff8247813ab1efd3298747625fd7f6759277d844a19d4fc595fe414fab143a7"
+  },
+  {
+    "key": "color-plane",
+    "file": "color-plane.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Airplane/Flat/airplane_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "6438f560cadea9825b34011f73de480e76a934845f5b78b4028ac03408645e46"
+  },
+  {
+    "key": "color-plane-takeoff",
+    "file": "color-plane-takeoff.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Airplane%20departure/Flat/airplane_departure_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "1e4bfeef1e9409a19d7eeddfdc15dc7392f0ba0310639601d9a9a9e8c361866a"
+  },
+  {
+    "key": "color-rabbit",
+    "file": "color-rabbit.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Rabbit/Flat/rabbit_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "c24df0f48873b41df0c4fa0940d4042221534fa35f1e8621b4c108305fd83eed"
+  },
+  {
+    "key": "color-route",
+    "file": "color-route.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "41cbdc4c527c327c0a1fb2c4c527a55d23f3805dbd0aaf47db95309a4b331147"
+  },
+  {
+    "key": "color-ruler",
+    "file": "color-ruler.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Straight%20ruler/Flat/straight_ruler_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "10d033eb02b4d728468e56af2789b521fc991c614724860a4bd97dac92f69590"
+  },
+  {
+    "key": "color-scarf",
+    "file": "color-scarf.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Scarf/Flat/scarf_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "77741f98f4cd8e6ae8272bb50b5b46bff51a171a0bfd1cb842a1acef8103f925"
+  },
+  {
+    "key": "color-school",
+    "file": "color-school.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/School/Flat/school_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "13ea3e0bf1b1d1bc497db77012ee536f7a8695a4c2c89955eada1133f02d1935"
+  },
+  {
+    "key": "color-scissors",
+    "file": "color-scissors.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Scissors/Flat/scissors_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "9e270a9130908fcb03ab83da8dda9a6309099bef424a57e6603428463312cbfb"
+  },
+  {
+    "key": "color-shirt",
+    "file": "color-shirt.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "8141234922ed7570e3b621a155a81d9e7d38b5e41e593914d506090631c639b7"
+  },
+  {
+    "key": "color-shoe",
+    "file": "color-shoe.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Running%20shoe/Flat/running_shoe_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "519c093c3146aac92c013db55b2663a230ac48943930957a0343fd83e15d1286"
+  },
+  {
+    "key": "color-skirt",
+    "file": "color-skirt.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "a680062c23ab9654182ccc63734c5b84a0c8d78326b23991d478fd0b2bb64992"
+  },
+  {
+    "key": "color-snowflake",
+    "file": "color-snowflake.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Snowflake/Flat/snowflake_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "6ca65fc8c8cc607968bcaf3032a93926ed2f9c94b1835c661bdb181588506de1"
+  },
+  {
+    "key": "color-soap",
+    "file": "color-soap.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Soap/Flat/soap_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "829368b5156a38e7651562ef392372e595dd8cd5976715c6f40a60103ed8cb92"
+  },
+  {
+    "key": "color-sock",
+    "file": "color-sock.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Socks/Flat/socks_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "cdd169ec61f88fd2f481b725a1632dabd5ab97c97fcc1488abcdb1d789fbf69a"
+  },
+  {
+    "key": "color-soup",
+    "file": "color-soup.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "5e513f9059ab725800036a778cac9a6680c498189497d284772e726d11543e1b"
+  },
+  {
+    "key": "color-spoon",
+    "file": "color-spoon.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Spoon/Flat/spoon_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "08d314267e09ffe7b11212e19e3a699e501e156a1d9187572b277077707f0b21"
+  },
+  {
+    "key": "color-square",
+    "file": "color-square.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "788ac87a56a802d59c49c3b9e2e50c39600f7fcbe5d301268e78a2e72c101284"
+  },
+  {
+    "key": "color-store",
+    "file": "color-store.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "95c104819d7a90f8416c61e1fadf6f74ff80a5087a8285521c7f2d794d31e594"
+  },
+  {
+    "key": "color-sun",
+    "file": "color-sun.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sun/Flat/sun_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "ed7232f3f03808da64a68b22ca11ba3913c3fbbd48ad92bd17b6e3da5d76a3d9"
+  },
+  {
+    "key": "color-table",
+    "file": "color-table.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "3bade1b7c3f41c326c1af26f974afb2aa13f3eb93687f54e37b05d53a8ceed7a"
+  },
+  {
+    "key": "color-thermometer-sun",
+    "file": "color-thermometer-sun.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Thermometer/Flat/thermometer_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "626a7d9928cc2c90066979845033b7c06a547f551cf7ae37669434137198a141"
+  },
+  {
+    "key": "color-tooth",
+    "file": "color-tooth.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Tooth/Flat/tooth_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "e9e3f8613242cf7c311d9a866dec06f4cc800f215a3a09e20a5e271ffebeb56b"
+  },
+  {
+    "key": "color-toy-brick",
+    "file": "color-toy-brick.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "8f01cdbf0775a62105fe23ef35c9ef08b604cbe046b3be50a7754e4f191c9454"
+  },
+  {
+    "key": "color-train-front",
+    "file": "color-train-front.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Train/Flat/train_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "3e240f4d4031074850fd29c42af78cbcf1cd08cb043c6c891a15a7d5e9a7f8c9"
+  },
+  {
+    "key": "color-tree-deciduous",
+    "file": "color-tree-deciduous.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Deciduous%20tree/Flat/deciduous_tree_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "4eb73998f3a986e2aa3003a79b59995a976ad839ea7e9b8abf4cece1e2d4c3c4"
+  },
+  {
+    "key": "color-trees",
+    "file": "color-trees.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "1c944b7e7ee2edad92600d943feb69ede4bd0b639fc5e0ee007f700c9f6fa5e9"
+  },
+  {
+    "key": "color-triangle",
+    "file": "color-triangle.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "634def1ed5b1dd7fcfc8c42e5232fe7ed1bf372a16c7a6b26e1d3f4a146e7d50"
+  },
+  {
+    "key": "color-trousers",
+    "file": "color-trousers.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Jeans/Flat/jeans_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "e5cb471aed4eba33edc9389b19fff1b70600a2d251fcdd2879c59d99aa282543"
+  },
+  {
+    "key": "color-users",
+    "file": "color-users.png",
+    "credit": "Original AlboTeach colored object illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "New original colored illustration, not derived from outline assets; transparent padded canvas; PNG conversion",
+    "sha256_svg": "8c31737720e547a20c11a42d6c5927a92268429fc0fc2d187df226ae75d577d5"
+  },
+  {
+    "key": "color-utensils",
+    "file": "color-utensils.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Fork%20and%20knife/Flat/fork_and_knife_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "a7a779777ef71e5ff2994b5b2b1c4b21b8e1965dc369fbf5acf9abded2a8ef84"
+  },
+  {
+    "key": "color-volleyball",
+    "file": "color-volleyball.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Volleyball/Flat/volleyball_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "25a750da342af057598a99d9bb48b74c0e7d7a0fb5f4b089f27237e0d6a11bf8"
+  },
+  {
+    "key": "color-window",
+    "file": "color-window.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Window/Flat/window_flat.svg",
+    "changes": "Original colors and shapes; 12% transparent margin added on every side; SVG converted to PNG",
+    "sha256_svg": "a99bf1a5b9415a65500200e6e1c73a02141622cc3ccf81566ee03ba7bd8710df"
+  },
+  {
+    "key": "color-arm",
+    "file": "color-arm.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Flexed%20biceps/Medium-Light/Flat/flexed_biceps_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "78b09f1e044e5108c81884489c8c9c653bc4d589bf47705c989b1bd37fe060b6"
+  },
+  {
+    "key": "color-back",
+    "file": "color-back.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "0709aff9e2b881e9a7a269541742c3d8eb2ec75d786b889f4ddbf67928ceb0b6"
+  },
+  {
+    "key": "color-belly",
+    "file": "color-belly.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "ac3fd7dc67d273d75ae4df49fbd4260f5ca7d17c0ded8caa02d3e1805c0dfe96"
+  },
+  {
+    "key": "color-big",
+    "file": "color-big.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "ab1832f983641a0b4ba533d84c640e0a9b668212ede375f436c2784fc9b181ee"
+  },
+  {
+    "key": "color-blanket",
+    "file": "color-blanket.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "698dafab56c14e866a08a688901a5453fdbaccd85dd979223c85798420558976"
+  },
+  {
+    "key": "color-boy",
+    "file": "color-boy.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Boy/Medium-Light/Flat/boy_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "fee23cd170b3034c1f662cfe5090c0eb20c3b452d5ef4004634185ccae574fef"
+  },
+  {
+    "key": "color-cap",
+    "file": "color-cap.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Billed%20cap/Flat/billed_cap_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "096c59d0d72f4a8cbde94ac592a18c2b95779f9e047daeed6fe420e9e23bc297"
+  },
+  {
+    "key": "color-child",
+    "file": "color-child.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Child/Medium-Light/Flat/child_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "42e384e0057e9c842a24c8dd45529b90851a0f3f2e351753df7e4ea126da7fb5"
+  },
+  {
+    "key": "color-coat",
+    "file": "color-coat.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Coat/Flat/coat_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "f209333386b4607161065e7e85b83826a55b2f24bc1b0dfc2443a2cb2968212d"
+  },
+  {
+    "key": "color-cow",
+    "file": "color-cow.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cow/Flat/cow_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "53c8b309bedf4215ce3beae9f52efbdce56b407423fff374512b3ae379baec95"
+  },
+  {
+    "key": "color-crayon",
+    "file": "color-crayon.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Crayon/Flat/crayon_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "008347bd11f8d885da011e2bab5e16c55610675269f42919dcbbdd438b0724ae"
+  },
+  {
+    "key": "color-cucumber",
+    "file": "color-cucumber.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cucumber/Flat/cucumber_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "5d7eba439940b966f1c13a78027bc0ea43b8de47f02a9a6d07e031bc13ca685b"
+  },
+  {
+    "key": "color-doll",
+    "file": "color-doll.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "a33653c93884075a1a02372ce69ac52dfaa12f923a9107462b1d17c3efcfef0a"
+  },
+  {
+    "key": "color-female-teacher",
+    "file": "color-female-teacher.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Woman%20teacher/Medium-Light/Flat/woman_teacher_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "269ed534651e8f67072a64e87f1d106c088a39345cf64e3dbbc643ef027232cb"
+  },
+  {
+    "key": "color-game",
+    "file": "color-game.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Game%20die/Flat/game_die_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "85e8c85631f457f7ed712bc314398e6646921703f2617410a2c859ed9c8104ed"
+  },
+  {
+    "key": "color-girl",
+    "file": "color-girl.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Girl/Medium-Light/Flat/girl_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "61d80ef72a70cc1930c6668f09a5170cb624f09a1b745b0714296e18765c9f1d"
+  },
+  {
+    "key": "color-grandfather",
+    "file": "color-grandfather.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Old%20man/Medium-Light/Flat/old_man_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "0ca32cc9cc32cb42ec028d47e0c0fc8e43b5cb1f92369eec2adc89b8a60d4779"
+  },
+  {
+    "key": "color-grandmother",
+    "file": "color-grandmother.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Old%20woman/Medium-Light/Flat/old_woman_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "7b877aaa4ec5052aa435c2928f3eccfbde3f72c57613712c47d6ba229996e2e9"
+  },
+  {
+    "key": "color-hair",
+    "file": "color-hair.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "72aa199fb728935cca7697e9788a6d19780d0384f1556ca0023b4884942c82f1"
+  },
+  {
+    "key": "color-horse",
+    "file": "color-horse.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Horse/Flat/horse_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "51cfb162f05fd03e46df171ee108393ec8ec9cc36a03910c4993aa043fa0ab57"
+  },
+  {
+    "key": "color-jacket",
+    "file": "color-jacket.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "ecff58e4badff75d845aa70e5f5ec3812f564a472ddff0f69a1adbe54e377915"
+  },
+  {
+    "key": "color-knee",
+    "file": "color-knee.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "7398fe7a2618a868c707cc04c29063ec9649faa9b6416108f0bbfc4555c4e2bb"
+  },
+  {
+    "key": "color-leg",
+    "file": "color-leg.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Leg/Medium-Light/Flat/leg_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "ece524ba7603abebed95696b5f25518b8b1391836e66e5d88fc7795c4e8bbd9a"
+  },
+  {
+    "key": "color-male-teacher",
+    "file": "color-male-teacher.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Man%20teacher/Medium-Light/Flat/man_teacher_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "409589e787aa5e6569f2ca4fd342451d075afe45479c03368a082ed340afceab"
+  },
+  {
+    "key": "color-man",
+    "file": "color-man.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Man/Medium-Light/Flat/man_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "528b9be91bd512bab82cacc1ce5c5b9d150022bb7cafc771beaff20fe883b8db"
+  },
+  {
+    "key": "color-onion",
+    "file": "color-onion.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Onion/Flat/onion_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "a55dfac31621c72f9f99b211edc3adf572afd5f950cc4ded194673a0f765d666"
+  },
+  {
+    "key": "color-pajamas",
+    "file": "color-pajamas.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "d7ff6f78221d80ba7f575327ebcb5557f840a0852ea5d0b3ae9c70f68f6095cc"
+  },
+  {
+    "key": "color-parents",
+    "file": "color-parents.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "b84564698a470ce8366c7ef3e82eadc883b5f824601847267c5c308fab5f1e91"
+  },
+  {
+    "key": "color-pear",
+    "file": "color-pear.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Pear/Flat/pear_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "ccc9d0436335ece63869e7492259bdbccf207759e19d3f70ee0f2d7c29aae1ce"
+  },
+  {
+    "key": "color-pepper",
+    "file": "color-pepper.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Bell%20pepper/Flat/bell_pepper_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "4577177d7412350cd7ce6bd9d77b82664711f80d4120ee9786b4b0af4cc4244e"
+  },
+  {
+    "key": "color-pillow",
+    "file": "color-pillow.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "16c1b1cdbb7c316829abb0d994f076aa8ff18bb39586fce50ca5167557374c69"
+  },
+  {
+    "key": "color-potato",
+    "file": "color-potato.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Potato/Flat/potato_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "962076877679b3c1bd1f51b328ea2368a5ed114fb8d5cf8f01b3aafccde8922b"
+  },
+  {
+    "key": "color-rice",
+    "file": "color-rice.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cooked%20rice/Flat/cooked_rice_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "ea58063c2cfe2c830838b33433321ffada57740ef205dacc23e22e6302fa777d"
+  },
+  {
+    "key": "color-room",
+    "file": "color-room.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "1876d4ab3255813cbb766b17239b334f82bde3b4959ee7a7f7d6f50f89f3a928"
+  },
+  {
+    "key": "color-running",
+    "file": "color-running.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Person%20running/Medium-Light/Flat/person_running_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "11cd16326e0df95afbd45c3a5ed3dac516e98d7737e1d4b12ff827954162fe3e"
+  },
+  {
+    "key": "color-salt",
+    "file": "color-salt.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Salt/Flat/salt_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "016106b64ddc832202503d9e716c1775e586e0ab8ecb6316d17b3eee2de50c7e"
+  },
+  {
+    "key": "color-sheep",
+    "file": "color-sheep.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Ewe/Flat/ewe_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "a0fb99d7022ba07dc4c700e6b8f7d994244c34e44827144bcaa8a0ca7ca47877"
+  },
+  {
+    "key": "color-small",
+    "file": "color-small.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "79e739812fc770690215da296851e0bc15e7c47f0666a628ed2132ed1454ae48"
+  },
+  {
+    "key": "color-strawberry",
+    "file": "color-strawberry.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Strawberry/Flat/strawberry_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "ad7baa2e838eb71adf509a691271bc6170cee23fba295be4ef291d79a3149405"
+  },
+  {
+    "key": "color-sugar",
+    "file": "color-sugar.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "902e6677ea255e242a8e56dbb6d2f230b09d6ed0fec33090acba963e0a03c64b"
+  },
+  {
+    "key": "color-swatch-black",
+    "file": "color-swatch-black.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "4296e5794d24f0aa2e31c76d08e111633658c9a7ed9b930962b35947eb70f8c5"
+  },
+  {
+    "key": "color-swatch-blue",
+    "file": "color-swatch-blue.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "18d9b9f7af58f54bca23e3b7fb3d1037202f0bd6f40cece80caf01c792f32f2b"
+  },
+  {
+    "key": "color-swatch-brown",
+    "file": "color-swatch-brown.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "4d7b932931e9c36db2915fee2e33c1951501562a7512f2b8759f4da8dc0c1e67"
+  },
+  {
+    "key": "color-swatch-green",
+    "file": "color-swatch-green.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "7dfb5f19d2091a0ba546dfded029e0833239ad3f8e25d3f1716be74b7f8d8b4f"
+  },
+  {
+    "key": "color-swatch-red",
+    "file": "color-swatch-red.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "ef05c14016dc7b739e4b5019a85958c8c54a3256326707393e80a655f190b410"
+  },
+  {
+    "key": "color-swatch-white",
+    "file": "color-swatch-white.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "ce98f470acba01fd73b6762723f674c830ef7d0923f9e9e7a0eaa55b1a02c4fa"
+  },
+  {
+    "key": "color-swatch-yellow",
+    "file": "color-swatch-yellow.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "9afaf9b69836c6830c499a3710f2b1a1a1e41da4f5de5254e3d541421c35ce21"
+  },
+  {
+    "key": "color-tomato",
+    "file": "color-tomato.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Tomato/Flat/tomato_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "d6a2ef5028bc5961cef14061baeddb500c50ee546a06adc3706629fe9a87ac6f"
+  },
+  {
+    "key": "color-tongue",
+    "file": "color-tongue.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Tongue/Flat/tongue_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "1401bceef7c78c5f6401e7b0f43b040750cbee59e09c5e79f9cdff415198e941"
+  },
+  {
+    "key": "color-towel",
+    "file": "color-towel.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "f6249cf0200a031b08a1ca49113dddecc42c9a985df8d4a5af87fd29d70d6edc"
+  },
+  {
+    "key": "color-walking",
+    "file": "color-walking.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Person%20walking/Medium-Light/Flat/person_walking_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "75927b0544d751c6dfd88f2bf0280844bf230a3b48c571045efacd628d9c02b5"
+  },
+  {
+    "key": "color-woman",
+    "file": "color-woman.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Woman/Medium-Light/Flat/woman_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "5570ff96ca040bb65c512fd4695345029ef6cef1c14602c2f44e6c8165c178f0"
+  },
+  {
+    "key": "color-yogurt",
+    "file": "color-yogurt.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "7c45dd1aae008a2f3e3ded83c4cbdde193358ab2e7e6a778ab6cf1e755472167"
   }
 ]

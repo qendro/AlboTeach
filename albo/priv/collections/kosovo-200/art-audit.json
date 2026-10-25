@@ -1,0 +1,433 @@
+{
+  "method": "Sum of alpha coverage / 512 × 512 pixels. Black art on transparency. Image area only; not measured printer ink use.",
+  "images": [
+    {
+      "key": "line-alarm-clock",
+      "ink_fraction": 0.1027
+    },
+    {
+      "key": "line-apple",
+      "ink_fraction": 0.0938
+    },
+    {
+      "key": "line-baby",
+      "ink_fraction": 0.0922
+    },
+    {
+      "key": "line-backpack",
+      "ink_fraction": 0.1495
+    },
+    {
+      "key": "line-banana",
+      "ink_fraction": 0.1119
+    },
+    {
+      "key": "line-bath",
+      "ink_fraction": 0.095
+    },
+    {
+      "key": "line-bed",
+      "ink_fraction": 0.1043
+    },
+    {
+      "key": "line-beef",
+      "ink_fraction": 0.1347
+    },
+    {
+      "key": "line-belt",
+      "ink_fraction": 0.1235
+    },
+    {
+      "key": "line-bike",
+      "ink_fraction": 0.096
+    },
+    {
+      "key": "line-bird",
+      "ink_fraction": 0.1034
+    },
+    {
+      "key": "line-book-open",
+      "ink_fraction": 0.1192
+    },
+    {
+      "key": "line-boot",
+      "ink_fraction": 0.1345
+    },
+    {
+      "key": "line-bread",
+      "ink_fraction": 0.1128
+    },
+    {
+      "key": "line-bridge",
+      "ink_fraction": 0.14
+    },
+    {
+      "key": "line-building-complex",
+      "ink_fraction": 0.1597
+    },
+    {
+      "key": "line-bus",
+      "ink_fraction": 0.1452
+    },
+    {
+      "key": "line-butterfly",
+      "ink_fraction": 0.1313
+    },
+    {
+      "key": "line-car",
+      "ink_fraction": 0.0962
+    },
+    {
+      "key": "line-carrot",
+      "ink_fraction": 0.1109
+    },
+    {
+      "key": "line-cat",
+      "ink_fraction": 0.0996
+    },
+    {
+      "key": "line-chair",
+      "ink_fraction": 0.1122
+    },
+    {
+      "key": "line-cheese",
+      "ink_fraction": 0.1283
+    },
+    {
+      "key": "line-circle",
+      "ink_fraction": 0.0872
+    },
+    {
+      "key": "line-citrus",
+      "ink_fraction": 0.1457
+    },
+    {
+      "key": "line-cloud-rain",
+      "ink_fraction": 0.0821
+    },
+    {
+      "key": "line-coffee",
+      "ink_fraction": 0.0998
+    },
+    {
+      "key": "line-cooking-pot",
+      "ink_fraction": 0.1145
+    },
+    {
+      "key": "line-cup-soda",
+      "ink_fraction": 0.0921
+    },
+    {
+      "key": "line-disc",
+      "ink_fraction": 0.1047
+    },
+    {
+      "key": "line-dog",
+      "ink_fraction": 0.1124
+    },
+    {
+      "key": "line-door-closed",
+      "ink_fraction": 0.0955
+    },
+    {
+      "key": "line-door-open",
+      "ink_fraction": 0.1212
+    },
+    {
+      "key": "line-dress",
+      "ink_fraction": 0.1059
+    },
+    {
+      "key": "line-droplet",
+      "ink_fraction": 0.0694
+    },
+    {
+      "key": "line-ear",
+      "ink_fraction": 0.0832
+    },
+    {
+      "key": "line-egg",
+      "ink_fraction": 0.0784
+    },
+    {
+      "key": "line-eye",
+      "ink_fraction": 0.0986
+    },
+    {
+      "key": "line-face-slightly-frowning",
+      "ink_fraction": 0.1016
+    },
+    {
+      "key": "line-face-slightly-smiling",
+      "ink_fraction": 0.1066
+    },
+    {
+      "key": "line-file",
+      "ink_fraction": 0.107
+    },
+    {
+      "key": "line-finger",
+      "ink_fraction": 0.0906
+    },
+    {
+      "key": "line-fish",
+      "ink_fraction": 0.1498
+    },
+    {
+      "key": "line-flower-2",
+      "ink_fraction": 0.1538
+    },
+    {
+      "key": "line-footprints",
+      "ink_fraction": 0.1157
+    },
+    {
+      "key": "line-fork",
+      "ink_fraction": 0.0786
+    },
+    {
+      "key": "line-glass-water",
+      "ink_fraction": 0.0997
+    },
+    {
+      "key": "line-glove",
+      "ink_fraction": 0.1261
+    },
+    {
+      "key": "line-grape",
+      "ink_fraction": 0.181
+    },
+    {
+      "key": "line-hand",
+      "ink_fraction": 0.1228
+    },
+    {
+      "key": "line-hat",
+      "ink_fraction": 0.113
+    },
+    {
+      "key": "line-head",
+      "ink_fraction": 0.0782
+    },
+    {
+      "key": "line-hospital",
+      "ink_fraction": 0.1558
+    },
+    {
+      "key": "line-house",
+      "ink_fraction": 0.1185
+    },
+    {
+      "key": "line-key-round",
+      "ink_fraction": 0.0948
+    },
+    {
+      "key": "line-knife",
+      "ink_fraction": 0.0749
+    },
+    {
+      "key": "line-library-big",
+      "ink_fraction": 0.1502
+    },
+    {
+      "key": "line-milk",
+      "ink_fraction": 0.0923
+    },
+    {
+      "key": "line-moon",
+      "ink_fraction": 0.083
+    },
+    {
+      "key": "line-mouth",
+      "ink_fraction": 0.0936
+    },
+    {
+      "key": "line-music",
+      "ink_fraction": 0.1215
+    },
+    {
+      "key": "line-nose",
+      "ink_fraction": 0.0374
+    },
+    {
+      "key": "line-notebook",
+      "ink_fraction": 0.1431
+    },
+    {
+      "key": "line-number-1",
+      "ink_fraction": 0.0393
+    },
+    {
+      "key": "line-number-10",
+      "ink_fraction": 0.114
+    },
+    {
+      "key": "line-number-2",
+      "ink_fraction": 0.0715
+    },
+    {
+      "key": "line-number-3",
+      "ink_fraction": 0.0722
+    },
+    {
+      "key": "line-number-4",
+      "ink_fraction": 0.063
+    },
+    {
+      "key": "line-number-5",
+      "ink_fraction": 0.0715
+    },
+    {
+      "key": "line-number-6",
+      "ink_fraction": 0.0809
+    },
+    {
+      "key": "line-number-7",
+      "ink_fraction": 0.0495
+    },
+    {
+      "key": "line-number-8",
+      "ink_fraction": 0.0857
+    },
+    {
+      "key": "line-number-9",
+      "ink_fraction": 0.0796
+    },
+    {
+      "key": "line-pen",
+      "ink_fraction": 0.0816
+    },
+    {
+      "key": "line-pencil",
+      "ink_fraction": 0.0883
+    },
+    {
+      "key": "line-plane",
+      "ink_fraction": 0.1098
+    },
+    {
+      "key": "line-plane-takeoff",
+      "ink_fraction": 0.1095
+    },
+    {
+      "key": "line-rabbit",
+      "ink_fraction": 0.1292
+    },
+    {
+      "key": "line-route",
+      "ink_fraction": 0.1207
+    },
+    {
+      "key": "line-ruler",
+      "ink_fraction": 0.096
+    },
+    {
+      "key": "line-scarf",
+      "ink_fraction": 0.121
+    },
+    {
+      "key": "line-school",
+      "ink_fraction": 0.1593
+    },
+    {
+      "key": "line-scissors",
+      "ink_fraction": 0.0932
+    },
+    {
+      "key": "line-shirt",
+      "ink_fraction": 0.1051
+    },
+    {
+      "key": "line-shoe",
+      "ink_fraction": 0.112
+    },
+    {
+      "key": "line-skirt",
+      "ink_fraction": 0.1308
+    },
+    {
+      "key": "line-snowflake",
+      "ink_fraction": 0.1266
+    },
+    {
+      "key": "line-soap",
+      "ink_fraction": 0.1091
+    },
+    {
+      "key": "line-sock",
+      "ink_fraction": 0.0989
+    },
+    {
+      "key": "line-soup",
+      "ink_fraction": 0.1063
+    },
+    {
+      "key": "line-spoon",
+      "ink_fraction": 0.0546
+    },
+    {
+      "key": "line-square",
+      "ink_fraction": 0.0952
+    },
+    {
+      "key": "line-store",
+      "ink_fraction": 0.1409
+    },
+    {
+      "key": "line-sun",
+      "ink_fraction": 0.0641
+    },
+    {
+      "key": "line-table",
+      "ink_fraction": 0.0856
+    },
+    {
+      "key": "line-thermometer-sun",
+      "ink_fraction": 0.0976
+    },
+    {
+      "key": "line-tooth",
+      "ink_fraction": 0.1014
+    },
+    {
+      "key": "line-toy-brick",
+      "ink_fraction": 0.1125
+    },
+    {
+      "key": "line-train-front",
+      "ink_fraction": 0.1189
+    },
+    {
+      "key": "line-tree-deciduous",
+      "ink_fraction": 0.0796
+    },
+    {
+      "key": "line-trees",
+      "ink_fraction": 0.1
+    },
+    {
+      "key": "line-triangle",
+      "ink_fraction": 0.0844
+    },
+    {
+      "key": "line-trousers",
+      "ink_fraction": 0.1403
+    },
+    {
+      "key": "line-users",
+      "ink_fraction": 0.0936
+    },
+    {
+      "key": "line-utensils",
+      "ink_fraction": 0.1175
+    },
+    {
+      "key": "line-volleyball",
+      "ink_fraction": 0.174
+    },
+    {
+      "key": "line-window",
+      "ink_fraction": 0.136
+    }
+  ]
+}

@@ -2,7 +2,12 @@ defmodule Albo.Learning.Card do
   use Ecto.Schema
   import Ecto.Changeset
   @fields ~w(concept albanian english category difficulty notes source image)a
-  @images ~w(apple banana bread egg milk water house door chair bed fish cat cheese cup rice tree sun car fork-knife spoon dog hand book ball)
+  @quality_fields ~w(quality_language quality_image quality_delete quality_notes)a
+  @external_resource Path.expand("../../../priv/static/images/cards/credits.json", __DIR__)
+  @images @external_resource |> File.read!() |> Jason.decode!() |> Enum.map(& &1["key"])
+  @color_map_path Path.expand("../../../priv/collections/color-art/display-map.json", __DIR__)
+  @external_resource @color_map_path
+  @color_images @color_map_path |> File.read!() |> Jason.decode!()
   schema "cards" do
     field :concept, :string
     field :albanian, :string
@@ -16,11 +21,23 @@ defmodule Albo.Learning.Card do
     field :reviewer, :string
     field :revision, :integer, default: 1
     field :print_count, :integer, default: 0
+    field :quality_language, :boolean, default: false
+    field :quality_image, :boolean, default: false
+    field :quality_delete, :boolean, default: false
+    field :quality_notes, :string, default: ""
     timestamps(type: :utc_datetime)
   end
 
   def images, do: @images
   def fields, do: @fields
+  def quality_fields, do: @quality_fields
+  def display_image(image), do: Map.get(@color_images, image, image)
+
+  def quality_changeset(card, attrs) do
+    card
+    |> cast(attrs, @quality_fields, empty_values: [])
+    |> validate_length(:quality_notes, max: 2000)
+  end
 
   def changeset(card, attrs) do
     card

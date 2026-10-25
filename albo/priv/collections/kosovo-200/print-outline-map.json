@@ -1,0 +1,12 @@
+{
+  "apple": "line-apple",
+  "banana": "line-banana",
+  "bread": "line-bread",
+  "egg": "line-egg",
+  "milk": "line-milk",
+  "water": "line-droplet",
+  "house": "line-house",
+  "door": "line-door-closed",
+  "chair": "line-chair",
+  "bed": "line-bed"
+}

@@ -52,7 +52,7 @@ defmodule AlboWeb.Layouts do
             href="/images/cards/credits.json"
             target="_blank"
             rel="noopener"
-          >Illustrations: Twemoji · CC BY 4.0</a>
+          >Illustration credits · Microsoft, Twemoji, Lucide &amp; AlboTeach</a>
         </footer>
       </div>
     </div>

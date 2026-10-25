@@ -1,0 +1,1322 @@
+{
+  "accessed": "2026-10-24",
+  "limitation": "Headword presence only. English senses and dialect choices are AI proposals; no native verification.",
+  "entries": [
+    {
+      "english": "mother",
+      "lemma": "nënë",
+      "url": "https://fjale.al/n%C3%ABn%C3%AB",
+      "title": "Nënë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "father",
+      "lemma": "babë",
+      "url": "https://fjale.al/bab%C3%AB",
+      "title": "Babë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "sister",
+      "lemma": "motër",
+      "url": "https://fjale.al/mot%C3%ABr",
+      "title": "Motër ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "brother",
+      "lemma": "vëlla",
+      "url": "https://fjale.al/v%C3%ABlla",
+      "title": "Vëlla ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "grandmother",
+      "lemma": "gjyshe",
+      "url": "https://fjale.al/gjyshe",
+      "title": "Gjyshe ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "grandfather",
+      "lemma": "gjysh",
+      "url": "https://fjale.al/gjysh",
+      "title": "Gjysh ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "paternal uncle",
+      "lemma": "xhaxha",
+      "url": "https://fjale.al/xhaxha",
+      "title": "Xhaxha ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "maternal uncle",
+      "lemma": "dajë",
+      "url": "https://fjale.al/daj%C3%AB",
+      "title": "Dajë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "maternal aunt",
+      "lemma": "teze",
+      "url": "https://fjale.al/teze",
+      "title": "Teze ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "paternal aunt",
+      "lemma": "hallë",
+      "url": "https://fjale.al/hall%C3%AB",
+      "title": "Hallë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "girl",
+      "lemma": "çikë",
+      "url": "https://fjale.al/%C3%A7ik%C3%AB",
+      "title": "Çikë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "boy",
+      "lemma": "djalë",
+      "url": "https://fjale.al/djal%C3%AB",
+      "title": "Djalë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "baby",
+      "lemma": "bebe",
+      "url": "https://fjale.al/bebe",
+      "title": "Bebe ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "child",
+      "lemma": "fëmijë",
+      "url": "https://fjale.al/f%C3%ABmij%C3%AB",
+      "title": "Fëmijë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "family",
+      "lemma": "familje",
+      "url": "https://fjale.al/familje",
+      "title": "Familje ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "male cousin",
+      "lemma": "kushëri",
+      "url": "https://fjale.al/kush%C3%ABri",
+      "title": "Kushëri ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "female cousin",
+      "lemma": "kushërirë",
+      "url": "https://fjale.al/kush%C3%ABrir%C3%AB",
+      "title": "Kushërirë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "male friend",
+      "lemma": "shok",
+      "url": "https://fjale.al/shok",
+      "title": "Shok ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "female friend",
+      "lemma": "shoqe",
+      "url": "https://fjale.al/shoqe",
+      "title": "Shoqe ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "parents",
+      "lemma": "prind",
+      "url": "https://fjale.al/prind",
+      "title": "Prind ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "cheese",
+      "lemma": "djathë",
+      "url": "https://fjale.al/djath%C3%AB",
+      "title": "Djathë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "butter",
+      "lemma": "gjalpë",
+      "url": "https://fjale.al/gjalp%C3%AB",
+      "title": "Gjalpë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "yogurt",
+      "lemma": "kos",
+      "url": "https://fjale.al/kos",
+      "title": "Kos ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "meat",
+      "lemma": "mish",
+      "url": "https://fjale.al/mish",
+      "title": "Mish ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "rice",
+      "lemma": "oriz",
+      "url": "https://fjale.al/oriz",
+      "title": "Oriz ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "soup",
+      "lemma": "supë",
+      "url": "https://fjale.al/sup%C3%AB",
+      "title": "Supë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "potato",
+      "lemma": "patate",
+      "url": "https://fjale.al/patate",
+      "title": "Patate ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "tomato",
+      "lemma": "domate",
+      "url": "https://fjale.al/domate",
+      "title": "Domate ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "cucumber",
+      "lemma": "kastravec",
+      "url": "https://fjale.al/kastravec",
+      "title": "Kastravec ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "carrot",
+      "lemma": "karotë",
+      "url": "https://fjale.al/karot%C3%AB",
+      "title": "Karotë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "onion",
+      "lemma": "qepë",
+      "url": "https://fjale.al/qep%C3%AB",
+      "title": "Qepë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "pepper (vegetable)",
+      "lemma": "spec",
+      "url": "https://fjale.al/spec",
+      "title": "Spec ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "pear",
+      "lemma": "dardhë",
+      "url": "https://fjale.al/dardh%C3%AB",
+      "title": "Dardhë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "grapes",
+      "lemma": "rrush",
+      "url": "https://fjale.al/rrush",
+      "title": "Rrush ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "strawberry",
+      "lemma": "dredhëz",
+      "url": "https://fjale.al/dredh%C3%ABz",
+      "title": "Dredhëz ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "orange (fruit)",
+      "lemma": "portokall",
+      "url": "https://fjale.al/portokall",
+      "title": "Portokall ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "salt",
+      "lemma": "kripë",
+      "url": "https://fjale.al/krip%C3%AB",
+      "title": "Kripë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "sugar",
+      "lemma": "sheqer",
+      "url": "https://fjale.al/sheqer",
+      "title": "Sheqer ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "tea",
+      "lemma": "çaj",
+      "url": "https://fjale.al/%C3%A7aj",
+      "title": "Çaj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "table",
+      "lemma": "tavolinë",
+      "url": "https://fjale.al/tavolin%C3%AB",
+      "title": "Tavolinë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "window",
+      "lemma": "dritare",
+      "url": "https://fjale.al/dritare",
+      "title": "Dritare ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "room",
+      "lemma": "dhomë",
+      "url": "https://fjale.al/dhom%C3%AB",
+      "title": "Dhomë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "kitchen",
+      "lemma": "kuzhinë",
+      "url": "https://fjale.al/kuzhin%C3%AB",
+      "title": "Kuzhinë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "bathroom",
+      "lemma": "banjë",
+      "url": "https://fjale.al/banj%C3%AB",
+      "title": "Banjë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "pillow",
+      "lemma": "jastëk",
+      "url": "https://fjale.al/jast%C3%ABk",
+      "title": "Jastëk ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "blanket",
+      "lemma": "batanije",
+      "url": "https://fjale.al/batanije",
+      "title": "Batanije ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "plate",
+      "lemma": "pjatë",
+      "url": "https://fjale.al/pjat%C3%AB",
+      "title": "Pjatë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "spoon",
+      "lemma": "lugë",
+      "url": "https://fjale.al/lug%C3%AB",
+      "title": "Lugë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "fork",
+      "lemma": "pirun",
+      "url": "https://fjale.al/pirun",
+      "title": "Pirun ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "knife",
+      "lemma": "thikë",
+      "url": "https://fjale.al/thik%C3%AB",
+      "title": "Thikë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "glass (drinking)",
+      "lemma": "gotë",
+      "url": "https://fjale.al/got%C3%AB",
+      "title": "Gotë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "cup",
+      "lemma": "filxhan",
+      "url": "https://fjale.al/filxhan",
+      "title": "Filxhan ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "key",
+      "lemma": "çelës",
+      "url": "https://fjale.al/%C3%A7el%C3%ABs",
+      "title": "Çelës ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "soap",
+      "lemma": "sapun",
+      "url": "https://fjale.al/sapun",
+      "title": "Sapun ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "towel",
+      "lemma": "peshqir",
+      "url": "https://fjale.al/peshqir",
+      "title": "Peshqir ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "shirt",
+      "lemma": "këmishë",
+      "url": "https://fjale.al/k%C3%ABmish%C3%AB",
+      "title": "Këmishë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "T-shirt",
+      "lemma": "bluzë",
+      "url": "https://fjale.al/bluz%C3%AB",
+      "title": "Bluzë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "trousers",
+      "lemma": "pantallona",
+      "url": "https://fjale.al/pantallona",
+      "title": "Pantallona ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "dress",
+      "lemma": "fustan",
+      "url": "https://fjale.al/fustan",
+      "title": "Fustan ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "skirt",
+      "lemma": "fund",
+      "url": "https://fjale.al/fund",
+      "title": "Fund ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "jacket",
+      "lemma": "xhaketë",
+      "url": "https://fjale.al/xhaket%C3%AB",
+      "title": "Xhaketë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "coat",
+      "lemma": "pallto",
+      "url": "https://fjale.al/pallto",
+      "title": "Pallto ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "shoes",
+      "lemma": "këpucë",
+      "url": "https://fjale.al/k%C3%ABpuc%C3%AB",
+      "title": "Këpucë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "socks",
+      "lemma": "çorap",
+      "url": "https://fjale.al/%C3%A7orap",
+      "title": "Çorap ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "hat",
+      "lemma": "kapelë",
+      "url": "https://fjale.al/kapel%C3%AB",
+      "title": "Kapelë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "scarf",
+      "lemma": "shall",
+      "url": "https://fjale.al/shall",
+      "title": "Shall ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "gloves",
+      "lemma": "dorezë",
+      "url": "https://fjale.al/dorez%C3%AB",
+      "title": "Dorezë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "boots",
+      "lemma": "çizme",
+      "url": "https://fjale.al/%C3%A7izme",
+      "title": "Çizme ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "belt",
+      "lemma": "rrip",
+      "url": "https://fjale.al/rrip",
+      "title": "Rrip ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "pajamas",
+      "lemma": "pizhame",
+      "url": "https://fjale.al/pizhame",
+      "title": "Pizhame ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "head",
+      "lemma": "kokë",
+      "url": "https://fjale.al/kok%C3%AB",
+      "title": "Kokë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "hair",
+      "lemma": "flok",
+      "url": "https://fjale.al/flok",
+      "title": "Flok ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "eye",
+      "lemma": "sy",
+      "url": "https://fjale.al/sy",
+      "title": "Sy ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "ear",
+      "lemma": "vesh",
+      "url": "https://fjale.al/vesh",
+      "title": "Vesh ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "nose",
+      "lemma": "hundë",
+      "url": "https://fjale.al/hund%C3%AB",
+      "title": "Hundë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "mouth",
+      "lemma": "gojë",
+      "url": "https://fjale.al/goj%C3%AB",
+      "title": "Gojë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "tooth",
+      "lemma": "dhëmb",
+      "url": "https://fjale.al/dh%C3%ABmb",
+      "title": "Dhëmb ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "tongue",
+      "lemma": "gjuhë",
+      "url": "https://fjale.al/gjuh%C3%AB",
+      "title": "Gjuhë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "hand",
+      "lemma": "dorë",
+      "url": "https://fjale.al/dor%C3%AB",
+      "title": "Dorë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "finger",
+      "lemma": "gisht",
+      "url": "https://fjale.al/gisht",
+      "title": "Gisht ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "arm",
+      "lemma": "krah",
+      "url": "https://fjale.al/krah",
+      "title": "Krah ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "leg",
+      "lemma": "këmbë",
+      "url": "https://fjale.al/k%C3%ABmb%C3%AB",
+      "title": "Këmbë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "knee",
+      "lemma": "gju",
+      "url": "https://fjale.al/gju",
+      "title": "Gju ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "stomach",
+      "lemma": "bark",
+      "url": "https://fjale.al/bark",
+      "title": "Bark ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "back (body)",
+      "lemma": "shpinë",
+      "url": "https://fjale.al/shpin%C3%AB",
+      "title": "Shpinë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "cat",
+      "lemma": "mace",
+      "url": "https://fjale.al/mace",
+      "title": "Mace ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "dog",
+      "lemma": "qen",
+      "url": "https://fjale.al/qen",
+      "title": "Qen ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "bird",
+      "lemma": "zog",
+      "url": "https://fjale.al/zog",
+      "title": "Zog ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "fish",
+      "lemma": "peshk",
+      "url": "https://fjale.al/peshk",
+      "title": "Peshk ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "horse",
+      "lemma": "kalë",
+      "url": "https://fjale.al/kal%C3%AB",
+      "title": "Kalë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "cow",
+      "lemma": "lopë",
+      "url": "https://fjale.al/lop%C3%AB",
+      "title": "Lopë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "sheep",
+      "lemma": "dele",
+      "url": "https://fjale.al/dele",
+      "title": "Dele ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "goat",
+      "lemma": "dhi",
+      "url": "https://fjale.al/dhi",
+      "title": "Dhi ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "rabbit",
+      "lemma": "lepur",
+      "url": "https://fjale.al/lepur",
+      "title": "Lepur ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "butterfly",
+      "lemma": "flutur",
+      "url": "https://fjale.al/flutur",
+      "title": "Flutur ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "tree",
+      "lemma": "pemë",
+      "url": "https://fjale.al/pem%C3%AB",
+      "title": "Pemë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "flower",
+      "lemma": "lule",
+      "url": "https://fjale.al/lule",
+      "title": "Lule ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "sun",
+      "lemma": "diell",
+      "url": "https://fjale.al/diell",
+      "title": "Diell ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "moon",
+      "lemma": "hënë",
+      "url": "https://fjale.al/h%C3%ABn%C3%AB",
+      "title": "Hënë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "rain",
+      "lemma": "shi",
+      "url": "https://fjale.al/shi",
+      "title": "Shi ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "one",
+      "lemma": "një",
+      "url": "https://fjale.al/nj%C3%AB",
+      "title": "Një ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "two",
+      "lemma": "dy",
+      "url": "https://fjale.al/dy",
+      "title": "Dy ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "three",
+      "lemma": "tre",
+      "url": "https://fjale.al/tre",
+      "title": "Tre ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "four",
+      "lemma": "katër",
+      "url": "https://fjale.al/kat%C3%ABr",
+      "title": "Katër ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "five",
+      "lemma": "pesë",
+      "url": "https://fjale.al/pes%C3%AB",
+      "title": "Pesë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "six",
+      "lemma": "gjashtë",
+      "url": "https://fjale.al/gjasht%C3%AB",
+      "title": "Gjashtë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "seven",
+      "lemma": "shtatë",
+      "url": "https://fjale.al/shtat%C3%AB",
+      "title": "Shtatë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "eight",
+      "lemma": "tetë",
+      "url": "https://fjale.al/tet%C3%AB",
+      "title": "Tetë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "nine",
+      "lemma": "nëntë",
+      "url": "https://fjale.al/n%C3%ABnt%C3%AB",
+      "title": "Nëntë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "ten",
+      "lemma": "dhjetë",
+      "url": "https://fjale.al/dhjet%C3%AB",
+      "title": "Dhjetë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "red",
+      "lemma": "kuq",
+      "url": "https://fjale.al/kuq",
+      "title": "Kuq ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "blue",
+      "lemma": "kaltër",
+      "url": "https://fjale.al/kalt%C3%ABr",
+      "title": "Kaltër ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "green",
+      "lemma": "gjelbër",
+      "url": "https://fjale.al/gjelb%C3%ABr",
+      "title": "Gjelbër ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "yellow",
+      "lemma": "verdhë",
+      "url": "https://fjale.al/verdh%C3%AB",
+      "title": "Verdhë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "black",
+      "lemma": "zi",
+      "url": "https://fjale.al/zi",
+      "title": "Zi ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "white",
+      "lemma": "bardhë",
+      "url": "https://fjale.al/bardh%C3%AB",
+      "title": "Bardhë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "brown",
+      "lemma": "kafe",
+      "url": "https://fjale.al/kafe",
+      "title": "Kafe ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "circle",
+      "lemma": "rreth",
+      "url": "https://fjale.al/rreth",
+      "title": "Rreth ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "square",
+      "lemma": "katror",
+      "url": "https://fjale.al/katror",
+      "title": "Katror ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "triangle",
+      "lemma": "trekëndësh",
+      "url": "https://fjale.al/trek%C3%ABnd%C3%ABsh",
+      "title": "Trekëndësh ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "book",
+      "lemma": "libër",
+      "url": "https://fjale.al/lib%C3%ABr",
+      "title": "Libër ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "notebook",
+      "lemma": "fletore",
+      "url": "https://fjale.al/fletore",
+      "title": "Fletore ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "pencil",
+      "lemma": "laps",
+      "url": "https://fjale.al/laps",
+      "title": "Laps ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "pen",
+      "lemma": "stilolaps",
+      "url": "https://fjale.al/stilolaps",
+      "title": "Stilolaps ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "eraser",
+      "lemma": "gomë",
+      "url": "https://fjale.al/gom%C3%AB",
+      "title": "Gomë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "school bag",
+      "lemma": "çantë",
+      "url": "https://fjale.al/%C3%A7ant%C3%AB",
+      "title": "Çantë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "paper",
+      "lemma": "letër",
+      "url": "https://fjale.al/let%C3%ABr",
+      "title": "Letër ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "scissors",
+      "lemma": "gërshërë",
+      "url": "https://fjale.al/g%C3%ABrsh%C3%ABr%C3%AB",
+      "title": "Gërshërë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "ruler",
+      "lemma": "vizore",
+      "url": "https://fjale.al/vizore",
+      "title": "Vizore ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "male teacher",
+      "lemma": "mësues",
+      "url": "https://fjale.al/m%C3%ABsues",
+      "title": "Mësues ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "female teacher",
+      "lemma": "mësuese",
+      "url": "https://fjale.al/m%C3%ABsuese",
+      "title": "Mësuese ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "ball",
+      "lemma": "top",
+      "url": "https://fjale.al/top",
+      "title": "Top ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "toy",
+      "lemma": "lodër",
+      "url": "https://fjale.al/lod%C3%ABr",
+      "title": "Lodër ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "doll",
+      "lemma": "kukull",
+      "url": "https://fjale.al/kukull",
+      "title": "Kukull ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "game",
+      "lemma": "lojë",
+      "url": "https://fjale.al/loj%C3%AB",
+      "title": "Lojë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "school",
+      "lemma": "shkollë",
+      "url": "https://fjale.al/shkoll%C3%AB",
+      "title": "Shkollë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "shop",
+      "lemma": "dyqan",
+      "url": "https://fjale.al/dyqan",
+      "title": "Dyqan ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "park",
+      "lemma": "park",
+      "url": "https://fjale.al/park",
+      "title": "Park ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "hospital",
+      "lemma": "spital",
+      "url": "https://fjale.al/spital",
+      "title": "Spital ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "library",
+      "lemma": "bibliotekë",
+      "url": "https://fjale.al/bibliotek%C3%AB",
+      "title": "Bibliotekë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "city",
+      "lemma": "qytet",
+      "url": "https://fjale.al/qytet",
+      "title": "Qytet ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "village",
+      "lemma": "fshat",
+      "url": "https://fjale.al/fshat",
+      "title": "Fshat ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "street",
+      "lemma": "rrugë",
+      "url": "https://fjale.al/rrug%C3%AB",
+      "title": "Rrugë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "car",
+      "lemma": "veturë",
+      "url": "https://fjale.al/vetur%C3%AB",
+      "title": "Veturë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "bus",
+      "lemma": "autobus",
+      "url": "https://fjale.al/autobus",
+      "title": "Autobus ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "bicycle",
+      "lemma": "biçikletë",
+      "url": "https://fjale.al/bi%C3%A7iklet%C3%AB",
+      "title": "Biçikletë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "train",
+      "lemma": "tren",
+      "url": "https://fjale.al/tren",
+      "title": "Tren ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "airplane",
+      "lemma": "aeroplan",
+      "url": "https://fjale.al/aeroplan",
+      "title": "Aeroplan ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "bridge",
+      "lemma": "urë",
+      "url": "https://fjale.al/ur%C3%AB",
+      "title": "Urë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "airport",
+      "lemma": "aeroport",
+      "url": "https://fjale.al/aeroport",
+      "title": "Aeroport ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to eat",
+      "lemma": "ha",
+      "url": "https://fjale.al/ha",
+      "title": "Ha ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to drink",
+      "lemma": "pi",
+      "url": "https://fjale.al/pi",
+      "title": "Pi ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to sleep",
+      "lemma": "fle",
+      "url": "https://fjale.al/fle",
+      "title": "Fle ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to wake up",
+      "lemma": "zgjohem",
+      "url": "https://fjale.al/zgjohem",
+      "title": "Zgjohem ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to go",
+      "lemma": "shkoj",
+      "url": "https://fjale.al/shkoj",
+      "title": "Shkoj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to come",
+      "lemma": "vij",
+      "url": "https://fjale.al/vij",
+      "title": "Vij ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to run",
+      "lemma": "vrapoj",
+      "url": "https://fjale.al/vrapoj",
+      "title": "Vrapoj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to walk",
+      "lemma": "eci",
+      "url": "https://fjale.al/eci",
+      "title": "Eci ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to sit",
+      "lemma": "ulem",
+      "url": "https://fjale.al/ulem",
+      "title": "Ulem ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to stand up",
+      "lemma": "çohem",
+      "url": "https://fjale.al/%C3%A7ohem",
+      "title": "Çohem ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to play",
+      "lemma": "luaj",
+      "url": "https://fjale.al/luaj",
+      "title": "Luaj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to read",
+      "lemma": "lexoj",
+      "url": "https://fjale.al/lexoj",
+      "title": "Lexoj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to write",
+      "lemma": "shkruaj",
+      "url": "https://fjale.al/shkruaj",
+      "title": "Shkruaj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to draw",
+      "lemma": "vizatoj",
+      "url": "https://fjale.al/vizatoj",
+      "title": "Vizatoj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to sing",
+      "lemma": "këndoj",
+      "url": "https://fjale.al/k%C3%ABndoj",
+      "title": "Këndoj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to listen",
+      "lemma": "dëgjoj",
+      "url": "https://fjale.al/d%C3%ABgjoj",
+      "title": "Dëgjoj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to look",
+      "lemma": "këqyr",
+      "url": "https://fjale.al/k%C3%ABqyr",
+      "title": "Këqyr ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to wash",
+      "lemma": "laj",
+      "url": "https://fjale.al/laj",
+      "title": "Laj ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to open",
+      "lemma": "hap",
+      "url": "https://fjale.al/hap",
+      "title": "Hap ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "to close",
+      "lemma": "mbyll",
+      "url": "https://fjale.al/mbyll",
+      "title": "Mbyll ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "happy",
+      "lemma": "lumtur",
+      "url": "https://fjale.al/lumtur",
+      "title": "Lumtur ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "sad",
+      "lemma": "mërzitur",
+      "url": "https://fjale.al/m%C3%ABrzitur",
+      "title": "Mërzitur ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "tired",
+      "lemma": "lodhur",
+      "url": "https://fjale.al/lodhur",
+      "title": "Lodhur ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "hungry",
+      "lemma": "uritur",
+      "url": "https://fjale.al/uritur",
+      "title": "Uritur ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "thirsty",
+      "lemma": "etje",
+      "url": "https://fjale.al/etje",
+      "title": "Etje ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "big",
+      "lemma": "madh",
+      "url": "https://fjale.al/madh",
+      "title": "Madh ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "small",
+      "lemma": "vogël",
+      "url": "https://fjale.al/vog%C3%ABl",
+      "title": "Vogël ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "hot",
+      "lemma": "nxehtë",
+      "url": "https://fjale.al/nxeht%C3%AB",
+      "title": "Nxehtë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "cold",
+      "lemma": "ftohtë",
+      "url": "https://fjale.al/ftoht%C3%AB",
+      "title": "Ftohtë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "good",
+      "lemma": "mirë",
+      "url": "https://fjale.al/mir%C3%AB",
+      "title": "Mirë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "hello / goodbye",
+      "lemma": "tung",
+      "url": "https://fjale.al/tung",
+      "error": "https://fjale.al/tung: curl: (56) The requested URL returned error: 404",
+      "headword_found": false
+    },
+    {
+      "english": "good morning",
+      "lemma": "mirëmëngjes",
+      "url": "https://fjale.al/mir%C3%ABm%C3%ABngjes",
+      "error": "https://fjale.al/mir%C3%ABm%C3%ABngjes: curl: (56) The requested URL returned error: 404",
+      "headword_found": false
+    },
+    {
+      "english": "good night",
+      "lemma": "natë",
+      "url": "https://fjale.al/nat%C3%AB",
+      "title": "Natë ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "thank you",
+      "lemma": "faleminderit",
+      "url": "https://fjale.al/faleminderit",
+      "title": "Faleminderit ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "please",
+      "lemma": "lutem",
+      "url": "https://fjale.al/lutem",
+      "title": "Lutem ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "yes",
+      "lemma": "po",
+      "url": "https://fjale.al/po",
+      "title": "Po ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "no",
+      "lemma": "jo",
+      "url": "https://fjale.al/jo",
+      "title": "Jo ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    },
+    {
+      "english": "What?",
+      "lemma": "çka",
+      "url": "https://fjale.al/%C3%A7ka",
+      "title": "Çka ‹ kuptimi ‹ FJALË",
+      "headword_found": true
+    }
+  ]
+}

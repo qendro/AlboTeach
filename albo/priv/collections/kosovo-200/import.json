@@ -1,0 +1,1885 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "concept": "family.mother",
+      "english": "mother",
+      "albanian": "nanë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; usage reference: https://oralhistorykosovo.org/sq/riza-krasniqi/",
+      "notes": "Kosovo/Gheg form; standard nënë. Some families say mami. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.father",
+      "english": "father",
+      "albanian": "babë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; usage reference: https://oralhistorykosovo.org/sq/riza-krasniqi/",
+      "notes": "Also baba/babi depending on the family. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.sister",
+      "english": "sister",
+      "albanian": "motër",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/mot%C3%ABr",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.brother",
+      "english": "brother",
+      "albanian": "vëlla",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/v%C3%ABlla",
+      "notes": "Spoken vlla also occurs; keep full spelling. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.grandmother",
+      "english": "grandmother",
+      "albanian": "gjyshe",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/gjyshe",
+      "notes": "Also gjyshja in the definite form; family terms vary. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.grandfather",
+      "english": "grandfather",
+      "albanian": "gjysh",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/gjysh",
+      "notes": "Also gjyshi in the definite form. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.paternal_uncle",
+      "english": "paternal uncle",
+      "albanian": "axhë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; usage reference: https://oralhistorykosovo.org/sq/riza-krasniqi/",
+      "notes": "Father's brother; also mixhë in some Kosovo families. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.maternal_uncle",
+      "english": "maternal uncle",
+      "albanian": "dajë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/daj%C3%AB",
+      "notes": "Mother's brother. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.maternal_aunt",
+      "english": "maternal aunt",
+      "albanian": "teze",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/teze",
+      "notes": "Mother's sister. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.paternal_aunt",
+      "english": "paternal aunt",
+      "albanian": "hallë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/hall%C3%AB",
+      "notes": "Father's sister. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.girl",
+      "english": "girl",
+      "albanian": "çikë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/%C3%A7ik%C3%AB",
+      "notes": "Common Kosovo word; standard vajzë. Can also mean daughter. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.boy",
+      "english": "boy",
+      "albanian": "djalë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/djal%C3%AB",
+      "notes": "Can also mean son. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.baby",
+      "english": "baby",
+      "albanian": "bebe",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "line-baby",
+      "source": "AI draft; lexical reference: https://fjale.al/bebe",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.child",
+      "english": "child",
+      "albanian": "fëmijë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/f%C3%ABmij%C3%AB",
+      "notes": "Local speech may shorten this to fmi. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.family",
+      "english": "family",
+      "albanian": "familje",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "line-users",
+      "source": "AI draft; lexical reference: https://fjale.al/familje",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.male_cousin",
+      "english": "male cousin",
+      "albanian": "kushëri",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kush%C3%ABri",
+      "notes": "Female: kushërirë. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.female_cousin",
+      "english": "female cousin",
+      "albanian": "kushërirë",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kush%C3%ABrir%C3%AB",
+      "notes": "Male: kushëri. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.male_friend",
+      "english": "male friend",
+      "albanian": "shok",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/shok",
+      "notes": "Female: shoqe. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.female_friend",
+      "english": "female friend",
+      "albanian": "shoqe",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/shoqe",
+      "notes": "Male: shok. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "family.parents",
+      "english": "parents",
+      "albanian": "prindër",
+      "category": "family",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/prind",
+      "notes": "Plural. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.cheese",
+      "english": "cheese",
+      "albanian": "djathë",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "line-cheese",
+      "source": "AI draft; lexical reference: https://fjale.al/djath%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.butter",
+      "english": "butter",
+      "albanian": "gjalpë",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/gjalp%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.yogurt",
+      "english": "yogurt",
+      "albanian": "kos",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kos",
+      "notes": "Plain yogurt. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.meat",
+      "english": "meat",
+      "albanian": "mish",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "line-beef",
+      "source": "AI draft; lexical reference: https://fjale.al/mish",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.rice",
+      "english": "rice",
+      "albanian": "oriz",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/oriz",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.soup",
+      "english": "soup",
+      "albanian": "supë",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "line-soup",
+      "source": "AI draft; lexical reference: https://fjale.al/sup%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.potato",
+      "english": "potato",
+      "albanian": "patate",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/patate",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.tomato",
+      "english": "tomato",
+      "albanian": "domate",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/domate",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.cucumber",
+      "english": "cucumber",
+      "albanian": "kastravec",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kastravec",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.carrot",
+      "english": "carrot",
+      "albanian": "karotë",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "line-carrot",
+      "source": "AI draft; lexical reference: https://fjale.al/karot%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.onion",
+      "english": "onion",
+      "albanian": "qepë",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/qep%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.pepper_vegetable",
+      "english": "pepper (vegetable)",
+      "albanian": "spec",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/spec",
+      "notes": "Vegetable, not ground black pepper. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.pear",
+      "english": "pear",
+      "albanian": "dardhë",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/dardh%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.grapes",
+      "english": "grapes",
+      "albanian": "rrush",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "line-grape",
+      "source": "AI draft; lexical reference: https://fjale.al/rrush",
+      "notes": "Collective noun. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.strawberry",
+      "english": "strawberry",
+      "albanian": "dredhëz",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/dredh%C3%ABz",
+      "notes": "Also luleshtrydhe; family preference varies. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.orange_fruit",
+      "english": "orange (fruit)",
+      "albanian": "portokall",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "line-citrus",
+      "source": "AI draft; lexical reference: https://fjale.al/portokall",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.salt",
+      "english": "salt",
+      "albanian": "kripë",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/krip%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.sugar",
+      "english": "sugar",
+      "albanian": "sheqer",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/sheqer",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "food.tea",
+      "english": "tea",
+      "albanian": "çaj",
+      "category": "food",
+      "difficulty": "beginner",
+      "image": "line-cup-soda",
+      "source": "AI draft; lexical reference: https://fjale.al/%C3%A7aj",
+      "notes": "Picture represents a drink, not a specific type of tea. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.table",
+      "english": "table",
+      "albanian": "tavolinë",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-table",
+      "source": "AI draft; lexical reference: https://fjale.al/tavolin%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.window",
+      "english": "window",
+      "albanian": "dritare",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-window",
+      "source": "AI draft; lexical reference: https://fjale.al/dritare",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.room",
+      "english": "room",
+      "albanian": "dhomë",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/dhom%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.kitchen",
+      "english": "kitchen",
+      "albanian": "kuzhinë",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-cooking-pot",
+      "source": "AI draft; lexical reference: https://fjale.al/kuzhin%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.bathroom",
+      "english": "bathroom",
+      "albanian": "banjë",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-bath",
+      "source": "AI draft; lexical reference: https://fjale.al/banj%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.pillow",
+      "english": "pillow",
+      "albanian": "jastëk",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/jast%C3%ABk",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.blanket",
+      "english": "blanket",
+      "albanian": "batanije",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/batanije",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.plate",
+      "english": "plate",
+      "albanian": "pjatë",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-disc",
+      "source": "AI draft; lexical reference: https://fjale.al/pjat%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.spoon",
+      "english": "spoon",
+      "albanian": "lugë",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-spoon",
+      "source": "AI draft; lexical reference: https://fjale.al/lug%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.fork",
+      "english": "fork",
+      "albanian": "pirun",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-fork",
+      "source": "AI draft; lexical reference: https://fjale.al/pirun",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.knife",
+      "english": "knife",
+      "albanian": "thikë",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-knife",
+      "source": "AI draft; lexical reference: https://fjale.al/thik%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.glass_drinking",
+      "english": "glass (drinking)",
+      "albanian": "gotë",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-glass-water",
+      "source": "AI draft; lexical reference: https://fjale.al/got%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.cup",
+      "english": "cup",
+      "albanian": "filxhan",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-coffee",
+      "source": "AI draft; lexical reference: https://fjale.al/filxhan",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.key",
+      "english": "key",
+      "albanian": "çelës",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-key-round",
+      "source": "AI draft; lexical reference: https://fjale.al/%C3%A7el%C3%ABs",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.soap",
+      "english": "soap",
+      "albanian": "sapun",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "line-soap",
+      "source": "AI draft; lexical reference: https://fjale.al/sapun",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "household.towel",
+      "english": "towel",
+      "albanian": "peshqir",
+      "category": "household",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/peshqir",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.shirt",
+      "english": "shirt",
+      "albanian": "këmishë",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-shirt",
+      "source": "AI draft; lexical reference: https://fjale.al/k%C3%ABmish%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.t_shirt",
+      "english": "T-shirt",
+      "albanian": "bluzë",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-shirt",
+      "source": "AI draft; lexical reference: https://fjale.al/bluz%C3%AB",
+      "notes": "Bluzë can mean a top or blouse more broadly. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.trousers",
+      "english": "trousers",
+      "albanian": "pantallona",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-trousers",
+      "source": "AI draft; lexical reference: https://fjale.al/pantallona",
+      "notes": "Plural; also pantolla in local speech. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.dress",
+      "english": "dress",
+      "albanian": "fustan",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-dress",
+      "source": "AI draft; lexical reference: https://fjale.al/fustan",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.skirt",
+      "english": "skirt",
+      "albanian": "fund",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-skirt",
+      "source": "AI draft; lexical reference: https://fjale.al/fund",
+      "notes": "Clothing sense. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.jacket",
+      "english": "jacket",
+      "albanian": "xhaketë",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/xhaket%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.coat",
+      "english": "coat",
+      "albanian": "pallto",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/pallto",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.shoes",
+      "english": "shoes",
+      "albanian": "këpucë",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-shoe",
+      "source": "AI draft; lexical reference: https://fjale.al/k%C3%ABpuc%C3%AB",
+      "notes": "Plural here; singular has the same form. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.socks",
+      "english": "socks",
+      "albanian": "çorape",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-sock",
+      "source": "AI draft; lexical reference: https://fjale.al/%C3%A7orap",
+      "notes": "Plural. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.hat",
+      "english": "hat",
+      "albanian": "kapelë",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-hat",
+      "source": "AI draft; lexical reference: https://fjale.al/kapel%C3%AB",
+      "notes": "General hat; not specifically a traditional plis. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.scarf",
+      "english": "scarf",
+      "albanian": "shall",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-scarf",
+      "source": "AI draft; lexical reference: https://fjale.al/shall",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.gloves",
+      "english": "gloves",
+      "albanian": "doreza",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-glove",
+      "source": "AI draft; lexical reference: https://fjale.al/dorez%C3%AB",
+      "notes": "Plural; singular dorezë. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.boots",
+      "english": "boots",
+      "albanian": "çizme",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-boot",
+      "source": "AI draft; lexical reference: https://fjale.al/%C3%A7izme",
+      "notes": "Plural here. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.belt",
+      "english": "belt",
+      "albanian": "rrip",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "line-belt",
+      "source": "AI draft; lexical reference: https://fjale.al/rrip",
+      "notes": "Clothing sense. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "clothes.pajamas",
+      "english": "pajamas",
+      "albanian": "pizhame",
+      "category": "clothes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/pizhame",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.head",
+      "english": "head",
+      "albanian": "kokë",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "line-head",
+      "source": "AI draft; lexical reference: https://fjale.al/kok%C3%AB",
+      "notes": "Also krye in Gheg speech; confirm family preference. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.hair",
+      "english": "hair",
+      "albanian": "flokë",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/flok",
+      "notes": "Plural/collective. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.eye",
+      "english": "eye",
+      "albanian": "sy",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "line-eye",
+      "source": "AI draft; lexical reference: https://fjale.al/sy",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.ear",
+      "english": "ear",
+      "albanian": "vesh",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "line-ear",
+      "source": "AI draft; lexical reference: https://fjale.al/vesh",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.nose",
+      "english": "nose",
+      "albanian": "hundë",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "line-nose",
+      "source": "AI draft; lexical reference: https://fjale.al/hund%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.mouth",
+      "english": "mouth",
+      "albanian": "gojë",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "line-mouth",
+      "source": "AI draft; lexical reference: https://fjale.al/goj%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.tooth",
+      "english": "tooth",
+      "albanian": "dhëmb",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "line-tooth",
+      "source": "AI draft; lexical reference: https://fjale.al/dh%C3%ABmb",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.tongue",
+      "english": "tongue",
+      "albanian": "gjuhë",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/gjuh%C3%AB",
+      "notes": "Body part; also means language. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.hand",
+      "english": "hand",
+      "albanian": "dorë",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "line-hand",
+      "source": "AI draft; lexical reference: https://fjale.al/dor%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.finger",
+      "english": "finger",
+      "albanian": "gisht",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "line-finger",
+      "source": "AI draft; lexical reference: https://fjale.al/gisht",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.arm",
+      "english": "arm",
+      "albanian": "krah",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/krah",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.leg",
+      "english": "leg",
+      "albanian": "këmbë",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/k%C3%ABmb%C3%AB",
+      "notes": "Also used for foot; shputë refers specifically to the sole/foot. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.knee",
+      "english": "knee",
+      "albanian": "gju",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/gju",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.stomach",
+      "english": "stomach",
+      "albanian": "bark",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/bark",
+      "notes": "Everyday belly/abdomen, not only the internal organ. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "body.back_body",
+      "english": "back (body)",
+      "albanian": "shpinë",
+      "category": "body",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/shpin%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.cat",
+      "english": "cat",
+      "albanian": "mace",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-cat",
+      "source": "AI draft; lexical reference: https://fjale.al/mace",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.dog",
+      "english": "dog",
+      "albanian": "qen",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-dog",
+      "source": "AI draft; lexical reference: https://fjale.al/qen",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.bird",
+      "english": "bird",
+      "albanian": "zog",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-bird",
+      "source": "AI draft; lexical reference: https://fjale.al/zog",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.fish",
+      "english": "fish",
+      "albanian": "peshk",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-fish",
+      "source": "AI draft; lexical reference: https://fjale.al/peshk",
+      "notes": "Animal sense. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.horse",
+      "english": "horse",
+      "albanian": "kal",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kal%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.cow",
+      "english": "cow",
+      "albanian": "lopë",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/lop%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.sheep",
+      "english": "sheep",
+      "albanian": "dele",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/dele",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.goat",
+      "english": "goat",
+      "albanian": "dhi",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/dhi",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.rabbit",
+      "english": "rabbit",
+      "albanian": "lepur",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-rabbit",
+      "source": "AI draft; lexical reference: https://fjale.al/lepur",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.butterfly",
+      "english": "butterfly",
+      "albanian": "flutur",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-butterfly",
+      "source": "AI draft; lexical reference: https://fjale.al/flutur",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.tree",
+      "english": "tree",
+      "albanian": "pemë",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-tree-deciduous",
+      "source": "AI draft; lexical reference: https://fjale.al/pem%C3%AB",
+      "notes": "Tree sense; pemë can also refer to fruit. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.flower",
+      "english": "flower",
+      "albanian": "lule",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-flower-2",
+      "source": "AI draft; lexical reference: https://fjale.al/lule",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.sun",
+      "english": "sun",
+      "albanian": "diell",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-sun",
+      "source": "AI draft; lexical reference: https://fjale.al/diell",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.moon",
+      "english": "moon",
+      "albanian": "hënë",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-moon",
+      "source": "AI draft; lexical reference: https://fjale.al/h%C3%ABn%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "animals-nature.rain",
+      "english": "rain",
+      "albanian": "shi",
+      "category": "animals-nature",
+      "difficulty": "beginner",
+      "image": "line-cloud-rain",
+      "source": "AI draft; lexical reference: https://fjale.al/shi",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.one",
+      "english": "one",
+      "albanian": "një",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-1",
+      "source": "AI draft; lexical reference: https://fjale.al/nj%C3%AB",
+      "notes": "Spoken ni is common in Kosovo. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.two",
+      "english": "two",
+      "albanian": "dy",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-2",
+      "source": "AI draft; lexical reference: https://fjale.al/dy",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.three",
+      "english": "three",
+      "albanian": "tre",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-3",
+      "source": "AI draft; lexical reference: https://fjale.al/tre",
+      "notes": "Masculine counting form; tri with feminine nouns. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.four",
+      "english": "four",
+      "albanian": "katër",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-4",
+      "source": "AI draft; lexical reference: https://fjale.al/kat%C3%ABr",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.five",
+      "english": "five",
+      "albanian": "pesë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-5",
+      "source": "AI draft; lexical reference: https://fjale.al/pes%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.six",
+      "english": "six",
+      "albanian": "gjashtë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-6",
+      "source": "AI draft; lexical reference: https://fjale.al/gjasht%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.seven",
+      "english": "seven",
+      "albanian": "shtatë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-7",
+      "source": "AI draft; lexical reference: https://fjale.al/shtat%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.eight",
+      "english": "eight",
+      "albanian": "tetë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-8",
+      "source": "AI draft; lexical reference: https://fjale.al/tet%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.nine",
+      "english": "nine",
+      "albanian": "nëntë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-9",
+      "source": "AI draft; lexical reference: https://fjale.al/n%C3%ABnt%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.ten",
+      "english": "ten",
+      "albanian": "dhjetë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-number-10",
+      "source": "AI draft; lexical reference: https://fjale.al/dhjet%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.red",
+      "english": "red",
+      "albanian": "i kuq / e kuqe",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kuq",
+      "notes": "Masculine / feminine adjective forms. No colored patch to save ink. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.blue",
+      "english": "blue",
+      "albanian": "i kaltër / e kaltër",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kalt%C3%ABr",
+      "notes": "Masculine / feminine; blu is also used. No colored patch. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.green",
+      "english": "green",
+      "albanian": "i gjelbër / e gjelbër",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/gjelb%C3%ABr",
+      "notes": "Masculine / feminine. No colored patch. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.yellow",
+      "english": "yellow",
+      "albanian": "i verdhë / e verdhë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/verdh%C3%AB",
+      "notes": "Masculine / feminine. No colored patch. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.black",
+      "english": "black",
+      "albanian": "i zi / e zezë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/zi",
+      "notes": "Masculine / feminine. No filled patch. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.white",
+      "english": "white",
+      "albanian": "i bardhë / e bardhë",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/bardh%C3%AB",
+      "notes": "Masculine / feminine. No colored patch. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.brown",
+      "english": "brown",
+      "albanian": "kafe",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kafe",
+      "notes": "Invariable color adjective; also means coffee. No colored patch. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.circle",
+      "english": "circle",
+      "albanian": "rreth",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-circle",
+      "source": "AI draft; lexical reference: https://fjale.al/rreth",
+      "notes": "Shape sense. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.square",
+      "english": "square",
+      "albanian": "katror",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-square",
+      "source": "AI draft; lexical reference: https://fjale.al/katror",
+      "notes": "Shape noun. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "numbers-colors-shapes.triangle",
+      "english": "triangle",
+      "albanian": "trekëndësh",
+      "category": "numbers-colors-shapes",
+      "difficulty": "beginner",
+      "image": "line-triangle",
+      "source": "AI draft; lexical reference: https://fjale.al/trek%C3%ABnd%C3%ABsh",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.book",
+      "english": "book",
+      "albanian": "libër",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-book-open",
+      "source": "AI draft; lexical reference: https://fjale.al/lib%C3%ABr",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.notebook",
+      "english": "notebook",
+      "albanian": "fletore",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-notebook",
+      "source": "AI draft; lexical reference: https://fjale.al/fletore",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.pencil",
+      "english": "pencil",
+      "albanian": "laps",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-pencil",
+      "source": "AI draft; lexical reference: https://fjale.al/laps",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.pen",
+      "english": "pen",
+      "albanian": "stilolaps",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-pen",
+      "source": "AI draft; lexical reference: https://fjale.al/stilolaps",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.eraser",
+      "english": "eraser",
+      "albanian": "gomë",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/gom%C3%AB",
+      "notes": "School sense; also means rubber/tire. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.school_bag",
+      "english": "school bag",
+      "albanian": "çantë shkolle",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-backpack",
+      "source": "AI draft; lexical reference: https://fjale.al/%C3%A7ant%C3%AB",
+      "notes": "Short phrase composed from çantë + shkollë. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.paper",
+      "english": "paper",
+      "albanian": "letër",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-file",
+      "source": "AI draft; lexical reference: https://fjale.al/let%C3%ABr",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.scissors",
+      "english": "scissors",
+      "albanian": "gërshërë",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-scissors",
+      "source": "AI draft; lexical reference: https://fjale.al/g%C3%ABrsh%C3%ABr%C3%AB",
+      "notes": "Plural. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.ruler",
+      "english": "ruler",
+      "albanian": "vizore",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-ruler",
+      "source": "AI draft; lexical reference: https://fjale.al/vizore",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.male_teacher",
+      "english": "male teacher",
+      "albanian": "mësues",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/m%C3%ABsues",
+      "notes": "Female: mësuese. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.female_teacher",
+      "english": "female teacher",
+      "albanian": "mësuese",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/m%C3%ABsuese",
+      "notes": "Male: mësues. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.ball",
+      "english": "ball",
+      "albanian": "top",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-volleyball",
+      "source": "AI draft; lexical reference: https://fjale.al/top",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.toy",
+      "english": "toy",
+      "albanian": "lodër",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "line-toy-brick",
+      "source": "AI draft; lexical reference: https://fjale.al/lod%C3%ABr",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.doll",
+      "english": "doll",
+      "albanian": "kukull",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/kukull",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "school-play.game",
+      "english": "game",
+      "albanian": "lojë",
+      "category": "school-play",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/loj%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.school",
+      "english": "school",
+      "albanian": "shkollë",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-school",
+      "source": "AI draft; lexical reference: https://fjale.al/shkoll%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.shop",
+      "english": "shop",
+      "albanian": "dyqan",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-store",
+      "source": "AI draft; lexical reference: https://fjale.al/dyqan",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.park",
+      "english": "park",
+      "albanian": "park",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-trees",
+      "source": "AI draft; lexical reference: https://fjale.al/park",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.hospital",
+      "english": "hospital",
+      "albanian": "spital",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-hospital",
+      "source": "AI draft; lexical reference: https://fjale.al/spital",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.library",
+      "english": "library",
+      "albanian": "bibliotekë",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-library-big",
+      "source": "AI draft; lexical reference: https://fjale.al/bibliotek%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.city",
+      "english": "city",
+      "albanian": "qytet",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-building-complex",
+      "source": "AI draft; lexical reference: https://fjale.al/qytet",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.village",
+      "english": "village",
+      "albanian": "fshat",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-house",
+      "source": "AI draft; lexical reference: https://fjale.al/fshat",
+      "notes": "Katun is also common in Kosovo speech. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.street",
+      "english": "street",
+      "albanian": "rrugë",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-route",
+      "source": "AI draft; lexical reference: https://fjale.al/rrug%C3%AB",
+      "notes": "Also means road/path. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.car",
+      "english": "car",
+      "albanian": "veturë",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-car",
+      "source": "AI draft; lexical reference: https://fjale.al/vetur%C3%AB",
+      "notes": "Widely used in Kosovo; makinë is another Albanian word. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.bus",
+      "english": "bus",
+      "albanian": "autobus",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-bus",
+      "source": "AI draft; lexical reference: https://fjale.al/autobus",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.bicycle",
+      "english": "bicycle",
+      "albanian": "biçikletë",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-bike",
+      "source": "AI draft; lexical reference: https://fjale.al/bi%C3%A7iklet%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.train",
+      "english": "train",
+      "albanian": "tren",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-train-front",
+      "source": "AI draft; lexical reference: https://fjale.al/tren",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.airplane",
+      "english": "airplane",
+      "albanian": "aeroplan",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-plane",
+      "source": "AI draft; lexical reference: https://fjale.al/aeroplan",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.bridge",
+      "english": "bridge",
+      "albanian": "urë",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-bridge",
+      "source": "AI draft; lexical reference: https://fjale.al/ur%C3%AB",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "places-transport.airport",
+      "english": "airport",
+      "albanian": "aeroport",
+      "category": "places-transport",
+      "difficulty": "beginner",
+      "image": "line-plane-takeoff",
+      "source": "AI draft; lexical reference: https://fjale.al/aeroport",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_eat",
+      "english": "to eat",
+      "albanian": "me hangër",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-utensils",
+      "source": "AI draft; usage reference: https://oralhistorykosovo.org/sq/valdete-idrizi/",
+      "notes": "Gheg infinitive; standard: të ha / ha. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_drink",
+      "english": "to drink",
+      "albanian": "me pi",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-glass-water",
+      "source": "AI draft; lexical reference: https://fjale.al/pi",
+      "notes": "Gheg infinitive; standard: të pi / pi. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_sleep",
+      "english": "to sleep",
+      "albanian": "me fjetë",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-bed",
+      "source": "AI draft; lexical reference: https://fjale.al/fle",
+      "notes": "Gheg infinitive; standard: të fle / fle. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_wake_up",
+      "english": "to wake up",
+      "albanian": "me u zgju",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-alarm-clock",
+      "source": "AI draft; lexical reference: https://fjale.al/zgjohem",
+      "notes": "Gheg reflexive infinitive; standard: të zgjohem. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_go",
+      "english": "to go",
+      "albanian": "me shku",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-footprints",
+      "source": "AI draft; lexical reference: https://fjale.al/shkoj",
+      "notes": "Gheg infinitive; standard: të shkoj / shkoj. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_come",
+      "english": "to come",
+      "albanian": "me ardhë",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/vij",
+      "notes": "Gheg infinitive; standard: të vij / vij. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_run",
+      "english": "to run",
+      "albanian": "me vrapu",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/vrapoj",
+      "notes": "Gheg infinitive; standard: të vrapoj / vrapoj. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_walk",
+      "english": "to walk",
+      "albanian": "me ecë",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-footprints",
+      "source": "AI draft; lexical reference: https://fjale.al/eci",
+      "notes": "Gheg infinitive; standard: të eci / eci. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_sit",
+      "english": "to sit",
+      "albanian": "me u ulë",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/ulem",
+      "notes": "Gheg reflexive infinitive; standard: të ulem. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_stand_up",
+      "english": "to stand up",
+      "albanian": "me u çu",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/%C3%A7ohem",
+      "notes": "Gheg reflexive infinitive; standard: të ngrihem. Local spelling/pronunciation varies. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_play",
+      "english": "to play",
+      "albanian": "me lujt",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-volleyball",
+      "source": "AI draft; lexical reference: https://fjale.al/luaj",
+      "notes": "Kosovo conversational candidate; also me luejt/me luajt. Standard: të luaj. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_read",
+      "english": "to read",
+      "albanian": "me lexu",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-book-open",
+      "source": "AI draft; usage reference: https://oralhistorykosovo.org/sq/shkelzen-maliqi/",
+      "notes": "Gheg infinitive; standard: të lexoj / lexoj. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_write",
+      "english": "to write",
+      "albanian": "me shkru",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-pen",
+      "source": "AI draft; usage reference: https://oralhistorykosovo.org/sq/shkelzen-maliqi/",
+      "notes": "Gheg infinitive; standard: të shkruaj / shkruaj. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_draw",
+      "english": "to draw",
+      "albanian": "me vizatu",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-pencil",
+      "source": "AI draft; lexical reference: https://fjale.al/vizatoj",
+      "notes": "Gheg infinitive; standard: të vizatoj / vizatoj. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_sing",
+      "english": "to sing",
+      "albanian": "me këndu",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-music",
+      "source": "AI draft; lexical reference: https://fjale.al/k%C3%ABndoj",
+      "notes": "Gheg infinitive; standard: të këndoj / këndoj. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_listen",
+      "english": "to listen",
+      "albanian": "me dëgju",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-ear",
+      "source": "AI draft; lexical reference: https://fjale.al/d%C3%ABgjoj",
+      "notes": "Gheg infinitive; standard: të dëgjoj / dëgjoj. Also me ni in Kosovo. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_look",
+      "english": "to look",
+      "albanian": "me kqyrë",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-eye",
+      "source": "AI draft; lexical reference: https://fjale.al/k%C3%ABqyr",
+      "notes": "Kosovo/Gheg candidate; also me këqyrë. Standard: të shikoj. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_wash",
+      "english": "to wash",
+      "albanian": "me la",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-soap",
+      "source": "AI draft; lexical reference: https://fjale.al/laj",
+      "notes": "Gheg infinitive, transitive: wash something. Wash oneself: me u la. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_open",
+      "english": "to open",
+      "albanian": "me hapë",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-door-open",
+      "source": "AI draft; lexical reference: https://fjale.al/hap",
+      "notes": "Gheg infinitive; standard: të hap / hap. Also me çelë locally. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "actions.to_close",
+      "english": "to close",
+      "albanian": "me mbyllë",
+      "category": "actions",
+      "difficulty": "beginner",
+      "image": "line-door-closed",
+      "source": "AI draft; lexical reference: https://fjale.al/mbyll",
+      "notes": "Gheg infinitive; standard: të mbyll / mbyll. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.happy",
+      "english": "happy",
+      "albanian": "i lumtur / e lumtur",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "line-face-slightly-smiling",
+      "source": "AI draft; lexical reference: https://fjale.al/lumtur",
+      "notes": "Masculine / feminine adjective forms. Spoken i/e lumtun also occurs. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.sad",
+      "english": "sad",
+      "albanian": "i mërzitur / e mërzitur",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "line-face-slightly-frowning",
+      "source": "AI draft; lexical reference: https://fjale.al/m%C3%ABrzitur",
+      "notes": "Can also mean upset/bored; spoken i/e mërzitun. Context matters. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.tired",
+      "english": "tired",
+      "albanian": "i lodhur / e lodhur",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/lodhur",
+      "notes": "Masculine / feminine; spoken i/e lodhun. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.hungry",
+      "english": "hungry",
+      "albanian": "i uritur / e uritur",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/uritur",
+      "notes": "Masculine / feminine; spoken untë is also heard. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.thirsty",
+      "english": "thirsty",
+      "albanian": "Kam etje.",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/etje",
+      "notes": "Literally I have thirst; natural short phrase rather than gendered adjective. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.big",
+      "english": "big",
+      "albanian": "i madh / e madhe",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/madh",
+      "notes": "Masculine / feminine adjective forms. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.small",
+      "english": "small",
+      "albanian": "i vogël / e vogël",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/vog%C3%ABl",
+      "notes": "Masculine / feminine adjective forms. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.hot",
+      "english": "hot",
+      "albanian": "i nxehtë / e nxehtë",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "line-thermometer-sun",
+      "source": "AI draft; lexical reference: https://fjale.al/nxeht%C3%AB",
+      "notes": "Describes something hot; feeling hot: Kam nxehtë. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.cold",
+      "english": "cold",
+      "albanian": "i ftohtë / e ftohtë",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "line-snowflake",
+      "source": "AI draft; lexical reference: https://fjale.al/ftoht%C3%AB",
+      "notes": "Describes something cold; feeling cold: Kam ftohtë. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "feelings.good",
+      "english": "good",
+      "albanian": "i mirë / e mirë",
+      "category": "feelings",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/mir%C3%AB",
+      "notes": "Masculine / feminine adjective forms. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "conversation.hello_goodbye",
+      "english": "hello / goodbye",
+      "albanian": "Tung!",
+      "category": "conversation",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; usage reference: https://www.qvyshift.com/phrasebook/kosovar-albanian/",
+      "notes": "Common informal Kosovo greeting/farewell. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "conversation.good_morning",
+      "english": "good morning",
+      "albanian": "Mirëmëngjes!",
+      "category": "conversation",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; usage reference: https://files.peacecorps.gov/multimedia/audio/languagelessons/albania/AL_Albanian_Language_Lessons.pdf",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "conversation.good_night",
+      "english": "good night",
+      "albanian": "Natën e mirë!",
+      "category": "conversation",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/nat%C3%AB",
+      "notes": "Said when parting at night or going to bed. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "conversation.thank_you",
+      "english": "thank you",
+      "albanian": "Faleminderit!",
+      "category": "conversation",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/faleminderit",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "conversation.please",
+      "english": "please",
+      "albanian": "Të lutem!",
+      "category": "conversation",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/lutem",
+      "notes": "Addressing one familiar person; plural/polite: Ju lutem. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "conversation.yes",
+      "english": "yes",
+      "albanian": "Po!",
+      "category": "conversation",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/po",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "conversation.no",
+      "english": "no",
+      "albanian": "Jo!",
+      "category": "conversation",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/jo",
+      "notes": "Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    },
+    {
+      "concept": "conversation.what",
+      "english": "What?",
+      "albanian": "Çka?",
+      "category": "conversation",
+      "difficulty": "beginner",
+      "image": "",
+      "source": "AI draft; lexical reference: https://fjale.al/%C3%A7ka",
+      "notes": "Common Kosovo question word; standard also çfarë. Not native-reviewed. Written headword/reference is not proof of the family’s spoken Kosovo form. See docs/collections/kosovo-200.md."
+    }
+  ]
+}

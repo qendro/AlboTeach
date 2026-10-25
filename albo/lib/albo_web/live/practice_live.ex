@@ -1,6 +1,7 @@
 defmodule AlboWeb.PracticeLive do
   use AlboWeb, :live_view
   alias Albo.Learning
+  alias Albo.Learning.Card
 
   def mount(params, _, socket) do
     topic = Map.get(params, "topic", "all")
@@ -175,7 +176,7 @@ defmodule AlboWeb.PracticeLive do
             )}</span>
             <img
               :if={card.image not in [nil, ""]}
-              src={"/images/cards/#{card.image}.svg"}
+              src={"/images/cards/#{Card.display_image(card.image)}.svg"}
               alt=""
               class="flashcard-image"
             />

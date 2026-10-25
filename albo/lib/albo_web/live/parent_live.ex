@@ -14,6 +14,8 @@ defmodule AlboWeb.ParentLive do
        import_open: false,
        print_open: false,
        selected: MapSet.new(),
+       quality_forms: %{},
+       quality_drafts: %{},
        selection_size: 1,
        print_form:
          to_form(
@@ -21,6 +23,7 @@ defmodule AlboWeb.ParentLive do
              "per_sheet" => "8",
              "flip" => "long-edge",
              "image_side" => "albanian",
+             "art_style" => "color",
              "back_x_mm" => "0",
              "back_y_mm" => "0"
            },
@@ -79,9 +82,57 @@ defmodule AlboWeb.ParentLive do
       count: length(all),
       available: Enum.count(all, &(&1.status == "active")),
       reviewed: Enum.count(all, &(&1.reviewer not in [nil, ""])),
+      quality_forms:
+        Enum.reduce(cards, socket.assigns.quality_forms, fn card, forms ->
+          Map.put_new(forms, card.id, quality_form(card))
+        end),
       empty: cards == []
     )
     |> stream(:cards, cards, reset: true)
+  end
+
+  defp quality_form(card, attrs \\ %{}) do
+    card |> Card.quality_changeset(attrs) |> to_form(as: :quality, id: "quality-#{card.id}")
+  end
+
+  defp stage_quality(socket, id, attrs) do
+    card = Learning.get_card!(id)
+
+    socket
+    |> assign(:quality_drafts, Map.put(socket.assigns.quality_drafts, card.id, attrs))
+    |> assign(
+      :quality_forms,
+      Map.put(socket.assigns.quality_forms, card.id, quality_form(card, attrs))
+    )
+    |> stream_insert(:cards, card)
+  end
+
+  def handle_event("change-quality", %{"id" => id, "quality" => attrs}, socket) do
+    {:noreply, stage_quality(socket, id, attrs)}
+  end
+
+  def handle_event("save-quality", %{"id" => id, "quality" => attrs}, socket) do
+    handle_event("save-all-quality", %{}, stage_quality(socket, id, attrs))
+  end
+
+  def handle_event("save-all-quality", _, socket) do
+    case Learning.save_quality_checks(socket.assigns.quality_drafts) do
+      {:ok, _cards} ->
+        {:noreply,
+         socket
+         |> assign(quality_drafts: %{}, quality_forms: %{})
+         |> load_cards()
+         |> put_flash(:info, "All quality checks saved.")}
+
+      {:error, changeset} ->
+        form = to_form(changeset, as: :quality, id: "quality-#{changeset.data.id}")
+
+        {:noreply,
+         socket
+         |> assign(:quality_forms, Map.put(socket.assigns.quality_forms, changeset.data.id, form))
+         |> stream_insert(:cards, changeset.data)
+         |> put_flash(:error, "Nothing saved. Check the highlighted notes and try again.")}
+    end
   end
 
   def handle_event("filter", %{"filters" => params}, socket),
@@ -340,6 +391,13 @@ defmodule AlboWeb.ParentLive do
               ]}
             />
           </.form><div class="tool-buttons">
+            <button
+              id="quality-save-all"
+              phx-click="save-all-quality"
+              class="button primary"
+              disabled={map_size(@quality_drafts) == 0}
+              phx-disable-with="Saving…"
+            >Save all</button>
             <button id="print-open" phx-click="open-print" class="button secondary"><.icon name="hero-printer" />
             Print cards{if @selected_count > 0, do: " (#{@selected_count})"}</button>
             <button id="import-open" phx-click="open-import" class="button secondary">Import JSON</button><.link
@@ -419,7 +477,7 @@ defmodule AlboWeb.ParentLive do
           <table class="vocab-table studio-table">
             <thead>
               <tr>
-                <th>Albanian / English</th><th>Topic</th><th>Level</th><th>Status</th><th title="Successful flashcard PDF downloads">
+                <th>Albanian / English</th><th>Topic</th><th>Level</th><th>Quality check</th><th title="Successful flashcard PDF downloads">
                   Printed
                 </th><th>
                   <span class="sr-only">Actions</span>
@@ -447,7 +505,7 @@ defmodule AlboWeb.ParentLive do
                     </span>
                     <img
                       :if={card.image not in [nil, ""]}
-                      src={"/images/cards/#{card.image}.svg"}
+                      src={"/images/cards/#{Card.display_image(card.image)}.svg"}
                       alt=""
                     /><span :if={card.image in [nil, ""]} class="word-placeholder">“</span><div>
                       <strong lang="sq">{card.albanian}</strong><span>{card.english}</span>
@@ -455,15 +513,51 @@ defmodule AlboWeb.ParentLive do
                   </div>
                 </td><td>{String.capitalize(card.category)}</td><td>
                   {String.capitalize(card.difficulty)}
-                </td><td>
-                  <span class={[
-                    "pill",
-                    card.status == "active" && "soft-green",
-                    card.status == "archived" && "soft-gray"
-                  ]}>{if card.status == "archived", do: "Archived", else: "Ready to practice"}</span><span
-                    :if={card.reviewer}
-                    class="review-badge"
-                  >Reviewed</span>
+                </td><td class="studio-quality-cell">
+                  <.form
+                    for={@quality_forms[card.id]}
+                    id={"quality-form-#{card.id}"}
+                    class="studio-quality-form"
+                    phx-change="change-quality"
+                    phx-submit="save-quality"
+                    phx-value-id={card.id}
+                  >
+                    <div class="studio-quality-flags">
+                      <label
+                        :for={
+                          {field, icon, label} <- [
+                            {:quality_language, "hero-language", "Prishtina / less formal wording"},
+                            {:quality_image, "hero-photo", "Update, change or add picture"},
+                            {:quality_delete, "hero-trash", "Delete"}
+                          ]
+                        }
+                        class="studio-quality-option"
+                        title={label}
+                      >
+                        <input type="hidden" name={@quality_forms[card.id][field].name} value="false" />
+                        <.input
+                          field={@quality_forms[card.id][field]}
+                          type="checkbox"
+                          value="true"
+                          checked={
+                            Phoenix.HTML.Form.normalize_value(
+                              "checkbox",
+                              @quality_forms[card.id][field].value
+                            )
+                          }
+                        />
+                        <.icon name={icon} /><span class="sr-only">{label}</span>
+                      </label>
+                    </div>
+                    <div class="studio-quality-note">
+                      <.input
+                        field={@quality_forms[card.id][:quality_notes]}
+                        aria-label={"Quality check notes for #{card.english}"}
+                        placeholder="Quick note…"
+                        maxlength="2000"
+                      />
+                    </div>
+                  </.form>
                 </td><td
                   class="studio-print-count"
                   id={"print-count-#{card.id}"}
@@ -562,6 +656,17 @@ defmodule AlboWeb.ParentLive do
                 type="select"
                 label="Picture side"
                 options={[{"Albanian side (front)", "albanian"}, {"English side (back)", "english"}]}
+              />
+              <.input
+                field={@print_form[:art_style]}
+                phx-change="print-settings"
+                type="select"
+                label="Printer artwork"
+                options={[
+                  {"Color illustrations · white space", "color"},
+                  {"Black outlines · least ink", "outline"},
+                  {"Saved card artwork", "original"}
+                ]}
               />
             </div>
             <%!-- Keep native expansion and in-progress offsets when live counters/settings update. --%>

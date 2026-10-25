@@ -15,3 +15,7 @@ Run renderer regressions in the toolchain container:
 ```sh
 docker compose run --rm tools python3 -m unittest discover -s test/printing -v
 ```
+
+The optional 200-card expansion bundles Lucide (pinned source, ISC/MIT including Feather notices) and original CC0 outline art, with source credits and SVG hashes in both artwork manifests. `Card.images/0` reads the bundled manifest at compilation so web and print support the same keys. Black outlines are an optional PDF mode: starter images map to outlines; unsupported legacy pictures become text-only; saved card artwork remains selectable. This mode also uses grayscale text/guides. Complete outline license notices are embedded in PDF Subject metadata. See [collection provenance](../../../docs/collections/kosovo-200.md) for vocabulary, credits, generation scripts, and limitations.
+
+Preferred artwork is now colored Fluent Emoji Flat (Microsoft, MIT) plus original CC0 object drawings, with transparent margins. Both the studio and renderer default to `art_style=color`; black outlines remain optional. Web display and printing map saved keys without editing database records or content revisions. Full credits/license notices are embedded in PDF metadata. See [current color artwork verification](../../../docs/collections/color-art.md).

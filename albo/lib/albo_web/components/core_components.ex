@@ -51,7 +51,11 @@ defmodule AlboWeb.CoreComponents do
             id={@id}
             type={@type}
             name={@name}
-            value={Phoenix.HTML.Form.normalize_value(@type, @value)}
+            value={
+              if @type == "checkbox",
+                do: "true",
+                else: Phoenix.HTML.Form.normalize_value(@type, @value)
+            }
             aria-invalid={@errors != []}
             {@rest}
           />
@@ -80,6 +84,9 @@ defmodule AlboWeb.CoreComponents do
       "hero-adjustments-horizontal" =>
         "M3 6h6m4 0h8M3 12h12m4 0h2M3 18h2m4 0h12M9 3v6m6 0v6M5 15v6",
       "hero-check" => "m5 12 4 4L19 6",
+      "hero-language" => "M3 5h12M9 3v2m4 0c-1 6-5 9-10 11m2-9c1 4 4 7 8 9m1 5 4-10 4 10m-6-3h5",
+      "hero-photo" => "M3 3h18v18H3V3Zm0 14 5-5 4 4 3-3 6 6M15 7h.01",
+      "hero-trash" => "M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7",
       "hero-x-mark" => "m6 6 12 12M6 18 18 6",
       "hero-arrow-path" => "M20 8a8 8 0 0 0-14-3L3 8m0-5v5h5m-4 8a8 8 0 0 0 14 3l3-3m0 5v-5h-5",
       "hero-lock-closed" => "M7 10V7a5 5 0 0 1 10 0v3M5 10h14v11H5V10Zm7 4v3",

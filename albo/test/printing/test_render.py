@@ -16,7 +16,45 @@ class PrintingTest(unittest.TestCase):
     def payload(self, count=9, per_sheet=8, flip="long-edge", **offsets):
         return {"cards": [dict(id=i, revision=2, albanian=f"mollë ç {i}", english=f"apple {i}", image="apple")
                           for i in range(1, count + 1)],
-                "options": dict(per_sheet=per_sheet, flip=flip, back_x_mm=offsets.get("x", 0), back_y_mm=offsets.get("y", 0))}
+                "options": dict(per_sheet=per_sheet, flip=flip, art_style="original", back_x_mm=offsets.get("x", 0), back_y_mm=offsets.get("y", 0))}
+
+    def test_low_ink_maps_legacy_art_without_changing_input(self):
+        payload = self.payload(1)
+        payload["options"]["art_style"] = "outline"
+        pdf = self.create(payload)
+        self.assertIn("Lucide", pdf.pages[0].extract_text())
+        self.assertIn("line-apple", pdf.metadata.subject)
+        self.assertNotIn("1f34e.svg", pdf.metadata.subject)
+        self.assertEqual(payload["cards"][0]["image"], "apple")
+        for page in pdf.pages:
+            for operands, operator in ContentStream(page.get_contents(), pdf).operations:
+                if operator in (b"rg", b"RG"):
+                    self.assertEqual(operands[0], operands[1])
+                    self.assertEqual(operands[1], operands[2])
+        payload["cards"][0]["image"] = "rice"
+        fallback = self.create(payload)
+        self.assertFalse(any(op == b"Do" for _, op in ContentStream(fallback.pages[0].get_contents(), fallback).operations))
+        payload["options"]["art_style"] = "invalid"
+        with self.assertRaisesRegex(ValueError, "artwork"):
+            self.create(payload)
+
+    def test_color_is_default_for_starters_and_expansion_without_changing_saved_keys(self):
+        payload = self.payload(2)
+        del payload["options"]["art_style"]
+        payload["cards"][1]["image"] = "line-carrot"
+        pdf = self.create(payload)
+        self.assertIn("Microsoft Fluent Emoji", pdf.pages[0].extract_text())
+        self.assertIn("color-apple", pdf.metadata.subject)
+        self.assertIn("color-carrot", pdf.metadata.subject)
+        self.assertIn("Copyright (c) Microsoft Corporation", pdf.metadata.subject)
+        self.assertNotIn("line-carrot:", pdf.metadata.subject)
+        self.assertEqual(payload["cards"][1]["image"], "line-carrot")
+        for image_side in ("albanian", "english"):
+            payload["options"]["image_side"] = image_side
+            pdf = self.create(payload)
+            for index, page in enumerate(pdf.pages):
+                draws = sum(op == b"Do" for _, op in ContentStream(page.get_contents(), pdf).operations)
+                self.assertEqual(draws, 2 if index == (0 if image_side == "albanian" else 1) else 0)
 
     def create(self, payload):
         folder = tempfile.TemporaryDirectory()

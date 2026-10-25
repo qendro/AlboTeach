@@ -68,20 +68,20 @@ def centered(pdf, text, x, y, width, height, max_size=28):
     raise ValueError("A selected card has too much text to print legibly. Shorten its wording and try again.")
 
 
-def face(pdf, card, box, side, images, calibration, image_side):
+def face(pdf, card, box, side, images, calibration, image_side, ink=INK, muted=MUTED):
     x, y, width, height = box
     compact = height < 120
     padding, header, label_size = (10, 14, 5.5) if compact else (16, 20, 7)
     text_padding = 10 if compact else 18
-    pdf.setFillColor(MUTED)
+    pdf.setFillColor(muted)
     pdf.setFont("Cards", label_size)
     pdf.drawString(x + padding, y + height - header, "SHQIP" if side == "front" else "ENGLISH")
     pdf.drawRightString(x + width - padding, y + height - header, f"AT-{card['id']:04d}")
-    pdf.setFillColor(INK)
+    pdf.setFillColor(ink)
     word = card["albanian"] if side == "front" else card["english"]
     if calibration:
         cx, cy = x + width / 2, y + height / 2
-        pdf.setStrokeColor(INK)
+        pdf.setStrokeColor(ink)
         pdf.setLineWidth(0.5)
         cross, square = (9, 14) if compact else (12, 18)
         pdf.line(cx - cross, cy, cx + cross, cy)
@@ -127,12 +127,34 @@ def render(payload, output):
     register_fonts()
     cols, rows = grid_shape(per_sheet)
     images = {entry["key"]: entry for entry in json.loads((ASSETS / "images/credits.json").read_text())}
+    art_style = options.get("art_style", "color")
+    if art_style not in ("color", "outline", "original"):
+        raise ValueError("Choose valid printer artwork.")
+    ink = HexColor("#000000") if art_style != "original" else INK
+    muted = HexColor("#666666") if art_style != "original" else MUTED
+    if art_style == "color":
+        color_map = json.loads((ASSETS.parent / "collections/color-art/display-map.json").read_text())
+        cards = [dict(card, image=color_map.get(card.get("image"), card.get("image"))) for card in cards]
+    if art_style == "outline":
+        outline_map = json.loads((ASSETS.parent / "collections/kosovo-200/print-outline-map.json").read_text())
+        # Unknown/color-only artwork becomes text-only in low-ink mode. Saved cards stay intact.
+        cards = [dict(card, image=(card.get("image") if str(card.get("image", "")).startswith("line-")
+                                  else (str(card["image"]).replace("color-", "line-", 1)
+                                        if str(card.get("image", "")).startswith("color-")
+                                        else outline_map.get(card.get("image"), "")))) for card in cards]
     pdf = canvas.Canvas(str(output), pagesize=(612, 792), pageCompression=1)
     pdf.setTitle("AlboTeach / " + ("Printer calibration" if calibration else "Physical flashcards"))
     pdf.setAuthor("AlboTeach")
     used_images = {card.get("image") for card in cards} & images.keys()
-    pdf.setSubject("\n".join(f"{key}: {images[key]['credit']} / {images[key]['license']} / {images[key]['source']} / {images[key]['changes']}"
-                            for key in sorted(used_images)))
+    attribution = "\n".join(f"{key}: {images[key]['credit']} / {images[key]['license']} / {images[key]['source']} / {images[key]['changes']}"
+                            for key in sorted(used_images))
+    if any(key.startswith("line-") for key in used_images):
+        attribution += "\n" + (ASSETS / "images/LICENSE-Lucide.txt").read_text()
+        attribution += "\n" + (ASSETS / "images/LICENSE-AlboTeach-Outline.txt").read_text()
+    if any(key.startswith("color-") for key in used_images):
+        attribution += "\n" + (ASSETS / "images/LICENSE-Fluent-Emoji.txt").read_text()
+        attribution += "\n" + (ASSETS / "images/LICENSE-AlboTeach-Color.txt").read_text()
+    pdf.setSubject(attribution)
     for start in range(0, len(cards), per_sheet):
         sheet = start // per_sheet + 1
         for side in ("front", "back"):
@@ -141,9 +163,9 @@ def render(payload, output):
                 if side == "back":
                     x += dx * 72 / 25.4
                     y += dy * 72 / 25.4
-                face(pdf, card, (x, y, width, height), side, images, calibration, image_side)
+                face(pdf, card, (x, y, width, height), side, images, calibration, image_side, ink, muted)
             if side == "front":
-                pdf.setStrokeColor(HexColor("#bdc8b5"))
+                pdf.setStrokeColor(HexColor("#bbbbbb") if art_style != "original" else HexColor("#bdc8b5"))
                 pdf.setLineWidth(0.35)
                 pdf.setDash(2, 3)
                 for col in range(cols + 1):
@@ -153,13 +175,19 @@ def render(payload, output):
                     y = 36 + row * 720 / rows
                     pdf.line(36, y, 576, y)
                 pdf.setDash()
-            pdf.setFillColor(MUTED)
+            pdf.setFillColor(muted)
             pdf.setFont("Cards", 6.5)
             pdf.drawString(36, 776, f"AlboTeach / Sheet {sheet} / {side.upper()} / {flip} / Actual size 100%")
             pdf.drawRightString(576, 26, f"Back offset: X {dx:g}, Y {dy:g} mm")
             pdf.drawString(36, 26, "US Letter / Cut along front guides")
             if used_images:
-                pdf.drawCentredString(306, 14, "Art: Twemoji / Twitter & contributors / CC BY 4.0 / github.com/jdecked/twemoji (SVG to PNG)")
+                if all(key.startswith("color-") for key in used_images):
+                    credit = "Art: Microsoft Fluent Emoji / MIT; AlboTeach / CC0 / full credits in PDF metadata"
+                elif all(key.startswith("line-") for key in used_images):
+                    credit = "Art: Lucide & Feather / ISC & MIT; AlboTeach / CC0 / full credits in PDF metadata"
+                else:
+                    credit = "Art: Microsoft / MIT; Twemoji / CC BY 4.0; Lucide & Feather / ISC & MIT; AlboTeach / CC0 / metadata"
+                pdf.drawCentredString(306, 14, credit)
             pdf.showPage()
     pdf.save()
 
