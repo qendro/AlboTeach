@@ -4,13 +4,79 @@ defmodule Albo.Learning do
   alias Albo.Repo
   alias Albo.Learning.{Card, Progress, Review, CardKey, ContentEvent}
 
-  def list_cards, do: Repo.all(from c in Card, order_by: [asc: c.category, asc: c.id])
+  def list_cards, do: Repo.all(from c in Card, order_by: [asc: c.sort_order, asc: c.id])
   def get_card!(id), do: Repo.get!(Card, id)
+  def get_card(id), do: Repo.get(Card, id)
   def change_card(card, attrs \\ %{}), do: Card.changeset(card, attrs)
+
+  def move_card(id, direction, expected_position, expected_neighbor_id)
+      when direction in ["up", "down"] do
+    Repo.transaction(fn ->
+      card = Repo.get(Card, id)
+
+      if !card || to_string(card.sort_order) != to_string(expected_position),
+        do: Repo.rollback(:stale_order)
+
+      position = card.sort_order + if(direction == "up", do: -1, else: 1)
+      neighbor = Repo.get_by(Card, sort_order: position)
+
+      if !neighbor || to_string(neighbor.id) != to_string(expected_neighbor_id),
+        do: Repo.rollback(:stale_order)
+
+      # The unused position avoids a transient collision with the unique index.
+      set_position(card.id, next_position())
+      set_position(neighbor.id, card.sort_order)
+      set_position(card.id, position)
+      get_card!(card.id)
+    end)
+    |> notify_cards()
+  end
+
+  def move_card(_, _, _, _), do: {:error, :stale_order}
+
+  def delete_cards([]), do: {:error, :empty_selection}
+
+  def delete_cards(cards) when is_list(cards) do
+    Repo.transaction(fn ->
+      expected = Map.new(cards, &{&1.id, &1.revision})
+      ids = Map.keys(expected)
+      current = Repo.all(from c in Card, where: c.id in ^ids)
+
+      if Map.new(current, &{&1.id, &1.revision}) != expected, do: Repo.rollback(:stale)
+
+      for schema <- [Review, Progress, CardKey, ContentEvent] do
+        Repo.delete_all(from row in schema, where: row.card_id in ^ids)
+      end
+
+      {count, _} = Repo.delete_all(from c in Card, where: c.id in ^ids)
+
+      for {card, position} <- Enum.with_index(list_cards(), 1), card.sort_order != position do
+        set_position(card.id, position)
+      end
+
+      count
+    end)
+    |> notify_cards()
+  end
+
+  defp next_position, do: (Repo.aggregate(Card, :max, :sort_order) || 0) + 1
+
+  defp set_position(id, position),
+    do: Repo.update_all(from(c in Card, where: c.id == ^id), set: [sort_order: position])
+
+  defp notify_cards({:ok, _} = result) do
+    Phoenix.PubSub.broadcast(Albo.PubSub, "cards:collection", :cards_updated)
+    result
+  end
+
+  defp notify_cards(result), do: result
 
   def save_quality_check(id, attrs) do
     Repo.transaction(fn ->
-      case get_card!(id) |> Card.quality_changeset(attrs) |> Repo.update() do
+      current = get_card(id)
+      if is_nil(current), do: Repo.rollback(:stale)
+
+      case current |> Card.quality_changeset(attrs) |> Repo.update() do
         {:ok, saved} ->
           audit(saved, "quality_check")
           saved
@@ -34,13 +100,16 @@ defmodule Albo.Learning do
 
   def save_card(card, attrs, expected_revision) do
     Repo.transaction(fn ->
-      current = if card.id, do: get_card!(card.id), else: card
+      current = if card.id, do: Repo.get(Card, card.id), else: card
+      if is_nil(current), do: Repo.rollback(:stale)
       if current.id && current.revision != expected_revision, do: Repo.rollback(:stale)
       cs = Card.changeset(current, attrs)
 
       # validate_required can remove a blank field from changes while retaining its error.
       # Reject invalid changesets before treating an empty changes map as a successful no-op.
       if !cs.valid?, do: Repo.rollback(cs)
+
+      cs = canonicalize_groups(cs)
 
       if map_size(cs.changes) == 0 && current.id do
         current
@@ -59,6 +128,9 @@ defmodule Albo.Learning do
 
         if duplicate?(Ecto.Changeset.apply_changes(cs), current.id), do: Repo.rollback(:duplicate)
 
+        cs =
+          if current.id, do: cs, else: Ecto.Changeset.put_change(cs, :sort_order, next_position())
+
         case Repo.insert_or_update(cs) do
           {:ok, saved} ->
             remember_keys(saved)
@@ -70,12 +142,14 @@ defmodule Albo.Learning do
         end
       end
     end)
+    |> notify_cards()
   end
 
   def decide(id, revision, decision, reviewer \\ nil)
       when decision in ["reviewed", "active", "archived"] do
     Repo.transaction(fn ->
-      card = get_card!(id)
+      card = get_card(id)
+      if is_nil(card), do: Repo.rollback(:stale)
       if card.revision != revision, do: Repo.rollback(:stale)
 
       changes =
@@ -92,6 +166,7 @@ defmodule Albo.Learning do
       audit(saved, decision)
       saved
     end)
+    |> notify_cards()
   end
 
   def import_json(json) when is_binary(json) and byte_size(json) <= 200_000 do
@@ -102,17 +177,19 @@ defmodule Albo.Learning do
           if !is_map(attrs), do: Repo.rollback({:invalid_row, row})
           cs = Card.changeset(%Card{}, Map.put_new(attrs, "source", "AI proposal"))
           if !cs.valid?, do: Repo.rollback({:invalid_row, row})
+          cs = canonicalize_groups(cs)
 
           if duplicate?(Ecto.Changeset.apply_changes(cs), nil) do
             Map.update!(acc, :skipped, &(&1 + 1))
           else
-            card = Repo.insert!(cs)
+            card = cs |> Ecto.Changeset.put_change(:sort_order, next_position()) |> Repo.insert!()
             remember_keys(card)
             audit(card, "imported")
             Map.update!(acc, :added, &(&1 + 1))
           end
         end)
       end)
+      |> notify_cards()
     else
       _ -> {:error, :invalid_json}
     end
@@ -126,7 +203,8 @@ defmodule Albo.Learning do
         list_cards(),
         &Map.take(
           &1,
-          Card.fields() ++ Card.quality_fields() ++ [:id, :revision, :status, :reviewer]
+          Card.fields() ++
+            Card.quality_fields() ++ [:id, :sort_order, :revision, :status, :reviewer]
         )
       )
 
@@ -230,7 +308,8 @@ defmodule Albo.Learning do
     now = DateTime.truncate(now, :second)
 
     Repo.transaction(fn ->
-      card = get_card!(id)
+      card = get_card(id)
+      if is_nil(card), do: Repo.rollback(:stale)
       if card.status != "active" || card.revision != revision, do: Repo.rollback(:stale)
 
       if Repo.exists?(from r in Review, where: r.token == ^token),
@@ -310,6 +389,31 @@ defmodule Albo.Learning do
       |> String.downcase()
       |> String.replace(~r/[^\p{L}\p{N}]+/u, " ")
       |> String.trim()
+
+  defp canonicalize_groups(changeset) do
+    if Map.has_key?(changeset.changes, :category) || Map.has_key?(changeset.changes, :subcategory) do
+      groups = Repo.all(from c in Card, distinct: true, select: {c.category, c.subcategory})
+      topic = Ecto.Changeset.get_field(changeset, :category)
+      topic = canonical_label(topic, Enum.map(groups, &elem(&1, 0)))
+      subtopic = Ecto.Changeset.get_field(changeset, :subcategory) || ""
+
+      subtopics = for {parent, child} <- groups, parent == topic, do: child
+
+      changeset
+      |> Ecto.Changeset.put_change(:category, topic)
+      |> Ecto.Changeset.put_change(:subcategory, canonical_label(subtopic, subtopics))
+    else
+      changeset
+    end
+  end
+
+  defp canonical_label(value, existing) do
+    key = value |> String.normalize(:nfc) |> String.downcase()
+
+    Enum.find(existing, value, fn label ->
+      label |> to_string() |> String.normalize(:nfc) |> String.downcase() == key
+    end)
+  end
 
   defp keys(card),
     do:

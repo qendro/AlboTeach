@@ -1,5 +1,5 @@
 #!/bin/sh
 set -eu
-# Run migrations and seed proposals before the HTTP listener starts.
+# Apply schema migrations before serving requests. Starter content is loaded explicitly.
 /app/bin/albo eval 'Albo.Release.prepare()'
 exec /app/bin/albo start

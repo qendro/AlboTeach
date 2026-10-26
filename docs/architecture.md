@@ -2,7 +2,7 @@
 
 AlboTeach is a local, independent Phoenix 1.8.16 / LiveView 1.2 application on Elixir 1.18 / Erlang OTP 27. Docker builds a production release. Its runtime is an unprivileged user with a read-only root filesystem, limited resources, and a writable SQLite volume. One app container, no separate database service, and no cloud dependency. Only `127.0.0.1:4010` is published. Docker Desktop is the only host prerequisite.
 
-SQLite uses WAL, immediate write transactions, a 10-second busy timeout, and one pooled connection. The entrypoint migrates and seeds before serving requests. Content keys and old wording remain reserved to prevent overwriting historical corrections. Content events preserve snapshots; edits increment the revision, and learning progress is tied to that revision. Review attempt tokens and due-time checks prevent duplicate grading across double-clicks or stale tabs.
+SQLite uses WAL, immediate write transactions, a 10-second busy timeout, and one pooled connection. The entrypoint migrates before serving requests. Starter content is an explicit setup action, so an intentionally empty collection stays empty after a restart. Content keys and old wording remain reserved to prevent overwriting historical corrections. Content events preserve snapshots; edits increment the revision, and learning progress is tied to that revision. Review attempt tokens and due-time checks prevent duplicate grading across double-clicks or stale tabs.
 
 ## Local entry and equal capabilities
 
@@ -19,6 +19,14 @@ Import ignores incoming status, reviewer, and IDs. Optional review records an ac
 The card editor generates an internal concept key when creating a card; the user only needs Albanian, English, and a topic. Validation runs as the form changes, and failed saves show all errors. Invalid changesets are rejected before considering an empty changes map a successful no-op; this fixes the case where clearing a required field silently closed the editor.
 
 The flashcard screen defaults to All cards, querying every active card regardless of due date or prior practice, with independent topic/level filters. Optional Daily practice retains the incremental schedule: up to three new cards per UTC day plus five due reviews per session. All-card grading can introduce more words and record early practice. Early remembered repeats preserve the existing streak and due date; struggling again schedules a retry. Answer tokens still prevent duplicate submissions. There is one household learner’s progress, shared by both role views.
+
+## Card studio ordering
+
+Cards retain permanent IDs and have a unique positive `sort_order` plus an optional `subcategory`. The existing category and difficulty fields remain Topic and Level. One migration preserves the previous category/ID sequence and initializes contiguous manual positions. Creation and import allocate positions inside immediate transactions; duplicate imports consume no numbers. Up/down swaps use a temporary unused position to satisfy the unique index, validate the expected neighboring cards, and preserve content revisions and practice history. Permanent single/bulk deletion checks the selected content revisions, removes dependent records, and compacts positions in the same transaction. Archive/restore retains positions.
+
+`Albo.Learning.CardOrder` centralizes deterministic sorting for manual order, either language, topic, sub-topic, and level. Header sorts live in URL parameters and never rewrite saved manual order. Reordering is enabled only for the full collection in ascending manual order. Collection updates refresh open studios through PubSub while preserving staged quality notes on surviving cards.
+
+Selections are membership sets; their sequence comes from the active sort over the full collection, including selected cards hidden by a search. The signed print token stores the ordered ID/revision pairs, and printing retrieves cards in that exact order. The PDF renderer receives an ordered array and retains the existing duplex alignment. Export includes sub-topics and manual positions in manual order; import uses the array sequence and assigns fresh positions.
 
 ## Data and assets
 

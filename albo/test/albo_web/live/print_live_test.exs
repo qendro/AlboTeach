@@ -226,4 +226,55 @@ defmodule AlboWeb.PrintLiveTest do
     assert redirected_to(invalid) == "/cards"
     assert Learning.get_card!(card.id).print_count == 1
   end
+
+  test "Albanian-only printing updates the dialog and downloads for both roles", %{conn: conn} do
+    cards = for _ <- 1..9, do: card(%{"image" => "apple"})
+
+    for role <- ["learner", "parent"] do
+      signed = login(conn, role)
+      {:ok, view, _} = live(signed, "/cards")
+      view |> element("#select-visible") |> render_click()
+      view |> element("#print-open") |> render_click()
+
+      view
+      |> element("#print_image_side")
+      |> render_change(%{"print" => %{"image_side" => "english"}})
+
+      view |> element("#print_sides") |> render_change(%{"print" => %{"sides" => "albanian"}})
+      assert has_element?(view, "#print-page-count", "2 sheets · 2 PDF pages")
+      assert has_element?(view, "#download-cards", "Download Albanian PDF")
+      assert has_element?(view, "#print-help", "single-sided")
+      refute has_element?(view, "#print_flip")
+      refute has_element?(view, "#print_image_side")
+      refute has_element?(view, "#print-adjustments")
+      refute has_element?(view, "#download-calibration")
+      view |> element("#print_per_sheet") |> render_change(%{"print" => %{"per_sheet" => "10"}})
+      assert has_element?(view, "#print-page-count", "1 sheet · 1 PDF page")
+      view |> element("#close-print") |> render_click()
+      view |> element("#print-open") |> render_click()
+      assert has_element?(view, "#print_sides option[value=albanian][selected]")
+
+      response =
+        post(signed, "/cards/print/pdf", %{
+          "selection" => Printing.selection_token(cards),
+          "print" => %{"sides" => "albanian", "image_side" => "english", "per_sheet" => "10"}
+        })
+
+      assert response.status == 200
+      assert String.starts_with?(response.resp_body, "%PDF-")
+      assert hd(get_resp_header(response, "content-disposition")) =~ "alboteach-albanian.pdf"
+      view |> element("#print_sides") |> render_change(%{"print" => %{"sides" => "both"}})
+      assert has_element?(view, "#print-page-count", "1 sheet · 2 PDF pages")
+      assert has_element?(view, "#print_image_side option[value=english][selected]")
+      assert has_element?(view, "#download-calibration")
+    end
+
+    assert Learning.get_card!(hd(cards).id).print_count == 2
+
+    assert {:ok, %{sides: "albanian", image_side: "albanian"}} =
+             Printing.options(%{"sides" => "albanian", "image_side" => "english"})
+
+    assert {:error, _} = Printing.options(%{"sides" => "invalid"})
+    assert Learning.stats().practiced == 0
+  end
 end

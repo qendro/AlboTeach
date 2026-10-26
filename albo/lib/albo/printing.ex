@@ -1,7 +1,7 @@
 defmodule Albo.Printing do
   @moduledoc "Bounded, offline PDF downloads using a revision-checked collection snapshot."
   import Ecto.Query
-  alias Albo.{Learning, Repo}
+  alias Albo.Repo
   alias Albo.Learning.Card
   @salt "physical-flashcards"
 
@@ -17,13 +17,18 @@ defmodule Albo.Printing do
 
   def selected_cards(token) when is_binary(token) do
     with {:ok, revisions} when is_list(revisions) and length(revisions) in 1..300 <-
-           Phoenix.Token.verify(AlboWeb.Endpoint, @salt, token, max_age: 3600) do
-      cards =
-        Learning.list_cards()
-        |> Enum.filter(&({&1.id, &1.revision} in revisions and &1.status == "active"))
-        |> Enum.sort_by(& &1.id)
+           Phoenix.Token.verify(AlboWeb.Endpoint, @salt, token, max_age: 3600),
+         true <- Enum.all?(revisions, &valid_revision?/1),
+         ids = Enum.map(revisions, &elem(&1, 0)),
+         true <- length(Enum.uniq(ids)) == length(ids) do
+      current =
+        Repo.all(from c in Card, where: c.id in ^ids and c.status == "active")
+        |> Map.new(&{{&1.id, &1.revision}, &1})
 
-      if length(cards) == length(revisions),
+      # Database query order is irrelevant: the signed snapshot owns the sequence.
+      cards = Enum.map(revisions, &Map.get(current, &1))
+
+      if Enum.all?(cards),
         do: {:ok, cards},
         else:
           {:error,
@@ -37,8 +42,14 @@ defmodule Albo.Printing do
 
   def selected_cards(_), do: {:error, "Select at least one card to print."}
 
+  defp valid_revision?({id, revision}),
+    do: is_integer(id) && id > 0 && is_integer(revision) && revision > 0
+
+  defp valid_revision?(_), do: false
+
   def options(params) when is_map(params) do
     with per_sheet when per_sheet in ["8", "10", "21"] <- Map.get(params, "per_sheet", "8"),
+         sides when sides in ["both", "albanian"] <- Map.get(params, "sides", "both"),
          flip when flip in ["long-edge", "short-edge"] <- Map.get(params, "flip", "long-edge"),
          image_side when image_side in ["albanian", "english"] <-
            Map.get(params, "image_side", "albanian"),
@@ -49,8 +60,9 @@ defmodule Albo.Printing do
       {:ok,
        %{
          per_sheet: String.to_integer(per_sheet),
+         sides: sides,
          flip: flip,
-         image_side: image_side,
+         image_side: if(sides == "albanian", do: "albanian", else: image_side),
          art_style: art_style,
          back_x_mm: x,
          back_y_mm: y
@@ -58,7 +70,7 @@ defmodule Albo.Printing do
     else
       _ ->
         {:error,
-         "Choose a valid layout, picture side, duplex flip, and offsets between -5 and 5 mm."}
+         "Choose a valid layout, sides to print, picture side, duplex flip, and offsets between -5 and 5 mm."}
     end
   end
 

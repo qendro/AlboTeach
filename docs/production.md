@@ -6,7 +6,7 @@ Both `habbits.xyz` and `www.habbits.xyz` route to the service's HTTP port 4000. 
 
 ## Persistent data
 
-The service runs one instance with the recreate deployment strategy. The 6 GiB `alboteach-data` volume is mounted at `/data`, with SQLite at `/data/albo.sqlite`. Builds contain web and print pictures, their licenses, and collection exports; the database remains on the volume across deployments. Startup applies schema migrations and ensures the starter cards exist.
+The service runs one instance with the recreate deployment strategy. The 6 GiB `alboteach-data` volume is mounted at `/data`, with SQLite at `/data/albo.sqlite`. Builds contain web and print pictures, their licenses, and collection exports; the database remains on the volume across deployments. Startup applies schema migrations without inserting content. Starter cards can be loaded explicitly with `Albo.Learning.seed()`; intentionally empty collections stay empty after restarts.
 
 The initial production collection was transferred from the verified local SQLite backup containing the reviewed 193 cards, preserving card IDs, content revisions, learner progress, practice history, quality feedback, and print counts. A vocabulary import alone does not preserve all of that history.
 

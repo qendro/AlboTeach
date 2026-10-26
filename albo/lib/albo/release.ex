@@ -7,7 +7,6 @@ defmodule Albo.Release do
       {:ok, _, _} =
         Ecto.Migrator.with_repo(repo, fn repo ->
           Ecto.Migrator.run(repo, :up, all: true)
-          Albo.Learning.seed()
         end)
     end
   end

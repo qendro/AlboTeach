@@ -1,4 +1,4 @@
-"""Offline duplex flashcards. Input is a validated webapp snapshot, never a database."""
+"""Offline printable flashcards. Input is a validated webapp snapshot, never a database."""
 
 import json
 import math
@@ -12,7 +12,7 @@ from reportlab.pdfgen import canvas
 
 ASSETS = Path(__file__).resolve().parent
 INK = HexColor("#183e36")
-MUTED = HexColor("#71806d")
+PAGE_WIDTH, PAGE_HEIGHT = 612, 792
 
 
 def register_fonts():
@@ -32,11 +32,11 @@ def geometry(slot, per_sheet, side, flip):
             col = cols - 1 - col
         else:
             row = rows - 1 - row
-    width, height = 540 / cols, 720 / rows
-    return 36 + col * width, 756 - (row + 1) * height, width, height
+    width, height = PAGE_WIDTH / cols, PAGE_HEIGHT / rows
+    return col * width, PAGE_HEIGHT - (row + 1) * height, width, height
 
 
-def centered(pdf, text, x, y, width, height, max_size=28):
+def text_layout(text, width, height, max_size=28):
     supported = pdfmetrics.getFont("CardsBold").face.charToGlyph
     if any(ord(ch) not in supported for ch in text if not ch.isspace()):
         raise ValueError("A selected card contains a character the print font cannot display. Edit that card before printing.")
@@ -60,26 +60,32 @@ def centered(pdf, text, x, y, width, height, max_size=28):
         if current:
             lines.append(current)
         if lines and len(lines) * size * 1.22 <= height:
-            pdf.setFont("CardsBold", size)
-            baseline = y + height / 2 + (len(lines) - 1) * size * 1.22 / 2 - size * 0.35
-            for index, line in enumerate(lines):
-                pdf.drawCentredString(x + width / 2, baseline - index * size * 1.22, line)
-            return
+            return lines, size
     raise ValueError("A selected card has too much text to print legibly. Shorten its wording and try again.")
 
 
-def face(pdf, card, box, side, images, calibration, image_side, ink=INK, muted=MUTED):
+def centered(pdf, text, x, y, width, height, max_size=28):
+    lines, size = text_layout(text, width, height, max_size)
+    pdf.setFont("CardsBold", size)
+    baseline = y + height / 2 + (len(lines) - 1) * size * 1.22 / 2 - size * 0.35
+    for index, line in enumerate(lines):
+        pdf.drawCentredString(x + width / 2, baseline - index * size * 1.22, line)
+
+
+def face(pdf, card, box, side, images, calibration, image_side, ink=INK, offset=(0, 0)):
     x, y, width, height = box
+    paper_y = y
+    x += offset[0]
+    y += offset[1]
     compact = height < 120
-    padding, header, label_size = (10, 14, 5.5) if compact else (16, 20, 7)
-    text_padding = 10 if compact else 18
-    pdf.setFillColor(muted)
-    pdf.setFont("Cards", label_size)
-    pdf.drawString(x + padding, y + height - header, "SHQIP" if side == "front" else "ENGLISH")
-    pdf.drawRightString(x + width - padding, y + height - header, f"AT-{card['id']:04d}")
+    text_padding = 18
     pdf.setFillColor(ink)
     word = card["albanian"] if side == "front" else card["english"]
     if calibration:
+        padding, header, label_size = 18, 26, 5.5 if compact else 7
+        pdf.setFont("Cards", label_size)
+        pdf.drawString(x + padding, y + height - header, "SHQIP" if side == "front" else "ENGLISH")
+        pdf.drawRightString(x + width - padding, y + height - header, f"AT-{card['id']:04d}")
         cx, cy = x + width / 2, y + height / 2
         pdf.setStrokeColor(ink)
         pdf.setLineWidth(0.5)
@@ -95,15 +101,25 @@ def face(pdf, card, box, side, images, calibration, image_side, ink=INK, muted=M
     else:
         picture_face = "front" if image_side == "albanian" else "back"
         image = images.get(card.get("image")) if side == picture_face else None
-        bottom = 18 if compact else 24
-        text_height = height - (40 if compact else 65)
+        padding = 8 if compact else 10
+        gap = 6 if compact else 8
+        max_size = 22 if compact else 28
+        # Keep content inset from the paper edges, even though the cut grid fills the sheet.
+        bottom_padding = max(padding, 18 - paper_y)
+        top_padding = max(padding, 18 - (PAGE_HEIGHT - paper_y - height))
+        available = height - bottom_padding - top_padding
+        bottom = y + bottom_padding
+        text_height = available
         if image:
-            size = 28 if compact else min(70, height * 0.39)
-            image_bottom = y + height - (23 if compact else 30) - size
+            # Reserve enough room for the wording before expanding the illustration.
+            lines, font_size = text_layout(word, width - 2 * text_padding, available * 0.4, max_size)
+            text_height = len(lines) * font_size * 1.22
+            size = min(width - 2 * text_padding, height * 0.65, available - text_height - gap)
+            bottom += (available - size - gap - text_height) / 2
+            image_bottom = bottom + text_height + gap
             pdf.drawImage(str(ASSETS / "images" / image["file"]), x + (width - size) / 2,
                           image_bottom, size, size, mask="auto")
-            text_height = image_bottom - y - bottom - (5 if compact else 6)
-        centered(pdf, word, x + text_padding, y + bottom, width - 2 * text_padding, text_height, 22 if compact else 28)
+        centered(pdf, word, x + text_padding, bottom, width - 2 * text_padding, text_height, max_size)
 
 
 def render(payload, output):
@@ -111,9 +127,14 @@ def render(payload, output):
     per_sheet, flip = options["per_sheet"], options["flip"]
     if per_sheet not in (8, 10, 21) or flip not in ("long-edge", "short-edge"):
         raise ValueError("Choose a valid card layout and duplex setting.")
+    sides = options.get("sides", "both")
+    if sides not in ("both", "albanian"):
+        raise ValueError("Choose both sides or Albanian only.")
     image_side = options.get("image_side", "albanian")
     if image_side not in ("albanian", "english"):
         raise ValueError("Choose the Albanian or English side for pictures.")
+    if sides == "albanian":
+        image_side = "albanian"
     dx, dy = options["back_x_mm"], options["back_y_mm"]
     if any(not math.isfinite(v) or abs(v) > 5 for v in (dx, dy)):
         raise ValueError("Back offsets must be between -5 and 5 mm.")
@@ -131,7 +152,6 @@ def render(payload, output):
     if art_style not in ("color", "outline", "original"):
         raise ValueError("Choose valid printer artwork.")
     ink = HexColor("#000000") if art_style != "original" else INK
-    muted = HexColor("#666666") if art_style != "original" else MUTED
     if art_style == "color":
         color_map = json.loads((ASSETS.parent / "collections/color-art/display-map.json").read_text())
         cards = [dict(card, image=color_map.get(card.get("image"), card.get("image"))) for card in cards]
@@ -142,7 +162,7 @@ def render(payload, output):
                                   else (str(card["image"]).replace("color-", "line-", 1)
                                         if str(card.get("image", "")).startswith("color-")
                                         else outline_map.get(card.get("image"), "")))) for card in cards]
-    pdf = canvas.Canvas(str(output), pagesize=(612, 792), pageCompression=1)
+    pdf = canvas.Canvas(str(output), pagesize=(PAGE_WIDTH, PAGE_HEIGHT), pageCompression=1)
     pdf.setTitle("AlboTeach / " + ("Printer calibration" if calibration else "Physical flashcards"))
     pdf.setAuthor("AlboTeach")
     used_images = {card.get("image") for card in cards} & images.keys()
@@ -156,38 +176,23 @@ def render(payload, output):
         attribution += "\n" + (ASSETS / "images/LICENSE-AlboTeach-Color.txt").read_text()
     pdf.setSubject(attribution)
     for start in range(0, len(cards), per_sheet):
-        sheet = start // per_sheet + 1
-        for side in ("front", "back"):
+        for side in (("front", "back") if sides == "both" else ("front",)):
             for slot, card in enumerate(cards[start:start + per_sheet]):
-                x, y, width, height = geometry(slot, per_sheet, side, flip)
-                if side == "back":
-                    x += dx * 72 / 25.4
-                    y += dy * 72 / 25.4
-                face(pdf, card, (x, y, width, height), side, images, calibration, image_side, ink, muted)
+                box = geometry(slot, per_sheet, side, flip)
+                offset = (dx * 72 / 25.4, dy * 72 / 25.4) if side == "back" else (0, 0)
+                face(pdf, card, box, side, images, calibration, image_side, ink, offset)
             if side == "front":
                 pdf.setStrokeColor(HexColor("#bbbbbb") if art_style != "original" else HexColor("#bdc8b5"))
                 pdf.setLineWidth(0.35)
                 pdf.setDash(2, 3)
-                for col in range(cols + 1):
-                    x = 36 + col * 540 / cols
-                    pdf.line(x, 36, x, 756)
-                for row in range(rows + 1):
-                    y = 36 + row * 720 / rows
-                    pdf.line(36, y, 576, y)
+                # The paper edges finish the outer cards; only internal cuts are needed.
+                for col in range(1, cols):
+                    x = col * PAGE_WIDTH / cols
+                    pdf.line(x, 0, x, PAGE_HEIGHT)
+                for row in range(1, rows):
+                    y = row * PAGE_HEIGHT / rows
+                    pdf.line(0, y, PAGE_WIDTH, y)
                 pdf.setDash()
-            pdf.setFillColor(muted)
-            pdf.setFont("Cards", 6.5)
-            pdf.drawString(36, 776, f"AlboTeach / Sheet {sheet} / {side.upper()} / {flip} / Actual size 100%")
-            pdf.drawRightString(576, 26, f"Back offset: X {dx:g}, Y {dy:g} mm")
-            pdf.drawString(36, 26, "US Letter / Cut along front guides")
-            if used_images:
-                if all(key.startswith("color-") for key in used_images):
-                    credit = "Art: Microsoft Fluent Emoji / MIT; AlboTeach / CC0 / full credits in PDF metadata"
-                elif all(key.startswith("line-") for key in used_images):
-                    credit = "Art: Lucide & Feather / ISC & MIT; AlboTeach / CC0 / full credits in PDF metadata"
-                else:
-                    credit = "Art: Microsoft / MIT; Twemoji / CC BY 4.0; Lucide & Feather / ISC & MIT; AlboTeach / CC0 / metadata"
-                pdf.drawCentredString(306, 14, credit)
             pdf.showPage()
     pdf.save()
 

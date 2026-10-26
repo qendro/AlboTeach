@@ -22,7 +22,7 @@ class PrintingTest(unittest.TestCase):
         payload = self.payload(1)
         payload["options"]["art_style"] = "outline"
         pdf = self.create(payload)
-        self.assertIn("Lucide", pdf.pages[0].extract_text())
+        self.assertIn("Lucide", pdf.metadata.subject)
         self.assertIn("line-apple", pdf.metadata.subject)
         self.assertNotIn("1f34e.svg", pdf.metadata.subject)
         self.assertEqual(payload["cards"][0]["image"], "apple")
@@ -43,7 +43,7 @@ class PrintingTest(unittest.TestCase):
         del payload["options"]["art_style"]
         payload["cards"][1]["image"] = "line-carrot"
         pdf = self.create(payload)
-        self.assertIn("Microsoft Fluent Emoji", pdf.pages[0].extract_text())
+        self.assertIn("Microsoft", pdf.metadata.subject)
         self.assertIn("color-apple", pdf.metadata.subject)
         self.assertIn("color-carrot", pdf.metadata.subject)
         self.assertIn("Copyright (c) Microsoft Corporation", pdf.metadata.subject)
@@ -66,8 +66,13 @@ class PrintingTest(unittest.TestCase):
     def positions(self, page):
         positions = {}
         def visitor(text, cm, tm, font, size):
+            text = text.strip()
             if text.startswith("AT-"):
                 positions[text.strip()] = (tm[4], tm[5])
+            elif text.startswith(("mollë ç ", "apple ")):
+                key = int(text.strip().split()[-1])
+                positions[key] = (tm[4] + printing.pdfmetrics.stringWidth(text.strip(), "CardsBold", size) / 2,
+                                  tm[5] + size * 1.55)
         page.extract_text(visitor_text=visitor)
         return positions
 
@@ -75,37 +80,37 @@ class PrintingTest(unittest.TestCase):
         for per_sheet, cols, rows in ((8, 2, 4), (10, 2, 5), (21, 3, 7)):
             for flip in ("long-edge", "short-edge"):
                 with self.subTest(per_sheet=per_sheet, flip=flip):
-                    pdf = self.create(self.payload(per_sheet + 1, per_sheet, flip))
+                    payload = self.payload(per_sheet + 1, per_sheet, flip)
+                    for card in payload["cards"]:
+                        card["image"] = ""
+                    pdf = self.create(payload)
                     self.assertEqual(len(pdf.pages), 4)
                     for page in pdf.pages:
                         self.assertEqual(tuple(page.mediabox), (0, 0, 612, 792))
                     for front, back in ((pdf.pages[0], pdf.pages[1]), (pdf.pages[2], pdf.pages[3])):
                         f, b = self.positions(front), self.positions(back)
+                        self.assertEqual(len(f), per_sheet if front is pdf.pages[0] else 1)
                         self.assertEqual(f.keys(), b.keys())
                         for key, (x, y) in f.items():
                             if flip == "long-edge":
-                                slot = (int(key[3:]) - 1) % per_sheet
+                                slot = (key - 1) % per_sheet
                                 col = slot % cols
-                                self.assertAlmostEqual(b[key][0] - x, (cols - 1 - 2 * col) * 540 / cols)
-                                self.assertAlmostEqual(b[key][1], y)
+                                self.assertAlmostEqual(b[key][0] - x, (cols - 1 - 2 * col) * 612 / cols, places=3)
+                                self.assertAlmostEqual(b[key][1], y, places=3)
                             else:
-                                self.assertAlmostEqual(b[key][0], x)
-                                # Compact labels use 14pt padding + 6.6pt leading; others 20 + 8.4.
-                                offset = 20.6 if per_sheet == 21 else 28.4
-                                self.assertAlmostEqual(b[key][1] + y, 792 + 720 / rows - 2 * offset, places=3)
+                                self.assertAlmostEqual(b[key][0], x, places=3)
+                                self.assertAlmostEqual(b[key][1] + y, 792, places=3)
                     self.assertEqual(len(self.positions(pdf.pages[2])), 1)
                     self.assertIn("mollë ç 1", pdf.pages[0].extract_text())
                     self.assertNotIn("apple 1", pdf.pages[0].extract_text())
                     self.assertIn("apple 1", pdf.pages[1].extract_text())
-                    self.assertIn("CC BY 4.0", pdf.pages[0].extract_text())
-                    self.assertIn("1f34e.svg", pdf.metadata.subject)
 
     def test_offsets_only_move_backs(self):
         base = self.create(self.payload(1))
         shifted = self.create(self.payload(1, x=1, y=-2))
         self.assertEqual(self.positions(base.pages[0]), self.positions(shifted.pages[0]))
-        first = self.positions(base.pages[1])["AT-0001"]
-        second = self.positions(shifted.pages[1])["AT-0001"]
+        first = self.positions(base.pages[1])[1]
+        second = self.positions(shifted.pages[1])[1]
         self.assertAlmostEqual(second[0] - first[0], 72 / 25.4, places=3)
         self.assertAlmostEqual(second[1] - first[1], -144 / 25.4, places=3)
 
@@ -143,7 +148,28 @@ class PrintingTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "character"):
             self.create(payload)
 
-    def test_pictures_appear_only_on_chosen_language_and_revision_footer_is_removed(self):
+    def test_albanian_only_has_no_backs_and_keeps_pictures_and_cut_guides(self):
+        for per_sheet in (8, 10, 21):
+            with self.subTest(per_sheet=per_sheet):
+                payload = self.payload(per_sheet + 1, per_sheet)
+                payload["options"].update(sides="albanian", image_side="english", back_x_mm=3, back_y_mm=-2)
+                for card in payload["cards"]:
+                    card["english"] = "English must not print 🫠"
+                pdf = self.create(payload)
+                self.assertEqual(len(pdf.pages), 2)
+                for page_number, page in enumerate(pdf.pages):
+                    expected = payload["cards"][page_number * per_sheet:(page_number + 1) * per_sheet]
+                    self.assertEqual([line.strip() for line in page.extract_text().splitlines()],
+                                     [card["albanian"] for card in expected])
+                    operations = ContentStream(page.get_contents(), pdf).operations
+                    self.assertEqual(sum(op == b"Do" for _, op in operations), len(expected))
+                    cols, rows = printing.grid_shape(per_sheet)
+                    self.assertEqual(sum(op == b"l" for _, op in operations), cols + rows - 2)
+                payload["options"]["sides"] = "invalid"
+                with self.assertRaisesRegex(ValueError, "sides"):
+                    self.create(payload)
+
+    def test_pages_contain_only_vocabulary_larger_pictures_and_front_cut_guides(self):
         for per_sheet in (8, 10, 21):
             for flip in ("long-edge", "short-edge"):
                 for image_side in ("albanian", "english"):
@@ -156,8 +182,24 @@ class PrintingTest(unittest.TestCase):
                             draws = sum(operator == b"Do" for operands, operator in ContentStream(page.get_contents(), pdf).operations)
                             illustrated = index == (0 if image_side == "albanian" else 1)
                             self.assertEqual(draws, 2 if illustrated else 0)
-                            self.assertNotIn("AlboTeach / revision", page.extract_text())
-                            self.assertIn("CC BY 4.0", page.extract_text())
+                            expected = [card["albanian" if index == 0 else "english"] for card in payload["cards"]]
+                            self.assertEqual([line.strip() for line in page.extract_text().splitlines()], expected)
+                            operations = ContentStream(page.get_contents(), pdf).operations
+                            image_sizes = [float(args[0]) for args, op in operations
+                                           if op == b"cm" and float(args[0]) > 1]
+                            if illustrated:
+                                old_size = {8: 70, 10: 56.16, 21: 28}[per_sheet]
+                                self.assertEqual(len(image_sizes), 2)
+                                self.assertTrue(all(size > old_size * 1.4 for size in image_sizes))
+                            starts = [tuple(round(float(v), 3) for v in args) for args, op in operations if op == b"m"]
+                            ends = [tuple(round(float(v), 3) for v in args) for args, op in operations if op == b"l"]
+                            cols, rows = printing.grid_shape(per_sheet)
+                            guides = [(round(col * 612 / cols, 3), 0, round(col * 612 / cols, 3), 792)
+                                      for col in range(1, cols)]
+                            guides += [(0, round(row * 792 / rows, 3), 612, round(row * 792 / rows, 3))
+                                       for row in range(1, rows)]
+                            self.assertEqual([start + end for start, end in zip(starts, ends)], guides if index == 0 else [])
+                        self.assertIn("CC BY 4.0", pdf.metadata.subject)
                         self.assertIn("mollë ç 1", pdf.pages[0].extract_text())
                         self.assertIn("apple 1", pdf.pages[1].extract_text())
         default = self.create(self.payload(1))

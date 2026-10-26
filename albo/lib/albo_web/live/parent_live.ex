@@ -1,10 +1,11 @@
 defmodule AlboWeb.ParentLive do
   use AlboWeb, :live_view
   alias Albo.{Learning, Printing}
-  alias Albo.Learning.Card
+  alias Albo.Learning.{Card, CardOrder}
 
   def mount(_, _, socket) do
     if connected?(socket), do: Phoenix.PubSub.subscribe(Albo.PubSub, "cards:printing")
+    if connected?(socket), do: Phoenix.PubSub.subscribe(Albo.PubSub, "cards:collection")
 
     {:ok,
      socket
@@ -13,6 +14,10 @@ defmodule AlboWeb.ParentLive do
        editing: nil,
        import_open: false,
        print_open: false,
+       delete_cards: [],
+       sort: "order",
+       sort_direction: "asc",
+       studio_path: "/cards",
        selected: MapSet.new(),
        quality_forms: %{},
        quality_drafts: %{},
@@ -21,6 +26,7 @@ defmodule AlboWeb.ParentLive do
          to_form(
            %{
              "per_sheet" => "8",
+             "sides" => "both",
              "flip" => "long-edge",
              "image_side" => "albanian",
              "art_style" => "color",
@@ -38,15 +44,32 @@ defmodule AlboWeb.ParentLive do
      |> load_cards()}
   end
 
+  def handle_params(params, uri, socket) do
+    sort = if params["sort"] in CardOrder.sorts(), do: params["sort"], else: "order"
+    direction = if params["direction"] == "desc", do: "desc", else: "asc"
+
+    {:noreply,
+     socket
+     |> assign(sort: sort, sort_direction: direction, studio_path: URI.parse(uri).path)
+     |> load_cards()}
+  end
+
   defp load_cards(socket) do
-    all = Learning.list_cards()
+    all =
+      CardOrder.sort(Learning.list_cards(), socket.assigns.sort, socket.assigns.sort_direction)
+
+    positions = Map.new(all, &{&1.sort_order, &1.id})
+    ids = Enum.map(all, & &1.id)
+    drafts = Map.take(socket.assigns.quality_drafts, ids)
 
     cards =
       Enum.filter(all, fn card ->
         (socket.assigns.status == "all" || card.status == socket.assigns.status) &&
           String.contains?(
-            String.downcase(card.english <> " " <> card.albanian <> " " <> card.category),
-            String.downcase(socket.assigns.search)
+            String.downcase(
+              Enum.join([card.english, card.albanian, card.category, card.subcategory], " ")
+            ),
+            String.downcase(String.trim(socket.assigns.search))
           )
       end)
 
@@ -55,7 +78,6 @@ defmodule AlboWeb.ParentLive do
       |> Enum.filter(
         &(&1.status == "active" && MapSet.member?(socket.assigns.selected, to_string(&1.id)))
       )
-      |> Enum.sort_by(& &1.id)
 
     selected_ids = MapSet.new(selected, &to_string(&1.id))
     visible_ids = cards |> Enum.filter(&(&1.status == "active")) |> Enum.map(&to_string(&1.id))
@@ -71,6 +93,7 @@ defmodule AlboWeb.ParentLive do
     socket
     |> assign(
       selected: selected_ids,
+      selected_cards: selected,
       selection_state: selection_state,
       selected_count: length(selected),
       selection_token: Printing.selection_token(selected),
@@ -82,29 +105,148 @@ defmodule AlboWeb.ParentLive do
       count: length(all),
       available: Enum.count(all, &(&1.status == "active")),
       reviewed: Enum.count(all, &(&1.reviewer not in [nil, ""])),
+      can_reorder:
+        socket.assigns.sort == "order" && socket.assigns.sort_direction == "asc" &&
+          String.trim(socket.assigns.search) == "" && socket.assigns.status == "all",
+      neighbors:
+        Map.new(all, fn card ->
+          {card.id,
+           %{
+             up: Map.get(positions, card.sort_order - 1),
+             down: Map.get(positions, card.sort_order + 1)
+           }}
+        end),
+      sort_form:
+        to_form(%{"by" => socket.assigns.sort, "direction" => socket.assigns.sort_direction},
+          as: :sort
+        ),
+      topic_options: all |> Enum.map(& &1.category) |> Enum.uniq() |> Enum.sort(),
+      subtopics_by_topic:
+        all
+        |> Enum.reject(&(&1.subcategory in [nil, ""]))
+        |> Enum.group_by(&String.downcase(&1.category), & &1.subcategory)
+        |> Map.new(fn {key, values} -> {key, values |> Enum.uniq() |> Enum.sort()} end),
+      quality_drafts: drafts,
       quality_forms:
-        Enum.reduce(cards, socket.assigns.quality_forms, fn card, forms ->
-          Map.put_new(forms, card.id, quality_form(card))
+        Enum.reduce(cards, %{}, fn card, forms ->
+          Map.put(forms, card.id, quality_form(card, Map.get(drafts, card.id, %{})))
         end),
       empty: cards == []
     )
     |> stream(:cards, cards, reset: true)
+    |> stream(:print_cards, selected, reset: true)
   end
 
-  defp quality_form(card, attrs \\ %{}) do
+  defp change_sort(socket, field, direction) do
+    if field in CardOrder.sorts() && direction in ["asc", "desc"] do
+      {:noreply,
+       push_patch(socket,
+         to:
+           socket.assigns.studio_path <>
+             "?" <> URI.encode_query(%{"sort" => field, "direction" => direction})
+       )}
+    else
+      {:noreply, socket}
+    end
+  end
+
+  defp quality_form(card, attrs) do
     card |> Card.quality_changeset(attrs) |> to_form(as: :quality, id: "quality-#{card.id}")
   end
 
   defp stage_quality(socket, id, attrs) do
-    card = Learning.get_card!(id)
+    case Learning.get_card(id) do
+      nil ->
+        socket |> load_cards() |> put_flash(:info, "That card was deleted in another window.")
 
-    socket
-    |> assign(:quality_drafts, Map.put(socket.assigns.quality_drafts, card.id, attrs))
-    |> assign(
-      :quality_forms,
-      Map.put(socket.assigns.quality_forms, card.id, quality_form(card, attrs))
-    )
-    |> stream_insert(:cards, card)
+      card ->
+        socket
+        |> assign(:quality_drafts, Map.put(socket.assigns.quality_drafts, card.id, attrs))
+        |> assign(
+          :quality_forms,
+          Map.put(socket.assigns.quality_forms, card.id, quality_form(card, attrs))
+        )
+        |> stream_insert(:cards, card)
+    end
+  end
+
+  def handle_event("sort", %{"field" => field}, socket) do
+    direction =
+      if socket.assigns.sort == field && socket.assigns.sort_direction == "asc",
+        do: "desc",
+        else: "asc"
+
+    change_sort(socket, field, direction)
+  end
+
+  def handle_event("sort", %{"sort" => params}, socket),
+    do: change_sort(socket, params["by"], params["direction"])
+
+  def handle_event(
+        "move",
+        %{"id" => id, "direction" => direction, "position" => position, "neighbor" => neighbor},
+        socket
+      ) do
+    if socket.assigns.can_reorder do
+      case Learning.move_card(id, direction, position, neighbor) do
+        {:ok, _} ->
+          {:noreply, load_cards(socket)}
+
+        {:error, _} ->
+          {:noreply,
+           socket
+           |> load_cards()
+           |> put_flash(
+             :error,
+             "The order changed in another window. Check the refreshed list and try again."
+           )}
+      end
+    else
+      {:noreply,
+       socket
+       |> load_cards()
+       |> put_flash(:info, "Choose # ascending and show all cards to rearrange them.")}
+    end
+  end
+
+  def handle_event("request-delete", params, socket) do
+    socket = load_cards(socket)
+
+    cards =
+      if id = params["id"],
+        do: Enum.filter(Learning.list_cards(), &(to_string(&1.id) == id)),
+        else: socket.assigns.selected_cards
+
+    {:noreply,
+     socket
+     |> assign(delete_cards: cards, editing: nil)
+     |> stream(:delete_cards, cards, reset: true)}
+  end
+
+  def handle_event("cancel-delete", _, socket), do: {:noreply, assign(socket, delete_cards: [])}
+
+  def handle_event("delete", _, socket) do
+    case Learning.delete_cards(socket.assigns.delete_cards) do
+      {:ok, count} ->
+        {:noreply,
+         socket
+         |> assign(delete_cards: [])
+         |> load_cards()
+         |> put_flash(
+           :info,
+           "Deleted #{count} #{if count == 1, do: "card", else: "cards"}. Remaining cards keep their sequence."
+         )}
+
+      {:error, _} ->
+        {:noreply,
+         socket
+         |> assign(delete_cards: [])
+         |> load_cards()
+         |> put_flash(
+           :error,
+           "The selection changed. Review the refreshed cards before deleting."
+         )}
+    end
   end
 
   def handle_event("change-quality", %{"id" => id, "quality" => attrs}, socket) do
@@ -124,7 +266,7 @@ defmodule AlboWeb.ParentLive do
          |> load_cards()
          |> put_flash(:info, "All quality checks saved.")}
 
-      {:error, changeset} ->
+      {:error, %Ecto.Changeset{} = changeset} ->
         form = to_form(changeset, as: :quality, id: "quality-#{changeset.data.id}")
 
         {:noreply,
@@ -132,6 +274,15 @@ defmodule AlboWeb.ParentLive do
          |> assign(:quality_forms, Map.put(socket.assigns.quality_forms, changeset.data.id, form))
          |> stream_insert(:cards, changeset.data)
          |> put_flash(:error, "Nothing saved. Check the highlighted notes and try again.")}
+
+      {:error, :stale} ->
+        {:noreply,
+         socket
+         |> load_cards()
+         |> put_flash(
+           :error,
+           "A card was deleted in another window. Check the refreshed list and save again."
+         )}
     end
   end
 
@@ -151,11 +302,21 @@ defmodule AlboWeb.ParentLive do
     {:noreply, edit(socket, %Card{concept: concept})}
   end
 
-  def handle_event("edit", %{"id" => id}, socket),
-    do: {:noreply, edit(socket, Learning.get_card!(id))}
+  def handle_event("edit", %{"id" => id}, socket) do
+    case Learning.get_card(id) do
+      nil ->
+        {:noreply,
+         socket |> load_cards() |> put_flash(:info, "That card was deleted in another window.")}
+
+      card ->
+        {:noreply, edit(socket, card)}
+    end
+  end
 
   def handle_event("close", _, socket),
-    do: {:noreply, assign(socket, editing: nil, import_open: false, print_open: false)}
+    do:
+      {:noreply,
+       assign(socket, editing: nil, import_open: false, print_open: false, delete_cards: [])}
 
   def handle_event("toggle-print", %{"id" => id}, socket) do
     selected = socket.assigns.selected
@@ -209,7 +370,14 @@ defmodule AlboWeb.ParentLive do
     end
   end
 
-  def handle_event("validate", %{"card" => attrs}, socket) do
+  def handle_event("validate", %{"card" => attrs} = params, socket) do
+    attrs =
+      if params["_target"] == ["card", "category"] &&
+           String.downcase(String.trim(attrs["category"] || "")) !=
+             String.downcase(socket.assigns.editing.category || ""),
+         do: Map.put(attrs, "subcategory", ""),
+         else: attrs
+
     {:noreply,
      assign(socket,
        form: to_form(Learning.change_card(socket.assigns.editing, attrs), action: :validate)
@@ -324,6 +492,17 @@ defmodule AlboWeb.ParentLive do
   end
 
   def handle_info(:print_counts_updated, socket), do: {:noreply, load_cards(socket)}
+  def handle_info(:cards_updated, socket), do: {:noreply, load_cards(socket)}
+
+  defp aria_sort(sort, direction, fields) do
+    if sort in fields,
+      do: if(direction == "asc", do: "ascending", else: "descending"),
+      else: "none"
+  end
+
+  defp sort_indicator(sort, direction, field) do
+    if sort == field, do: if(direction == "asc", do: "↑", else: "↓"), else: "↕"
+  end
 
   defp edit(socket, card),
     do:
@@ -349,6 +528,14 @@ defmodule AlboWeb.ParentLive do
         assigns,
         :sheet_count,
         ceil(assigns.selected_count / String.to_integer(assigns.print_form[:per_sheet].value))
+      )
+
+    albanian_only = assigns.print_form[:sides].value == "albanian"
+
+    assigns =
+      assign(assigns,
+        albanian_only: albanian_only,
+        page_count: assigns.sheet_count * if(albanian_only, do: 1, else: 2)
       )
 
     ~H"""
@@ -473,11 +660,100 @@ defmodule AlboWeb.ParentLive do
             </div>
           </div>
         </div>
+        <div class="studio-order-toolbar">
+          <p id="reorder-help">
+            <%= if @can_reorder do %>
+              Use the arrows to arrange cards. Printing follows the selected sort.
+            <% else %>
+              To rearrange cards, choose # ascending and show all cards without a search.
+            <% end %>
+          </p>
+          <.form for={@sort_form} id="studio-sort-controls" phx-change="sort">
+            <.input
+              field={@sort_form[:by]}
+              label="Sort by"
+              type="select"
+              options={[
+                {"# · Manual order", "order"},
+                {"Albanian", "albanian"},
+                {"English", "english"},
+                {"Topic", "topic"},
+                {"Sub-topic", "subtopic"},
+                {"Level", "level"}
+              ]}
+            />
+            <.input
+              field={@sort_form[:direction]}
+              label="Direction"
+              type="select"
+              options={[
+                {"Ascending", "asc"},
+                {"Descending", "desc"}
+              ]}
+            />
+          </.form>
+          <button
+            id="delete-selected"
+            type="button"
+            phx-click="request-delete"
+            class="studio-delete"
+            disabled={@selected_count == 0}
+          >
+            <.icon name="hero-trash" /> Delete selected
+          </button>
+        </div>
         <div class="table-scroll">
           <table class="vocab-table studio-table">
             <thead>
               <tr>
-                <th>Albanian / English</th><th>Topic</th><th>Level</th><th>Quality check</th><th title="Successful flashcard PDF downloads">
+                <th scope="col"><span class="sr-only">Selection</span></th>
+                <th scope="col" aria-sort={aria_sort(@sort, @sort_direction, ["order"])}>
+                  <button
+                    id="sort-order"
+                    class="studio-sort-button"
+                    phx-click="sort"
+                    phx-value-field="order"
+                    aria-label="Sort by manual order"
+                  ># <span>{sort_indicator(@sort, @sort_direction, "order")}</span></button>
+                </th>
+                <th scope="col">Picture</th>
+                <th scope="col" aria-sort={aria_sort(@sort, @sort_direction, ["albanian", "english"])}>
+                  <button
+                    id="sort-albanian"
+                    class="studio-sort-button"
+                    phx-click="sort"
+                    phx-value-field="albanian"
+                  >Albanian <span>{sort_indicator(@sort, @sort_direction, "albanian")}</span></button>
+                  /
+                  <button
+                    id="sort-english"
+                    class="studio-sort-button"
+                    phx-click="sort"
+                    phx-value-field="english"
+                  >English <span>{sort_indicator(@sort, @sort_direction, "english")}</span></button>
+                </th>
+                <th
+                  :for={
+                    {field, label} <- [
+                      {"topic", "Topic"},
+                      {"subtopic", "Sub-topic"},
+                      {"level", "Level"}
+                    ]
+                  }
+                  scope="col"
+                  aria-sort={aria_sort(@sort, @sort_direction, [field])}
+                >
+                  <button
+                    id={"sort-#{field}"}
+                    class="studio-sort-button"
+                    phx-click="sort"
+                    phx-value-field={field}
+                  >{label} <span>{sort_indicator(@sort, @sort_direction, field)}</span></button>
+                </th>
+                <th scope="col">Quality check</th><th
+                  scope="col"
+                  title="Successful flashcard PDF downloads"
+                >
                   Printed
                 </th><th>
                   <span class="sr-only">Actions</span>
@@ -489,29 +765,76 @@ defmodule AlboWeb.ParentLive do
                 id={id}
                 class={MapSet.member?(@selected, to_string(card.id)) && "studio-row-selected"}
               >
-                <td>
+                <td class="studio-selection-cell">
+                  <span class="studio-select">
+                    <.input
+                      type="checkbox"
+                      id={"print-select-#{card.id}"}
+                      name={"print-select-#{card.id}"}
+                      checked={MapSet.member?(@selected, to_string(card.id))}
+                      disabled={card.status == "archived"}
+                      aria-label={"Select #{card.english} for printing"}
+                      phx-click="toggle-print"
+                      phx-value-id={card.id}
+                    />
+                  </span>
+                </td>
+                <td class="studio-order-cell">
+                  <span id={"order-#{card.id}"} class="studio-position">{card.sort_order}</span>
+                  <div class="studio-move-buttons">
+                    <button
+                      :for={
+                        {direction, icon} <- [
+                          {"up", "hero-chevron-up"},
+                          {"down", "hero-chevron-down"}
+                        ]
+                      }
+                      id={"move-#{direction}-#{card.id}"}
+                      type="button"
+                      phx-click="move"
+                      phx-value-id={card.id}
+                      phx-value-direction={direction}
+                      phx-value-position={card.sort_order}
+                      phx-value-neighbor={
+                        Map.fetch!(@neighbors[card.id], if(direction == "up", do: :up, else: :down))
+                      }
+                      disabled={
+                        !@can_reorder ||
+                          is_nil(
+                            Map.fetch!(
+                              @neighbors[card.id],
+                              if(direction == "up", do: :up, else: :down)
+                            )
+                          )
+                      }
+                      aria-label={"Move #{card.english} #{direction}"}
+                      title={
+                        if @can_reorder,
+                          do: "Move #{direction}",
+                          else: "Choose # ascending and show all cards to rearrange"
+                      }
+                      phx-disable-with="…"
+                    >
+                      <.icon name={icon} />
+                    </button>
+                  </div>
+                </td>
+                <td class="studio-picture-cell">
+                  <img
+                    :if={card.image not in [nil, ""]}
+                    src={"/images/cards/#{Card.display_image(card.image)}.svg"}
+                    alt=""
+                  /><span :if={card.image in [nil, ""]} class="word-placeholder">“</span>
+                </td>
+                <td class="studio-content-cell">
                   <div class="word-cell">
-                    <span class="studio-select">
-                      <.input
-                        type="checkbox"
-                        id={"print-select-#{card.id}"}
-                        name={"print-select-#{card.id}"}
-                        checked={MapSet.member?(@selected, to_string(card.id))}
-                        disabled={card.status == "archived"}
-                        aria-label={"Select #{card.english} for printing"}
-                        phx-click="toggle-print"
-                        phx-value-id={card.id}
-                      />
-                    </span>
-                    <img
-                      :if={card.image not in [nil, ""]}
-                      src={"/images/cards/#{Card.display_image(card.image)}.svg"}
-                      alt=""
-                    /><span :if={card.image in [nil, ""]} class="word-placeholder">“</span><div>
+                    <div>
                       <strong lang="sq">{card.albanian}</strong><span>{card.english}</span>
                     </div>
                   </div>
-                </td><td>{String.capitalize(card.category)}</td><td>
+                </td><td class="studio-topic-cell">{card.category}</td><td class="studio-subtopic-cell">
+                  {if card.subcategory in [nil, ""], do: "—", else: card.subcategory}
+                </td><td class="studio-level-cell">
                   {String.capitalize(card.difficulty)}
                 </td><td class="studio-quality-cell">
                   <.form
@@ -567,7 +890,7 @@ defmodule AlboWeb.ParentLive do
                     "pill",
                     if(card.print_count == 0, do: "soft-gray", else: "soft-green")
                   ]}>{if card.print_count == 0, do: "Never", else: "#{card.print_count}×"}</span>
-                </td><td>
+                </td><td class="studio-actions-cell">
                   <button
                     id={"edit-#{card.id}"}
                     class="text-link"
@@ -617,11 +940,32 @@ defmodule AlboWeb.ParentLive do
             ><.icon name="hero-x-mark" /></button>
           </div>
           <p class="editor-note">
-            Albanian on the front, English on the back. Choose which side shows the picture. Your PDF includes both sides, ready to cut out.
+            <%= if @albanian_only do %>
+              Albanian words and pictures only, ready to print single-sided and cut out.
+            <% else %>
+              Albanian on the front, English on the back. Choose which side shows the picture, or print Albanian only.
+            <% end %>
           </p>
           <p :if={@selected_count == 0} id="print-empty" class="editor-note">
-            Select cards using the checkboxes in Card studio, or download a test sheet below.
+            Select cards using the checkboxes in Card studio.
+            <span :if={!@albanian_only}>You can also download a test sheet below.</span>
           </p>
+          <details :if={@selected_count > 0} id="print-preview" class="studio-print-preview" open>
+            <summary>
+              Print order · {@selected_count} {if @selected_count == 1, do: "card", else: "cards"}
+            </summary>
+            <p>Across each row, then down the page. Includes selected cards hidden by your search.</p>
+            <ol id="print-preview-cards" phx-update="stream">
+              <li :for={{id, card} <- @streams.print_cards} id={id} data-card-id={card.id}>
+                <img
+                  :if={card.image not in [nil, ""]}
+                  src={"/images/cards/#{Card.display_image(card.image)}.svg"}
+                  alt=""
+                />
+                <div><strong lang="sq">{card.albanian}</strong><span>{card.english}</span></div>
+              </li>
+            </ol>
+          </details>
           <.form
             for={@print_form}
             id="print-download-form"
@@ -633,17 +977,25 @@ defmodule AlboWeb.ParentLive do
             <.input type="hidden" name="selection" value={@selection_token} />
             <div class="form-grid">
               <.input
+                field={@print_form[:sides]}
+                phx-change="print-settings"
+                type="select"
+                label="Sides to print"
+                options={[{"Both sides · Albanian & English", "both"}, {"Albanian only", "albanian"}]}
+              />
+              <.input
                 field={@print_form[:per_sheet]}
                 phx-change="print-settings"
                 type="select"
                 label="Cards per sheet · US Letter"
                 options={[
-                  {"8 cards · 3.75 × 2.5 in", "8"},
-                  {"10 cards · 3.75 × 2 in", "10"},
+                  {"8 cards · 4.25 × 2.75 in", "8"},
+                  {"10 cards · 4.25 × 2.2 in", "10"},
                   {"21 cards · 3 × 7 grid", "21"}
                 ]}
               />
               <.input
+                :if={!@albanian_only}
                 field={@print_form[:flip]}
                 phx-change="print-settings"
                 type="select"
@@ -651,6 +1003,7 @@ defmodule AlboWeb.ParentLive do
                 options={[{"Flip on long edge", "long-edge"}, {"Flip on short edge", "short-edge"}]}
               />
               <.input
+                :if={!@albanian_only}
                 field={@print_form[:image_side]}
                 phx-change="print-settings"
                 type="select"
@@ -670,7 +1023,12 @@ defmodule AlboWeb.ParentLive do
               />
             </div>
             <%!-- Keep native expansion and in-progress offsets when live counters/settings update. --%>
-            <details class="editor-details" id="print-adjustments" phx-update="ignore">
+            <details
+              :if={!@albanian_only}
+              class="editor-details"
+              id="print-adjustments"
+              phx-update="ignore"
+            >
               <summary>Adjust back alignment (optional)</summary>
               <p class="muted">
                 Positive X moves backs right; positive Y moves them up. Use the same offsets for your test sheet and cards.
@@ -702,7 +1060,7 @@ defmodule AlboWeb.ParentLive do
               <strong>{@selected_count} cards</strong>
               <span id="print-page-count">{@sheet_count} {if @sheet_count == 1,
                 do: "sheet",
-                else: "sheets"} · {2 * @sheet_count} PDF pages</span>
+                else: "sheets"} · {@page_count} PDF {if @page_count == 1, do: "page", else: "pages"}</span>
             </div>
             <p :if={@selected_count > 300} id="print-limit" class="field-error">
               Choose up to 300 cards per PDF.
@@ -716,9 +1074,12 @@ defmodule AlboWeb.ParentLive do
                 class="button primary"
                 disabled={@selected_count == 0 || @selected_count > 300}
               >
-                <.icon name="hero-arrow-down-tray" /> Download front & back PDF
+                <.icon name="hero-arrow-down-tray" /> {if @albanian_only,
+                  do: "Download Albanian PDF",
+                  else: "Download front & back PDF"}
               </button>
               <button
+                :if={!@albanian_only}
                 id="download-calibration"
                 type="submit"
                 name="kind"
@@ -727,9 +1088,13 @@ defmodule AlboWeb.ParentLive do
               >Download test sheet</button>
             </div>
           </.form>
-          <p class="studio-print-help">
+          <p id="print-help" class="studio-print-help">
             Print at <b>Actual size / 100%</b>
-            on US Letter, double-sided with your chosen flip setting. Try the numbered test sheet first, then cut along the front guides.
+            <%= if @albanian_only do %>
+              on US Letter, single-sided. Cut along the guides between cards.
+            <% else %>
+              on US Letter, double-sided with your chosen flip setting. Try the numbered test sheet first, then cut along the front guides.
+            <% end %>
           </p>
         </section>
       </div>
@@ -773,9 +1138,29 @@ defmodule AlboWeb.ParentLive do
                 field={@form[:category]}
                 label="Topic"
                 placeholder="food, household, conversation…"
+                list="topic-suggestions"
                 required
                 maxlength="50"
               /><.input
+                field={@form[:subcategory]}
+                label="Sub-topic (optional)"
+                placeholder="fruit, rooms, greetings…"
+                list="subtopic-suggestions"
+                maxlength="50"
+              />
+              <datalist id="topic-suggestions"><option :for={topic <- @topic_options} value={topic} /></datalist>
+              <datalist id="subtopic-suggestions"><option
+                :for={
+                  subtopic <-
+                    Map.get(
+                      @subtopics_by_topic,
+                      String.downcase(to_string(@form[:category].value)),
+                      []
+                    )
+                }
+                value={subtopic}
+              /></datalist>
+              <.input
                 field={@form[:difficulty]}
                 label="Level"
                 type="select"
@@ -831,6 +1216,13 @@ defmodule AlboWeb.ParentLive do
               phx-value-status={if @editing.status == "archived", do: "active", else: "archived"}
               class="button secondary"
             >{if @editing.status == "archived", do: "Restore card", else: "Archive card"}</button>
+            <button
+              id="delete-card"
+              type="button"
+              phx-click="request-delete"
+              phx-value-id={@editing.id}
+              class="studio-delete"
+            >Delete card permanently</button>
           </section>
         </section>
       </div>
@@ -852,7 +1244,7 @@ defmodule AlboWeb.ParentLive do
           </div><p>
             Paste a reference-project export or a JSON draft. Cards become available immediately. Duplicates are skipped and existing wording is preserved.
           </p><pre class="json-example" phx-no-curly-interpolation>{"cards": [{"concept": "food.apple", "albanian": "mollë", "english": "apple", "category": "food", "source": "AI proposal"}]}</pre><p class="muted">
-            Required: concept, albanian, english, category. Optional: difficulty (beginner/growing), notes, source, image. Maximum 300 cards / 200 KB.
+            Required: concept, albanian, english, category. Optional: subcategory, difficulty (beginner/growing), notes, source, image. New cards append in import order. Maximum 300 cards / 200 KB.
           </p><.form for={@import_form} id="import-form" phx-submit="import">
             <.input
               field={@import_form[:json]}
@@ -863,6 +1255,54 @@ defmodule AlboWeb.ParentLive do
               maxlength="200000"
             /><button id="import-submit" class="button primary" phx-disable-with="Importing…">Import cards</button>
           </.form>
+        </section>
+      </div>
+      <div
+        :if={@delete_cards != []}
+        class="modal-backdrop"
+        id="delete-modal"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="delete-title"
+        phx-window-keydown="cancel-delete"
+        phx-key="Escape"
+      >
+        <section class="modal">
+          <div class="modal-heading">
+            <h2 id="delete-title">
+              Delete {length(@delete_cards)} {if length(@delete_cards) == 1, do: "card", else: "cards"}?
+            </h2>
+            <button
+              id="close-delete"
+              type="button"
+              phx-click="cancel-delete"
+              class="icon-button"
+              aria-label="Cancel deletion"
+            ><.icon name="hero-x-mark" /></button>
+          </div>
+          <p>
+            This permanently removes these cards and their practice history. Remaining cards keep their sequence and are renumbered. Picture files stay available.
+          </p>
+          <ul id="delete-preview" phx-update="stream" class="studio-delete-preview">
+            <li :for={{id, card} <- @streams.delete_cards} id={id}>
+              {card.albanian} / {card.english}
+            </li>
+          </ul>
+          <div class="studio-print-actions">
+            <button
+              id="cancel-delete"
+              type="button"
+              phx-click="cancel-delete"
+              class="button secondary"
+            >Keep cards</button>
+            <button
+              id="confirm-delete"
+              type="button"
+              phx-click="delete"
+              class="button studio-delete-confirm"
+              phx-disable-with="Deleting…"
+            >Delete permanently</button>
+          </div>
         </section>
       </div>
     </Layouts.app>

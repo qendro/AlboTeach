@@ -1,7 +1,7 @@
 defmodule Albo.Learning.Card do
   use Ecto.Schema
   import Ecto.Changeset
-  @fields ~w(concept albanian english category difficulty notes source image)a
+  @fields ~w(concept albanian english category subcategory difficulty notes source image)a
   @quality_fields ~w(quality_language quality_image quality_delete quality_notes)a
   @external_resource Path.expand("../../../priv/static/images/cards/credits.json", __DIR__)
   @images @external_resource |> File.read!() |> Jason.decode!() |> Enum.map(& &1["key"])
@@ -13,6 +13,8 @@ defmodule Albo.Learning.Card do
     field :albanian, :string
     field :english, :string
     field :category, :string
+    field :subcategory, :string, default: ""
+    field :sort_order, :integer
     field :difficulty, :string, default: "beginner"
     field :notes, :string, default: ""
     field :source, :string, default: "Family entry"
@@ -42,12 +44,15 @@ defmodule Albo.Learning.Card do
   def changeset(card, attrs) do
     card
     |> cast(attrs, @fields)
+    |> update_change(:category, fn value -> String.trim(value || "") end)
+    |> update_change(:subcategory, fn value -> String.trim(value || "") end)
     |> validate_required(~w(concept albanian english category difficulty source)a)
     |> validate_length(:concept, max: 100)
     |> validate_format(:concept, ~r/^[a-z0-9][a-z0-9._-]*$/)
     |> validate_length(:albanian, max: 160)
     |> validate_length(:english, max: 160)
     |> validate_length(:category, max: 50)
+    |> validate_length(:subcategory, max: 50)
     |> validate_length(:notes, max: 2000)
     |> validate_length(:source, max: 200)
     |> validate_inclusion(:difficulty, ~w(beginner growing))

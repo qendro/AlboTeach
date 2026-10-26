@@ -11,7 +11,7 @@ defmodule AlboWeb.CoreComponents do
 
   attr :rest, :global,
     include:
-      ~w(autocomplete placeholder required rows maxlength minlength checked disabled min max step)
+      ~w(autocomplete placeholder required rows maxlength minlength checked disabled min max step list)
 
   def input(%{field: %Phoenix.HTML.FormField{} = field} = assigns) do
     errors =
@@ -84,6 +84,8 @@ defmodule AlboWeb.CoreComponents do
       "hero-adjustments-horizontal" =>
         "M3 6h6m4 0h8M3 12h12m4 0h2M3 18h2m4 0h12M9 3v6m6 0v6M5 15v6",
       "hero-check" => "m5 12 4 4L19 6",
+      "hero-chevron-up" => "m6 15 6-6 6 6",
+      "hero-chevron-down" => "m6 9 6 6 6-6",
       "hero-language" => "M3 5h12M9 3v2m4 0c-1 6-5 9-10 11m2-9c1 4 4 7 8 9m1 5 4-10 4 10m-6-3h5",
       "hero-photo" => "M3 3h18v18H3V3Zm0 14 5-5 4 4 3-3 6 6M15 7h.01",
       "hero-trash" => "M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7",
