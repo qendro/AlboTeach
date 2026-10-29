@@ -1760,6 +1760,435 @@
         "10": 0.0167,
         "21": 0.0087
       }
+    },
+    {
+      "key": "color-basketball",
+      "occupied_image_fraction": 0.391,
+      "color_image_fraction": 0.3308,
+      "max_cmy_weighted_image_fraction": 0.338,
+      "occupied_card_fraction": {
+        "8": 0.0394,
+        "10": 0.0317,
+        "21": 0.0166
+      }
+    },
+    {
+      "key": "color-blueberries",
+      "occupied_image_fraction": 0.3583,
+      "color_image_fraction": 0.3583,
+      "max_cmy_weighted_image_fraction": 0.2263,
+      "occupied_card_fraction": {
+        "8": 0.0361,
+        "10": 0.0291,
+        "21": 0.0152
+      }
+    },
+    {
+      "key": "color-bowl",
+      "occupied_image_fraction": 0.2426,
+      "color_image_fraction": 0.2426,
+      "max_cmy_weighted_image_fraction": 0.1003,
+      "occupied_card_fraction": {
+        "8": 0.0245,
+        "10": 0.0197,
+        "21": 0.0103
+      }
+    },
+    {
+      "key": "color-chicken",
+      "occupied_image_fraction": 0.2233,
+      "color_image_fraction": 0.1822,
+      "max_cmy_weighted_image_fraction": 0.1443,
+      "occupied_card_fraction": {
+        "8": 0.0225,
+        "10": 0.0181,
+        "21": 0.0095
+      }
+    },
+    {
+      "key": "color-come",
+      "occupied_image_fraction": 0.2532,
+      "color_image_fraction": 0.2531,
+      "max_cmy_weighted_image_fraction": 0.1367,
+      "occupied_card_fraction": {
+        "8": 0.0255,
+        "10": 0.0205,
+        "21": 0.0107
+      }
+    },
+    {
+      "key": "color-computer",
+      "occupied_image_fraction": 0.4403,
+      "color_image_fraction": 0.2739,
+      "max_cmy_weighted_image_fraction": 0.2641,
+      "occupied_card_fraction": {
+        "8": 0.0444,
+        "10": 0.0357,
+        "21": 0.0186
+      }
+    },
+    {
+      "key": "color-couch",
+      "occupied_image_fraction": 0.2233,
+      "color_image_fraction": 0.2021,
+      "max_cmy_weighted_image_fraction": 0.1747,
+      "occupied_card_fraction": {
+        "8": 0.0225,
+        "10": 0.0181,
+        "21": 0.0095
+      }
+    },
+    {
+      "key": "color-good",
+      "occupied_image_fraction": 0.2678,
+      "color_image_fraction": 0.2678,
+      "max_cmy_weighted_image_fraction": 0.0936,
+      "occupied_card_fraction": {
+        "8": 0.027,
+        "10": 0.0217,
+        "21": 0.0113
+      }
+    },
+    {
+      "key": "color-good-morning",
+      "occupied_image_fraction": 0.4893,
+      "color_image_fraction": 0.4754,
+      "max_cmy_weighted_image_fraction": 0.3366,
+      "occupied_card_fraction": {
+        "8": 0.0493,
+        "10": 0.0397,
+        "21": 0.0207
+      }
+    },
+    {
+      "key": "color-good-night",
+      "occupied_image_fraction": 0.1611,
+      "color_image_fraction": 0.1611,
+      "max_cmy_weighted_image_fraction": 0.1217,
+      "occupied_card_fraction": {
+        "8": 0.0162,
+        "10": 0.0131,
+        "21": 0.0068
+      }
+    },
+    {
+      "key": "color-greeting",
+      "occupied_image_fraction": 0.242,
+      "color_image_fraction": 0.242,
+      "max_cmy_weighted_image_fraction": 0.0912,
+      "occupied_card_fraction": {
+        "8": 0.0244,
+        "10": 0.0196,
+        "21": 0.0102
+      }
+    },
+    {
+      "key": "color-homework",
+      "occupied_image_fraction": 0.3889,
+      "color_image_fraction": 0.1064,
+      "max_cmy_weighted_image_fraction": 0.1108,
+      "occupied_card_fraction": {
+        "8": 0.0392,
+        "10": 0.0315,
+        "21": 0.0165
+      }
+    },
+    {
+      "key": "color-how-are-you",
+      "occupied_image_fraction": 0.368,
+      "color_image_fraction": 0.2445,
+      "max_cmy_weighted_image_fraction": 0.0877,
+      "occupied_card_fraction": {
+        "8": 0.0371,
+        "10": 0.0299,
+        "21": 0.0156
+      }
+    },
+    {
+      "key": "color-hungry",
+      "occupied_image_fraction": 0.4033,
+      "color_image_fraction": 0.4023,
+      "max_cmy_weighted_image_fraction": 0.334,
+      "occupied_card_fraction": {
+        "8": 0.0407,
+        "10": 0.0327,
+        "21": 0.0171
+      }
+    },
+    {
+      "key": "color-lemon",
+      "occupied_image_fraction": 0.301,
+      "color_image_fraction": 0.301,
+      "max_cmy_weighted_image_fraction": 0.2285,
+      "occupied_card_fraction": {
+        "8": 0.0303,
+        "10": 0.0244,
+        "21": 0.0127
+      }
+    },
+    {
+      "key": "color-math",
+      "occupied_image_fraction": 0.272,
+      "color_image_fraction": 0.2498,
+      "max_cmy_weighted_image_fraction": 0.2273,
+      "occupied_card_fraction": {
+        "8": 0.0274,
+        "10": 0.0221,
+        "21": 0.0115
+      }
+    },
+    {
+      "key": "color-no",
+      "occupied_image_fraction": 0.2501,
+      "color_image_fraction": 0.2501,
+      "max_cmy_weighted_image_fraction": 0.204,
+      "occupied_card_fraction": {
+        "8": 0.0252,
+        "10": 0.0203,
+        "21": 0.0106
+      }
+    },
+    {
+      "key": "color-number-11",
+      "occupied_image_fraction": 0.0789,
+      "color_image_fraction": 0.0789,
+      "max_cmy_weighted_image_fraction": 0.052,
+      "occupied_card_fraction": {
+        "8": 0.008,
+        "10": 0.0064,
+        "21": 0.0033
+      }
+    },
+    {
+      "key": "color-number-12",
+      "occupied_image_fraction": 0.1049,
+      "color_image_fraction": 0.1049,
+      "max_cmy_weighted_image_fraction": 0.0691,
+      "occupied_card_fraction": {
+        "8": 0.0106,
+        "10": 0.0085,
+        "21": 0.0044
+      }
+    },
+    {
+      "key": "color-number-13",
+      "occupied_image_fraction": 0.1033,
+      "color_image_fraction": 0.1033,
+      "max_cmy_weighted_image_fraction": 0.0681,
+      "occupied_card_fraction": {
+        "8": 0.0104,
+        "10": 0.0084,
+        "21": 0.0044
+      }
+    },
+    {
+      "key": "color-number-14",
+      "occupied_image_fraction": 0.0985,
+      "color_image_fraction": 0.0985,
+      "max_cmy_weighted_image_fraction": 0.0649,
+      "occupied_card_fraction": {
+        "8": 0.0099,
+        "10": 0.008,
+        "21": 0.0042
+      }
+    },
+    {
+      "key": "color-number-15",
+      "occupied_image_fraction": 0.1058,
+      "color_image_fraction": 0.1058,
+      "max_cmy_weighted_image_fraction": 0.0697,
+      "occupied_card_fraction": {
+        "8": 0.0107,
+        "10": 0.0086,
+        "21": 0.0045
+      }
+    },
+    {
+      "key": "color-number-16",
+      "occupied_image_fraction": 0.112,
+      "color_image_fraction": 0.112,
+      "max_cmy_weighted_image_fraction": 0.0738,
+      "occupied_card_fraction": {
+        "8": 0.0113,
+        "10": 0.0091,
+        "21": 0.0047
+      }
+    },
+    {
+      "key": "color-number-17",
+      "occupied_image_fraction": 0.0874,
+      "color_image_fraction": 0.0874,
+      "max_cmy_weighted_image_fraction": 0.0576,
+      "occupied_card_fraction": {
+        "8": 0.0088,
+        "10": 0.0071,
+        "21": 0.0037
+      }
+    },
+    {
+      "key": "color-number-18",
+      "occupied_image_fraction": 0.1155,
+      "color_image_fraction": 0.1155,
+      "max_cmy_weighted_image_fraction": 0.0761,
+      "occupied_card_fraction": {
+        "8": 0.0116,
+        "10": 0.0094,
+        "21": 0.0049
+      }
+    },
+    {
+      "key": "color-number-19",
+      "occupied_image_fraction": 0.1128,
+      "color_image_fraction": 0.1128,
+      "max_cmy_weighted_image_fraction": 0.0743,
+      "occupied_card_fraction": {
+        "8": 0.0114,
+        "10": 0.0092,
+        "21": 0.0048
+      }
+    },
+    {
+      "key": "color-number-20",
+      "occupied_image_fraction": 0.1367,
+      "color_image_fraction": 0.1367,
+      "max_cmy_weighted_image_fraction": 0.0901,
+      "occupied_card_fraction": {
+        "8": 0.0138,
+        "10": 0.0111,
+        "21": 0.0058
+      }
+    },
+    {
+      "key": "color-number-21",
+      "occupied_image_fraction": 0.1049,
+      "color_image_fraction": 0.1049,
+      "max_cmy_weighted_image_fraction": 0.0691,
+      "occupied_card_fraction": {
+        "8": 0.0106,
+        "10": 0.0085,
+        "21": 0.0044
+      }
+    },
+    {
+      "key": "color-pasta",
+      "occupied_image_fraction": 0.3207,
+      "color_image_fraction": 0.1957,
+      "max_cmy_weighted_image_fraction": 0.1701,
+      "occupied_card_fraction": {
+        "8": 0.0323,
+        "10": 0.026,
+        "21": 0.0136
+      }
+    },
+    {
+      "key": "color-please",
+      "occupied_image_fraction": 0.2011,
+      "color_image_fraction": 0.2011,
+      "max_cmy_weighted_image_fraction": 0.1094,
+      "occupied_card_fraction": {
+        "8": 0.0203,
+        "10": 0.0163,
+        "21": 0.0085
+      }
+    },
+    {
+      "key": "color-sit",
+      "occupied_image_fraction": 0.1623,
+      "color_image_fraction": 0.1618,
+      "max_cmy_weighted_image_fraction": 0.095,
+      "occupied_card_fraction": {
+        "8": 0.0164,
+        "10": 0.0132,
+        "21": 0.0069
+      }
+    },
+    {
+      "key": "color-soccer",
+      "occupied_image_fraction": 0.3909,
+      "color_image_fraction": 0.1658,
+      "max_cmy_weighted_image_fraction": 0.1484,
+      "occupied_card_fraction": {
+        "8": 0.0394,
+        "10": 0.0317,
+        "21": 0.0166
+      }
+    },
+    {
+      "key": "color-stand-up",
+      "occupied_image_fraction": 0.1894,
+      "color_image_fraction": 0.1889,
+      "max_cmy_weighted_image_fraction": 0.1031,
+      "occupied_card_fraction": {
+        "8": 0.0191,
+        "10": 0.0154,
+        "21": 0.008
+      }
+    },
+    {
+      "key": "color-thank-you",
+      "occupied_image_fraction": 0.2357,
+      "color_image_fraction": 0.2357,
+      "max_cmy_weighted_image_fraction": 0.0809,
+      "occupied_card_fraction": {
+        "8": 0.0238,
+        "10": 0.0191,
+        "21": 0.01
+      }
+    },
+    {
+      "key": "color-thirsty",
+      "occupied_image_fraction": 0.2123,
+      "color_image_fraction": 0.2111,
+      "max_cmy_weighted_image_fraction": 0.1026,
+      "occupied_card_fraction": {
+        "8": 0.0214,
+        "10": 0.0172,
+        "21": 0.009
+      }
+    },
+    {
+      "key": "color-tired",
+      "occupied_image_fraction": 0.4129,
+      "color_image_fraction": 0.4124,
+      "max_cmy_weighted_image_fraction": 0.3413,
+      "occupied_card_fraction": {
+        "8": 0.0416,
+        "10": 0.0335,
+        "21": 0.0175
+      }
+    },
+    {
+      "key": "color-what",
+      "occupied_image_fraction": 0.1227,
+      "color_image_fraction": 0.1227,
+      "max_cmy_weighted_image_fraction": 0.1001,
+      "occupied_card_fraction": {
+        "8": 0.0124,
+        "10": 0.0099,
+        "21": 0.0052
+      }
+    },
+    {
+      "key": "color-where",
+      "occupied_image_fraction": 0.3309,
+      "color_image_fraction": 0.3199,
+      "max_cmy_weighted_image_fraction": 0.0981,
+      "occupied_card_fraction": {
+        "8": 0.0334,
+        "10": 0.0268,
+        "21": 0.014
+      }
+    },
+    {
+      "key": "color-yes",
+      "occupied_image_fraction": 0.4893,
+      "color_image_fraction": 0.4415,
+      "max_cmy_weighted_image_fraction": 0.4424,
+      "occupied_card_fraction": {
+        "8": 0.0493,
+        "10": 0.0397,
+        "21": 0.0207
+      }
     }
   ]
 }

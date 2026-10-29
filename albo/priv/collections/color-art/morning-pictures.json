@@ -1,0 +1,162 @@
+{
+  "description": "Pictures requested in production on 2026-10-29. Abstract meanings use representative symbols; the card wording supplies the exact meaning.",
+  "upstream_commit": "1ffb34c752ecf5d402f04cfb4b392c77f57c54bc",
+  "cards": [
+    {
+      "concept": "food.lemon",
+      "image": "color-lemon"
+    },
+    {
+      "concept": "food.blueberry",
+      "image": "color-blueberries"
+    },
+    {
+      "concept": "food.chicken",
+      "image": "color-chicken"
+    },
+    {
+      "concept": "food.pasta",
+      "image": "color-pasta"
+    },
+    {
+      "concept": "household.bowl",
+      "image": "color-bowl"
+    },
+    {
+      "concept": "household.couch",
+      "image": "color-couch"
+    },
+    {
+      "concept": "sports.soccer",
+      "image": "color-soccer"
+    },
+    {
+      "concept": "sports.basketball",
+      "image": "color-basketball"
+    },
+    {
+      "concept": "school-play.homework",
+      "image": "color-homework"
+    },
+    {
+      "concept": "school-play.computer",
+      "image": "color-computer"
+    },
+    {
+      "concept": "school-play.math",
+      "image": "color-math"
+    },
+    {
+      "concept": "actions.to_come",
+      "image": "color-come"
+    },
+    {
+      "concept": "actions.to_sit",
+      "image": "color-sit"
+    },
+    {
+      "concept": "actions.to_stand_up",
+      "image": "color-stand-up"
+    },
+    {
+      "concept": "question.where",
+      "image": "color-where"
+    },
+    {
+      "concept": "phrase.how_are_you",
+      "image": "color-how-are-you"
+    },
+    {
+      "concept": "conversation.hello_goodbye",
+      "image": "color-greeting"
+    },
+    {
+      "concept": "conversation.good_morning",
+      "image": "color-good-morning"
+    },
+    {
+      "concept": "conversation.good_night",
+      "image": "color-good-night"
+    },
+    {
+      "concept": "conversation.thank_you",
+      "image": "color-thank-you"
+    },
+    {
+      "concept": "conversation.please",
+      "image": "color-please"
+    },
+    {
+      "concept": "conversation.yes",
+      "image": "color-yes"
+    },
+    {
+      "concept": "conversation.no",
+      "image": "color-no"
+    },
+    {
+      "concept": "conversation.what",
+      "image": "color-what"
+    },
+    {
+      "concept": "feelings.tired",
+      "image": "color-tired"
+    },
+    {
+      "concept": "feelings.hungry",
+      "image": "color-hungry"
+    },
+    {
+      "concept": "feelings.thirsty",
+      "image": "color-thirsty"
+    },
+    {
+      "concept": "feelings.good",
+      "image": "color-good"
+    },
+    {
+      "concept": "numbers-colors-shapes.eleven",
+      "image": "color-number-11"
+    },
+    {
+      "concept": "numbers-colors-shapes.twelve",
+      "image": "color-number-12"
+    },
+    {
+      "concept": "numbers-colors-shapes.thirteen",
+      "image": "color-number-13"
+    },
+    {
+      "concept": "numbers-colors-shapes.fourteen",
+      "image": "color-number-14"
+    },
+    {
+      "concept": "numbers-colors-shapes.fifteen",
+      "image": "color-number-15"
+    },
+    {
+      "concept": "numbers-colors-shapes.sixteen",
+      "image": "color-number-16"
+    },
+    {
+      "concept": "numbers-colors-shapes.seventeen",
+      "image": "color-number-17"
+    },
+    {
+      "concept": "numbers-colors-shapes.eighteen",
+      "image": "color-number-18"
+    },
+    {
+      "concept": "numbers-colors-shapes.nineteen",
+      "image": "color-number-19"
+    },
+    {
+      "concept": "numbers-colors-shapes.twenty",
+      "image": "color-number-20"
+    },
+    {
+      "concept": "numbers-colors-shapes.twenty_one",
+      "image": "color-number-21"
+    }
+  ]
+}

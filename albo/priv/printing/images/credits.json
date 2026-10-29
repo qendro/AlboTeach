@@ -2593,5 +2593,356 @@
     "source": "https://creativecommons.org/publicdomain/zero/1.0/",
     "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
     "sha256_svg": "7c45dd1aae008a2f3e3ded83c4cbdde193358ab2e7e6a778ab6cf1e755472167"
+  },
+  {
+    "key": "color-basketball",
+    "file": "color-basketball.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Basketball/Flat/basketball_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "92e8339a319eb8ad1aade2b9161224440fccf4da2be1421198e36d79014ca431"
+  },
+  {
+    "key": "color-blueberries",
+    "file": "color-blueberries.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Blueberries/Flat/blueberries_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "a3a72862af8b8c4d929d98f5d2b5ffd79e78337ba912eb52559d6d89bd03ca01"
+  },
+  {
+    "key": "color-bowl",
+    "file": "color-bowl.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "9825bcb19dfeeb73d226cb6239749f1a1d3b8edb1bb9ecfbeae5705a3b169ff2"
+  },
+  {
+    "key": "color-chicken",
+    "file": "color-chicken.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Poultry%20leg/Flat/poultry_leg_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "cdac8356f50a2e82ffb55381fe00f2dfc5f659b90392a9bc1491974920cebf00"
+  },
+  {
+    "key": "color-come",
+    "file": "color-come.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "05989048e6c3f34aee8bdca1abb1e3575e89067416eb8b7a2c616c14d12ee300"
+  },
+  {
+    "key": "color-computer",
+    "file": "color-computer.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Laptop/Flat/laptop_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "99a6ad6752f3799a01bcb3307f28cf89e4d75d32925595a5925a1440c99f9fe8"
+  },
+  {
+    "key": "color-couch",
+    "file": "color-couch.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Couch%20and%20lamp/Flat/couch_and_lamp_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "52c170c6d2238e14025c29813767c9443057f4df22f546b13d944b8be61a3d7c"
+  },
+  {
+    "key": "color-good",
+    "file": "color-good.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Thumbs%20up/Medium-Light/Flat/thumbs_up_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "38298955248c2bcc0419a4bf86d5aebaf4b6ade0696d825ccbfffa0b0a699887"
+  },
+  {
+    "key": "color-good-morning",
+    "file": "color-good-morning.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Sunrise/Flat/sunrise_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "5a146717495b4d5da64c97e9a745bfe25c34f6141fb02d55ab18a8f57bee6d55"
+  },
+  {
+    "key": "color-good-night",
+    "file": "color-good-night.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Crescent%20moon/Flat/crescent_moon_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "6ca1853aff580adab796988436f7d45c57ef08e4561ffb0a80868c9714739669"
+  },
+  {
+    "key": "color-greeting",
+    "file": "color-greeting.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Waving%20hand/Medium-Light/Flat/waving_hand_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "e761aa3ece26f23f8b3a3c8c3e7ef69029f4795be9bb5750e79d2e163e567903"
+  },
+  {
+    "key": "color-homework",
+    "file": "color-homework.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Memo/Flat/memo_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "3eb59136e6ddf26066a15be753d94d937f28951a17d35dc34bc8d1725f666236"
+  },
+  {
+    "key": "color-how-are-you",
+    "file": "color-how-are-you.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "ddd8569c9fbd251dd3f825c81921f12ccb67fe871fb3b76eb92a8350d82f7a59"
+  },
+  {
+    "key": "color-hungry",
+    "file": "color-hungry.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Face%20savoring%20food/Flat/face_savoring_food_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "649133ac082e11b0e581ec0d0d9071340e1127313ef5ead916579e70da33a621"
+  },
+  {
+    "key": "color-lemon",
+    "file": "color-lemon.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Lemon/Flat/lemon_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "b462654d50b8d6e99a20ae7762a19d0ada34f276c2f870957069a2742a55032c"
+  },
+  {
+    "key": "color-math",
+    "file": "color-math.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Abacus/Flat/abacus_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "e040be83f8051019e9d68ff2770c7a26a681141e713906ad19f2be8ff6f878f8"
+  },
+  {
+    "key": "color-no",
+    "file": "color-no.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Cross%20mark/Flat/cross_mark_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "a30aaafbb405dd35e31f8d76c151b92b870cac6d760ac729057089f8efb4e406"
+  },
+  {
+    "key": "color-number-11",
+    "file": "color-number-11.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "ffc98b17f1d74f53981850cb52446da2c2666306f47eb80e333d7189e227abbc"
+  },
+  {
+    "key": "color-number-12",
+    "file": "color-number-12.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "2c6bc4c2b67dcc87b825563dc9e50a4eb0defeff519d9e9a6f5536c1ac763a15"
+  },
+  {
+    "key": "color-number-13",
+    "file": "color-number-13.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "c986947bad646e1dbb4fc20b3c76e3cae2ba747cd55bfe00787f5f32c997b1b0"
+  },
+  {
+    "key": "color-number-14",
+    "file": "color-number-14.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "8a5587757202d3310658cbe091a572b8c5106c18bca5f1ba56672d5133c491ec"
+  },
+  {
+    "key": "color-number-15",
+    "file": "color-number-15.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "0e9b9c42c28c331ccc61e1aa8baa6b737e233e1e376a10e6ef42f469d3201026"
+  },
+  {
+    "key": "color-number-16",
+    "file": "color-number-16.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "d4548778749729aaa8608a742bed9adbd034224113ec60e518724f63639d6513"
+  },
+  {
+    "key": "color-number-17",
+    "file": "color-number-17.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "0bb3f6864d498cf9523652ce9d0bdf7ee83240224d064a042a706b7f8006beea"
+  },
+  {
+    "key": "color-number-18",
+    "file": "color-number-18.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "7495b5fcdfb1889479e887b3a6703f6ffd2dfdf740a13c779aa31746e5b5e145"
+  },
+  {
+    "key": "color-number-19",
+    "file": "color-number-19.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "057c895e2dbfe25aed583b25457a43ac0b918a6dc42e24ca3fd446f571cb922b"
+  },
+  {
+    "key": "color-number-20",
+    "file": "color-number-20.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "6c714acef5af00498f562b818bcde36874855ef5095c8b1043b8b9043bb80eff"
+  },
+  {
+    "key": "color-number-21",
+    "file": "color-number-21.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "2bb6f34eed8a02a456a63b7b03eae8ca5db9a45368bd96e22a7b9f665e4ee597"
+  },
+  {
+    "key": "color-pasta",
+    "file": "color-pasta.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Spaghetti/Flat/spaghetti_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "bf4dfcf8a12d3c9ed2dc200c46d141beb59c3feca8b1f688a6eaf4326d10b7e5"
+  },
+  {
+    "key": "color-please",
+    "file": "color-please.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Folded%20hands/Medium-Light/Flat/folded_hands_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "ee4fbabb1d0883f53fe4bdab4d11766529aeec9dc131b62d117c52a4a8ca4dc9"
+  },
+  {
+    "key": "color-sit",
+    "file": "color-sit.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "695be4012ec82374123ab8bfe2e28867690263f56ce5b1bebd5946f8a0df7767"
+  },
+  {
+    "key": "color-soccer",
+    "file": "color-soccer.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Soccer%20ball/Flat/soccer_ball_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "fbcefd5f9ca44f18bc0c578ccf6c527393bb943b959e92844a686ebe110efd12"
+  },
+  {
+    "key": "color-stand-up",
+    "file": "color-stand-up.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "4866d0f38aa1c0d1159c86cc43a2b3bfcf1f4a7b7b1cc251efe170276c01b804"
+  },
+  {
+    "key": "color-thank-you",
+    "file": "color-thank-you.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Heart%20hands/Medium-Light/Flat/heart_hands_flat_medium-light.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "99a65f239a98f817c51e051617ec6a808f8a084d6bf5473f94025e63d782a99d"
+  },
+  {
+    "key": "color-thirsty",
+    "file": "color-thirsty.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "e433e3dc522149cc6ba4883a8869c1b825d4d5df7fdb2b7aacbea616b3944d14"
+  },
+  {
+    "key": "color-tired",
+    "file": "color-tired.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Yawning%20face/Flat/yawning_face_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "156f2d6a0d30ac910d8951857f59c65f94c1480729e00188e28bcd392122278e"
+  },
+  {
+    "key": "color-what",
+    "file": "color-what.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Red%20question%20mark/Flat/red_question_mark_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "7d521261960e0b737e1b3f9d2e5db09426f54e54af9b71d4069c18f26fca0a4d"
+  },
+  {
+    "key": "color-where",
+    "file": "color-where.png",
+    "credit": "Original AlboTeach colored teaching illustration",
+    "license": "CC0 1.0",
+    "source": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Original vector illustration; transparent padded canvas; 512px PNG conversion",
+    "sha256_svg": "bcfa1be183cf3739d58a71c6606572d389ad56b81399aafb267aa7cd6b48125a"
+  },
+  {
+    "key": "color-yes",
+    "file": "color-yes.png",
+    "credit": "Microsoft Corporation, Fluent Emoji Flat",
+    "license": "MIT",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/1ffb34c752ecf5d402f04cfb4b392c77f57c54bc/assets/Check%20mark%20button/Flat/check_mark_button_flat.svg",
+    "changes": "Original shapes and colors; 12% transparent padding on every side; 512px PNG conversion",
+    "sha256_svg": "c1fa0edc295a68043b7f3aa2e66a179534350780047172c36b6e4281ab8a47b4"
   }
 ]

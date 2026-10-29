@@ -51,3 +51,7 @@ The verified pre-rollout backup is `backups/alboteach-20261024T224222Z.sqlite`; 
 ## Card Studio review additions (October 24, 2026)
 
 The [saved-feedback review](card-quality-review-2026-10-24.md) adds 53 distinct illustrations for 63 picture requests, bringing the color manifest to 160 assets. This includes family portraits, missing objects and body parts, people running/walking, a crayon, small color swatches, and paired big/small comparisons. The additions use the same pinned Fluent Flat MIT and original CC0 vector system. Web SVG and print PNG credits match; all 160 images pass the existing margin/occupied-area checks. `scripts/prepare_quality_art.cjs` reproduces these additions and must run after the original `prepare_color_art.py`; `convert_color_art.cjs` then refreshes the full audit. The dated report records the live content changes separately from the original optional 200-card import.
+
+## Production picture requests (October 29, 2026)
+
+The [production picture review](card-pictures-2026-10-29.md) adds 39 illustrations for the saved picture flags, bringing the color catalog to 199 assets. These include numerals 11-21, the newly added morning vocabulary, actions, conversation cues, and feelings. `scripts/prepare_morning_art.cjs` reproduces the additions without changing any database; `morning-pictures.json` records their stable concept-to-image mappings. New pictures have web SVGs, transparent print PNGs, matching credits, and margin/area checks. All 39 appear correctly in the 8-card and 21-card duplex print proofs.
